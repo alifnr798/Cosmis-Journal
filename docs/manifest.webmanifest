@@ -1,6 +1,6 @@
 {
   "name": "Cosmis Journal",
-  "short_name": "Kompas Jurnal",
+  "short_name": "Cosmis Journal",
   "description": "Rekomendasi jurnal Scopus & SINTA untuk teknik perkapalan, bisa dipakai offline.",
   "lang": "id",
   "start_url": "./",
