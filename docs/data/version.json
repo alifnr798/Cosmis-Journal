@@ -1,10 +1,10 @@
 {
  "schema": 1,
- "seq": 2,
- "version": "2026.10.08",
- "generated": "2026-10-08T07:30:00+07:00",
+ "seq": 3,
+ "version": "2026.10.08.2",
+ "generated": "2026-10-08T21:10:36+07:00",
  "count": 200,
- "hash": "8f0abbac3f300a3f",
- "summary": "Tambahan dari pencarian SINTA dan koreksi data.",
- "changes": 8
+ "hash": "37a3ad035e382b0f",
+ "summary": "Pembaruan otomatis: 186 perubahan pada 116 jurnal.",
+ "changes": 186
 }

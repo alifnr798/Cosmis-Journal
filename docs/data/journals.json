@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "seq": 2,
- "version": "2026.10.08",
- "generated": "2026-10-08T07:30:00+07:00",
+ "seq": 3,
+ "version": "2026.10.08.2",
+ "generated": "2026-10-08T21:10:36+07:00",
  "fx_per_usd": {
   "USD": 1,
   "EUR": 0.8696,
@@ -912,7 +912,7 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Pola penerbit (cek)",
-   "oa_optional_usd": null,
+   "oa_optional_usd": 2950,
    "first_decision": "4-8 minggu",
    "accept_months": [
     3,
@@ -928,7 +928,7 @@
     "0141-1187"
    ],
    "issn_status": "Resurchify (daftar Scopus)",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S19503097",
    "sources": null,
    "note": "Kuat untuk hidrodinamika gelombang, seakeeping, mooring, analisis numerik."
   },
@@ -993,7 +993,7 @@
     "1845-5859"
    ],
    "issn_status": "Resurchify (daftar Scopus)",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S125438157",
    "sources": "brodogradnja.fsb.hr/?p=132; jope.unimelb.edu.au (DOAJ)",
    "note": "Dulu gratis; kini ber-APC. Penulis perorangan dikenai tambahan PPN 25%."
   },
@@ -1035,23 +1035,23 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Pola penerbit (cek)",
-   "oa_optional_usd": null,
+   "oa_optional_usd": 3190,
    "first_decision": "4-10 minggu",
    "accept_months": [
-    4,
-    8
+    3.5,
+    6.6
    ],
    "acceptance": [
     20,
     35
    ],
-   "review_status": "Estimasi",
+   "review_status": "Terverifikasi otomatis (Crossref: median 146 hari, kuartil 107-202 hari, n=147, 2026-10-08)",
    "url": "https://link.springer.com/journal/13344",
    "issn": [
     "0890-5487"
    ],
    "issn_status": "Resurchify (daftar Scopus)",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S35213687",
    "sources": null,
    "note": null
   },
@@ -1118,7 +1118,7 @@
     "1673-3185"
    ],
    "issn_status": "Resurchify (daftar Scopus)",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S2764580224",
    "sources": null,
    "note": "Sebagian besar artikel berbahasa Mandarin."
   },
@@ -1182,7 +1182,7 @@
     "1740-0716"
    ],
    "issn_status": "Resurchify (daftar Scopus)",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S149792558",
    "sources": null,
    "note": null
   },
@@ -1232,10 +1232,10 @@
    ],
    "maritime": true,
    "access": "OA penuh",
-   "fee_text": "APC hingga USD 1.200 (ada kebijakan keringanan/waiver)",
-   "fee_amount": 1200,
+   "fee_text": "APC USD 1.400 (menurut DOAJ); ada kebijakan keringanan",
+   "fee_amount": 1400,
    "fee_currency": "USD",
-   "fee_status": "Terverifikasi (DOAJ)",
+   "fee_status": "Terverifikasi otomatis (DOAJ, 2026-10-08)",
    "oa_optional_usd": null,
    "first_decision": "4-8 minggu",
    "accept_months": [
@@ -1253,7 +1253,7 @@
     "2092-6790"
    ],
    "issn_status": "Resurchify (daftar Scopus)",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S108833125",
    "sources": "doaj.org/toc/2092-6782",
    "note": "Cakupan sangat pas: hidrodinamika, struktur, desain, kendali."
   },
@@ -1311,7 +1311,7 @@
     "1053-5381"
    ],
    "issn_status": "Resurchify (daftar Scopus)",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S175112601",
    "sources": null,
    "note": null
   },
@@ -1343,10 +1343,10 @@
    ],
    "maritime": true,
    "access": "OA (diamond)",
-   "fee_text": "Kemungkinan tanpa APC - konfirmasi",
-   "fee_amount": null,
-   "fee_currency": null,
-   "fee_status": "Perlu cek",
+   "fee_text": "Gratis (tanpa APC, menurut DOAJ)",
+   "fee_amount": 0,
+   "fee_currency": "USD",
+   "fee_status": "Terverifikasi otomatis (DOAJ, 2026-10-08)",
    "oa_optional_usd": null,
    "first_decision": "1-3 bulan",
    "accept_months": [
@@ -1363,7 +1363,7 @@
     "2631-5548"
    ],
    "issn_status": "Resurchify (daftar Scopus)",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S4210217233",
    "sources": null,
    "note": "Relevan untuk hidrodinamika energi laut (gelombang/arus)."
   },
@@ -1406,10 +1406,10 @@
    ],
    "maritime": true,
    "access": "OA penuh (OpenAlex)",
-   "fee_text": "Status APC belum terverifikasi - cek situs",
-   "fee_amount": null,
-   "fee_currency": null,
-   "fee_status": "Perlu cek",
+   "fee_text": "APC USD 4.150 (indikatif. OpenAlex)",
+   "fee_amount": 4150,
+   "fee_currency": "USD",
+   "fee_status": "Indikatif (OpenAlex, 2026-10-08)",
    "oa_optional_usd": null,
    "first_decision": "2-4 bulan",
    "accept_months": [
@@ -1427,7 +1427,7 @@
     "1566-2829"
    ],
    "issn_status": "Resurchify (daftar Scopus)",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S2764721623",
    "sources": null,
    "note": "IOS Press kini bagian dari Sage; link dapat berpindah."
   },
@@ -1462,10 +1462,10 @@
    ],
    "maritime": true,
    "access": "OA penuh",
-   "fee_text": "APC berlaku (nominal belum terverifikasi)",
-   "fee_amount": null,
-   "fee_currency": null,
-   "fee_status": "Perlu cek",
+   "fee_text": "APC USD 1.000 (menurut DOAJ); ada kebijakan keringanan",
+   "fee_amount": 1000,
+   "fee_currency": "USD",
+   "fee_status": "Terverifikasi otomatis (DOAJ, 2026-10-08)",
    "oa_optional_usd": null,
    "first_decision": "4-8 minggu",
    "accept_months": [
@@ -1482,7 +1482,7 @@
     "2572-5084"
    ],
    "issn_status": "Resurchify (daftar Scopus)",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S4210237083",
    "sources": null,
    "note": "Pendukung: keselamatan & emisi kapal."
   },
@@ -1526,21 +1526,21 @@
    "oa_optional_usd": null,
    "first_decision": "4-8 minggu",
    "accept_months": [
-    5,
-    9
+    4.0,
+    9.6
    ],
    "acceptance": [
     20,
     35
    ],
-   "review_status": "Estimasi",
+   "review_status": "Terverifikasi otomatis (Crossref: median 178 hari, kuartil 123-294 hari, n=101, 2026-10-08)",
    "url": "https://www.tandfonline.com/journals/tmar20",
    "issn": [
     "2046-4177",
     "2056-8487"
    ],
    "issn_status": "Resurchify (daftar Scopus)",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S4210212097",
    "sources": null,
    "note": "Cocok untuk sistem permesinan, otomasi kapal, digital twin, efisiensi energi."
   },
@@ -1592,24 +1592,24 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Pola penerbit (cek)",
-   "oa_optional_usd": null,
+   "oa_optional_usd": 4190,
    "first_decision": "4-10 minggu",
    "accept_months": [
-    4,
-    8
+    2.0,
+    4.7
    ],
    "acceptance": [
     20,
     35
    ],
-   "review_status": "Estimasi",
+   "review_status": "Terverifikasi otomatis (Crossref: median 90 hari, kuartil 62-144 hari, n=199, 2026-10-08)",
    "url": "https://link.springer.com/journal/11804",
    "issn": [
     "1671-9433",
     "1993-5048"
    ],
    "issn_status": "Resurchify (daftar Scopus)",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S2357814",
    "sources": null,
    "note": null
   },
@@ -1682,7 +1682,7 @@
     "2077-1312"
    ],
    "issn_status": "Resurchify (daftar Scopus)",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S2736865057",
    "sources": "mdpi.com/journal/jmse; mdpi.com/journal/jmse/apc",
    "note": "Tercepat di kelompok Q1-Q2, tetapi biaya tinggi."
   },
@@ -1735,24 +1735,24 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Pola penerbit (cek)",
-   "oa_optional_usd": null,
+   "oa_optional_usd": 4090,
    "first_decision": "4-10 minggu",
    "accept_months": [
-    4,
-    8
+    6.2,
+    11.7
    ],
    "acceptance": [
     20,
     35
    ],
-   "review_status": "Estimasi",
+   "review_status": "Terverifikasi otomatis (Crossref: median 272 hari, kuartil 190-356 hari, n=81, 2026-10-08)",
    "url": "https://link.springer.com/journal/773",
    "issn": [
     "0948-4280",
     "1437-8213"
    ],
    "issn_status": "Resurchify (daftar Scopus)",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S4210231370",
    "sources": null,
    "note": null
   },
@@ -1818,7 +1818,7 @@
     "2709-6998"
    ],
    "issn_status": "Resurchify (daftar Scopus)",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S4210224670",
    "sources": null,
    "note": null
   },
@@ -1883,7 +1883,7 @@
     "2070-8998"
    ],
    "issn_status": "Resurchify (daftar Scopus)",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S189299512",
    "sources": "banglajol.info/index.php/JNAME/about",
    "note": "Q2, gratis - salah satu pilihan bernilai terbaik untuk peneliti Indonesia."
   },
@@ -1920,24 +1920,24 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Pola penerbit (cek)",
-   "oa_optional_usd": null,
+   "oa_optional_usd": 3990,
    "first_decision": "4-10 minggu",
    "accept_months": [
-    4,
-    8
+    3.6,
+    6.7
    ],
    "acceptance": [
     20,
     35
    ],
-   "review_status": "Estimasi",
+   "review_status": "Terverifikasi otomatis (Crossref: median 153 hari, kuartil 109-205 hari, n=151, 2026-10-08)",
    "url": "https://link.springer.com/journal/40722",
    "issn": [
     "2198-6444",
     "2198-6452"
    ],
    "issn_status": "Resurchify (daftar Scopus)",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S4210187683",
    "sources": null,
    "note": null
   },
@@ -1976,10 +1976,10 @@
    ],
    "maritime": true,
    "access": "OA penuh",
-   "fee_text": "APC berlaku (nominal belum terverifikasi; cek situs)",
-   "fee_amount": null,
-   "fee_currency": null,
-   "fee_status": "Perlu cek",
+   "fee_text": "APC USD 1.800 (menurut DOAJ)",
+   "fee_amount": 1800,
+   "fee_currency": "USD",
+   "fee_status": "Terverifikasi otomatis (DOAJ, 2026-10-08)",
    "oa_optional_usd": null,
    "first_decision": "4-8 minggu",
    "accept_months": [
@@ -1996,7 +1996,7 @@
     "2468-0133"
    ],
    "issn_status": "Resurchify (daftar Scopus)",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S2898412997",
    "sources": null,
    "note": null
   },
@@ -2045,21 +2045,21 @@
    "oa_optional_usd": null,
    "first_decision": "1-3 bulan",
    "accept_months": [
-    3,
-    6
+    1.4,
+    2.9
    ],
    "acceptance": [
     20,
     40
    ],
-   "review_status": "Estimasi",
+   "review_status": "Terverifikasi otomatis (Crossref: median 54 hari, kuartil 42-87 hari, n=94, 2026-10-08)",
    "url": "https://www.joet.org/",
    "issn": [
     "1225-0767",
     "2287-6715"
    ],
    "issn_status": "Situs jurnal / DOAJ",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S2913119120",
    "sources": "jope.unimelb.edu.au/journal/133483",
    "note": null
   },
@@ -2156,23 +2156,23 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Pola penerbit (cek)",
-   "oa_optional_usd": null,
+   "oa_optional_usd": 2990,
    "first_decision": "4-10 minggu",
    "accept_months": [
-    4,
-    8
+    2.4,
+    5.3
    ],
    "acceptance": [
     20,
     35
    ],
-   "review_status": "Estimasi",
+   "review_status": "Terverifikasi otomatis (Crossref: median 110 hari, kuartil 73-162 hari, n=199, 2026-10-08)",
    "url": "https://link.springer.com/journal/11802",
    "issn": [
     "1672-5182"
    ],
    "issn_status": "Resurchify (daftar Scopus)",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S102063886",
    "sources": null,
    "note": null
   },
@@ -2232,7 +2232,7 @@
     "1528-896X"
    ],
    "issn_status": "Resurchify (daftar Scopus)",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S4210211731",
    "sources": null,
    "note": null
   },
@@ -2284,18 +2284,21 @@
    "oa_optional_usd": null,
    "first_decision": "4-10 minggu",
    "accept_months": [
-    4,
-    8
+    2.0,
+    3.4
    ],
    "acceptance": [
     20,
     35
    ],
-   "review_status": "Estimasi",
+   "review_status": "Terverifikasi otomatis (Crossref: median 82 hari, kuartil 61-102 hari, n=135, 2026-10-08)",
    "url": "https://link.springer.com/journal/12204",
-   "issn": [],
-   "issn_status": null,
-   "openalex_id": null,
+   "issn": [
+    "1007-1172",
+    "1995-8188"
+   ],
+   "issn_status": "Dicocokkan otomatis (OpenAlex, 2026-10-08) - mohon cek",
+   "openalex_id": "https://openalex.org/S113449338",
    "sources": null,
    "note": null
   },
@@ -2348,7 +2351,7 @@
     "2158-2874"
    ],
    "issn_status": "Resurchify (daftar Scopus)",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S2764629237",
    "sources": null,
    "note": "Satu-satunya jurnal Scopus yang fokus produksi/galangan kapal."
   },
@@ -2407,7 +2410,7 @@
     "0022-4502"
    ],
    "issn_status": "Resurchify (daftar Scopus)",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S133066183",
    "sources": null,
    "note": null
   },
@@ -2445,24 +2448,24 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Pola penerbit (cek)",
-   "oa_optional_usd": null,
+   "oa_optional_usd": 3090,
    "first_decision": "4-10 minggu",
    "accept_months": [
-    4,
-    8
+    5.1,
+    11.3
    ],
    "acceptance": [
     20,
     35
    ],
-   "review_status": "Estimasi",
+   "review_status": "Terverifikasi otomatis (Crossref: median 220 hari, kuartil 154-342 hari, n=197, 2026-10-08)",
    "url": "https://link.springer.com/journal/40032",
    "issn": [
     "2250-0545",
     "2250-0553"
    ],
    "issn_status": "Resurchify (daftar Scopus)",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S4210178808",
    "sources": null,
    "note": "Teknik mesin, dirgantara & kelautan."
   },
@@ -2504,7 +2507,7 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Pola penerbit (cek)",
-   "oa_optional_usd": null,
+   "oa_optional_usd": 4320,
    "first_decision": "4-8 minggu",
    "accept_months": [
     3,
@@ -2520,7 +2523,7 @@
     "0951-8339"
    ],
    "issn_status": "Resurchify (daftar Scopus)",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S97691390",
    "sources": null,
    "note": "Rujukan utama struktur kapal: kekuatan ultimate, fatigue, tubrukan."
   },
@@ -2569,24 +2572,24 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Pola penerbit (cek)",
-   "oa_optional_usd": null,
+   "oa_optional_usd": 3290,
    "first_decision": "4-10 minggu",
    "accept_months": [
-    4,
-    8
+    3.2,
+    6.5
    ],
    "acceptance": [
     20,
     35
    ],
-   "review_status": "Estimasi",
+   "review_status": "Terverifikasi otomatis (Crossref: median 128 hari, kuartil 97-198 hari, n=68, 2026-10-08)",
    "url": "https://link.springer.com/journal/40868",
    "issn": [
     "1679-396X",
     "2199-4749"
    ],
    "issn_status": "Resurchify (daftar Scopus)",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S4210229309",
    "sources": null,
    "note": null
   },
@@ -2644,7 +2647,7 @@
     "0025-3324"
    ],
    "issn_status": "Resurchify (daftar Scopus)",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S42930874",
    "sources": null,
    "note": null
   },
@@ -2696,9 +2699,11 @@
    ],
    "review_status": "Terverifikasi: keputusan awal 4 hari, accept 130 hari, acceptance 14%",
    "url": "https://so04.tci-thaijo.org/index.php/MTR",
-   "issn": [],
-   "issn_status": null,
-   "openalex_id": null,
+   "issn": [
+    "2651-205X"
+   ],
+   "issn_status": "Dicocokkan otomatis (OpenAlex, 2026-10-08) - mohon cek",
+   "openalex_id": "https://openalex.org/S4210187877",
    "sources": "so04.tci-thaijo.org/index.php/MTR",
    "note": "Q1 dengan biaya rendah, tetapi sangat selektif (14%)."
   },
@@ -2729,10 +2734,10 @@
    ],
    "maritime": true,
    "access": "OA penuh",
-   "fee_text": "APC hingga USD 1.500 (ada waiver)",
-   "fee_amount": 1500,
+   "fee_text": "APC USD 2.370 (menurut DOAJ); ada kebijakan keringanan",
+   "fee_amount": 2370,
    "fee_currency": "USD",
-   "fee_status": "Terverifikasi (DOAJ)",
+   "fee_status": "Terverifikasi otomatis (DOAJ, 2026-10-08)",
    "oa_optional_usd": null,
    "first_decision": "4-8 minggu",
    "accept_months": [
@@ -2749,7 +2754,7 @@
     "2666-822X"
    ],
    "issn_status": "Situs jurnal / DOAJ",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S4210225847",
    "sources": "doaj.org",
    "note": "Pendukung: desain operasional & armada."
   },
@@ -2800,9 +2805,12 @@
    ],
    "review_status": "Estimasi",
    "url": "https://www.ingentaconnect.com/content/asne/nej",
-   "issn": [],
-   "issn_status": null,
-   "openalex_id": null,
+   "issn": [
+    "0028-1425",
+    "1559-3584"
+   ],
+   "issn_status": "Dicocokkan otomatis (OpenAlex, 2026-10-08) - mohon cek",
+   "openalex_id": "https://openalex.org/S7352588",
    "sources": null,
    "note": "Fokus kapal perang/rekayasa naval; konfirmasi status Scopus terbaru."
   },
@@ -2860,7 +2868,7 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Indikatif (OpenAlex via journalmetrics.org)",
-   "oa_optional_usd": 4030,
+   "oa_optional_usd": 4150,
    "first_decision": "4-8 minggu",
    "accept_months": [
     2,
@@ -2877,7 +2885,7 @@
     "1873-5258"
    ],
    "issn_status": "Resurchify (daftar Scopus)",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S76910236",
    "sources": "journalmetrics.org/journal/ocean-engineering; researcher.life/journal/ocean-engineering/675",
    "note": "Jurnal paling luas cakupannya untuk semua subbidang kapal; volume ~3.000+ artikel/tahun."
   },
@@ -2935,7 +2943,7 @@
     "2093-677X"
    ],
    "issn_status": "Resurchify (daftar Scopus)",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S2765041384",
    "sources": null,
    "note": null
   },
@@ -3005,7 +3013,7 @@
     "2083-7429"
    ],
    "issn_status": "Resurchify (daftar Scopus)",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S162630400",
    "sources": "journal.mostwiedzy.pl/pmr/processing-charges; researcher.life/journal/polish-maritime-research/3517",
    "note": "Pilihan bernilai tinggi: Q2, IF ada, biaya moderat."
   },
@@ -3057,7 +3065,7 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Pola penerbit (cek)",
-   "oa_optional_usd": null,
+   "oa_optional_usd": 4150,
    "first_decision": "2-4 bulan",
    "accept_months": [
     6,
@@ -3073,7 +3081,7 @@
     "1475-0902"
    ],
    "issn_status": "Resurchify (daftar Scopus)",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S4210225954",
    "sources": null,
    "note": null
   },
@@ -3119,20 +3127,20 @@
    "oa_optional_usd": null,
    "first_decision": "4-8 minggu",
    "accept_months": [
-    5,
-    9
+    1.5,
+    7.7
    ],
    "acceptance": [
     20,
     35
    ],
-   "review_status": "Estimasi",
+   "review_status": "Terverifikasi otomatis (Crossref: median 82 hari, kuartil 46-235 hari, n=23, 2026-10-08)",
    "url": "https://www.tandfonline.com/journals/ystr20",
    "issn": [
     "0937-7255"
    ],
    "issn_status": "Resurchify (daftar Scopus)",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S4210209217",
    "sources": null,
    "note": null
   },
@@ -3184,21 +3192,21 @@
    "oa_optional_usd": null,
    "first_decision": "4-8 minggu",
    "accept_months": [
-    7,
-    9
+    3.0,
+    6.5
    ],
    "acceptance": [
     20,
     35
    ],
-   "review_status": "Terverifikasi (pihak ketiga): ~8 bln submit-accept, ~9 bln terbit",
+   "review_status": "Terverifikasi otomatis (Crossref: median 129 hari, kuartil 92-198 hari, n=199, 2026-10-08)",
    "url": "https://www.tandfonline.com/journals/tsos20",
    "issn": [
     "1744-5302",
     "1754-212X"
    ],
    "issn_status": "Resurchify (daftar Scopus)",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S132226890",
    "sources": "researcher.life/journal/ships-and-offshore-structures/218",
    "note": null
   },
@@ -3257,7 +3265,7 @@
     "1756-0551"
    ],
    "issn_status": "Resurchify (daftar Scopus)",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S93268303",
    "sources": null,
    "note": null
   },
@@ -3296,24 +3304,24 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Pola penerbit (cek)",
-   "oa_optional_usd": null,
+   "oa_optional_usd": 3290,
    "first_decision": "4-10 minggu",
    "accept_months": [
-    4,
-    8
+    4.5,
+    10.3
    ],
    "acceptance": [
     20,
     35
    ],
-   "review_status": "Estimasi",
+   "review_status": "Terverifikasi otomatis (Crossref: median 214 hari, kuartil 137-312 hari, n=50, 2026-10-08)",
    "url": "https://link.springer.com/journal/13437",
    "issn": [
     "1651-436X",
     "1654-1642"
    ],
    "issn_status": "Resurchify (daftar Scopus)",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S2764627745",
    "sources": null,
    "note": "Lebih ke keselamatan, regulasi, dan teknologi maritim; pendukung."
   },
@@ -3360,9 +3368,11 @@
    ],
    "review_status": "Estimasi",
    "url": "https://semarakilmu.com.my/journals/index.php/CFD_Letters",
-   "issn": [],
-   "issn_status": null,
-   "openalex_id": null,
+   "issn": [
+    "2180-1363"
+   ],
+   "issn_status": "Dicocokkan otomatis (OpenAlex, 2026-10-08) - mohon cek",
+   "openalex_id": "https://openalex.org/S4210228226",
    "sources": null,
    "note": "Cek status Scopus terbaru sebelum submit."
   },
@@ -3397,7 +3407,7 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Pola penerbit (cek)",
-   "oa_optional_usd": null,
+   "oa_optional_usd": 3700,
    "first_decision": "4-8 minggu",
    "accept_months": [
     3,
@@ -3412,8 +3422,8 @@
    "issn": [
     "0045-7930"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S195914795",
    "sources": null,
    "note": null
   },
@@ -3444,27 +3454,27 @@
    ],
    "maritime": false,
    "access": "OA penuh",
-   "fee_text": "APC berlaku (nominal belum terverifikasi)",
-   "fee_amount": null,
-   "fee_currency": null,
-   "fee_status": "Perlu cek",
+   "fee_text": "APC USD 2.630 (menurut DOAJ); ada kebijakan keringanan",
+   "fee_amount": 2630,
+   "fee_currency": "USD",
+   "fee_status": "Terverifikasi otomatis (DOAJ, 2026-10-08)",
    "oa_optional_usd": null,
    "first_decision": "4-8 minggu",
    "accept_months": [
-    5,
-    9
+    2.7,
+    5.0
    ],
    "acceptance": [
     20,
     35
    ],
-   "review_status": "Estimasi",
+   "review_status": "Terverifikasi otomatis (Crossref: median 113 hari, kuartil 84-154 hari, n=193, 2026-10-08)",
    "url": "https://www.tandfonline.com/journals/tcfm20",
    "issn": [
     "1994-2060"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S15260174",
    "sources": null,
    "note": null
   },
@@ -3499,7 +3509,7 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Pola penerbit (cek)",
-   "oa_optional_usd": null,
+   "oa_optional_usd": 3380,
    "first_decision": "4-8 minggu",
    "accept_months": [
     3,
@@ -3514,8 +3524,8 @@
    "issn": [
     "0997-7546"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S75679255",
    "sources": null,
    "note": null
   },
@@ -3551,23 +3561,23 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Pola penerbit (cek)",
-   "oa_optional_usd": null,
+   "oa_optional_usd": 2590,
    "first_decision": "4-10 minggu",
    "accept_months": [
-    4,
-    8
+    2.9,
+    5.3
    ],
    "acceptance": [
     20,
     35
    ],
-   "review_status": "Estimasi",
+   "review_status": "Terverifikasi otomatis (Crossref: median 124 hari, kuartil 89-161 hari, n=196, 2026-10-08)",
    "url": "https://link.springer.com/journal/348",
    "issn": [
     "0723-4864"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S138356703",
    "sources": null,
    "note": "Uji tangki tarik, PIV, eksperimen hidrodinamika."
   },
@@ -3598,10 +3608,10 @@
    ],
    "maritime": false,
    "access": "OA penuh",
-   "fee_text": "APC MDPI (nominal belum dicek)",
-   "fee_amount": null,
-   "fee_currency": null,
-   "fee_status": "Perlu cek",
+   "fee_text": "APC CHF 1.800 (menurut DOAJ); ada kebijakan keringanan",
+   "fee_amount": 1800,
+   "fee_currency": "CHF",
+   "fee_status": "Terverifikasi otomatis (DOAJ, 2026-10-08)",
    "oa_optional_usd": null,
    "first_decision": "2-3 minggu",
    "accept_months": [
@@ -3617,8 +3627,8 @@
    "issn": [
     "2311-5521"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S2737343529",
    "sources": null,
    "note": null
   },
@@ -3653,23 +3663,23 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Pola penerbit (cek)",
-   "oa_optional_usd": null,
+   "oa_optional_usd": 4220,
    "first_decision": "1-2 bulan",
    "accept_months": [
-    5,
-    9
+    4.3,
+    9.2
    ],
    "acceptance": [
     20,
     35
    ],
-   "review_status": "Estimasi",
+   "review_status": "Terverifikasi otomatis (Crossref: median 207 hari, kuartil 130-279 hari, n=109, 2026-10-08)",
    "url": "https://onlinelibrary.wiley.com/journal/10970363",
    "issn": [
     "0271-2091"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S155225502",
    "sources": null,
    "note": null
   },
@@ -3716,9 +3726,11 @@
    ],
    "review_status": "Estimasi",
    "url": "https://semarakilmu.com.my/journals/index.php/fluid_mechanics_thermal_sciences",
-   "issn": [],
-   "issn_status": null,
-   "openalex_id": null,
+   "issn": [
+    "2289-7879"
+   ],
+   "issn_status": "Dicocokkan otomatis (OpenAlex, 2026-10-08) - mohon cek",
+   "openalex_id": "https://openalex.org/S4306515288",
    "sources": null,
    "note": "Cek status Scopus terbaru sebelum submit."
   },
@@ -3768,8 +3780,8 @@
    "issn": [
     "1735-3572"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S2492701196",
    "sources": "jafmonline.net/page_2.html; DOAJ via JOPE",
    "note": "Q2/SCIE dan gratis - sangat direkomendasikan untuk CFD/hidrodinamika."
   },
@@ -3804,7 +3816,7 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Pola penerbit (cek)",
-   "oa_optional_usd": null,
+   "oa_optional_usd": 3550,
    "first_decision": "1-2 bulan",
    "accept_months": [
     5,
@@ -3819,8 +3831,8 @@
    "issn": [
     "0022-1120"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S152000018",
    "sources": null,
    "note": "Sangat teoretis; hanya untuk kontribusi fisika fluida yang kuat."
   },
@@ -3870,8 +3882,8 @@
    "issn": [
     "0098-2202"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S14419372",
    "sources": null,
    "note": null
   },
@@ -3913,7 +3925,7 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Pola penerbit (cek)",
-   "oa_optional_usd": null,
+   "oa_optional_usd": 3740,
    "first_decision": "4-8 minggu",
    "accept_months": [
     3,
@@ -3928,8 +3940,8 @@
    "issn": [
     "0889-9746"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S160220869",
    "sources": null,
    "note": "Interaksi fluida-struktur, VIV, hidroelastisitas."
   },
@@ -3967,23 +3979,23 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Pola penerbit (cek)",
-   "oa_optional_usd": null,
+   "oa_optional_usd": 3290,
    "first_decision": "4-10 minggu",
    "accept_months": [
-    4,
-    8
+    0.7,
+    2.0
    ],
    "acceptance": [
     20,
     35
    ],
-   "review_status": "Estimasi",
+   "review_status": "Terverifikasi otomatis (Crossref: median 34 hari, kuartil 22-60 hari, n=118, 2026-10-08)",
    "url": "https://link.springer.com/journal/42241",
    "issn": [
     "1001-6058"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S149305196",
    "sources": null,
    "note": null
   },
@@ -4035,8 +4047,8 @@
    "issn": [
     "1070-6631"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S22862804",
    "sources": null,
    "note": "Banyak artikel CFD lambung/propeler."
   },
@@ -4088,7 +4100,7 @@
     "2224-347X"
    ],
    "issn_status": "Resurchify (daftar Scopus)",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S4210182269",
    "sources": null,
    "note": null
   },
@@ -4122,7 +4134,7 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Pola penerbit (cek)",
-   "oa_optional_usd": null,
+   "oa_optional_usd": 4660,
    "first_decision": "4-8 minggu",
    "accept_months": [
     3,
@@ -4137,8 +4149,8 @@
    "issn": [
     "0263-8223"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S52363224",
    "sources": null,
    "note": "Kapal komposit/FRP, sandwich panel."
   },
@@ -4173,7 +4185,7 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Pola penerbit (cek)",
-   "oa_optional_usd": null,
+   "oa_optional_usd": 3820,
    "first_decision": "4-8 minggu",
    "accept_months": [
     3,
@@ -4188,8 +4200,8 @@
    "issn": [
     "1350-6307"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S152303250",
    "sources": null,
    "note": "Studi kasus kegagalan poros, sambungan las, lambung."
   },
@@ -4222,7 +4234,7 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Pola penerbit (cek)",
-   "oa_optional_usd": null,
+   "oa_optional_usd": 4620,
    "first_decision": "4-8 minggu",
    "accept_months": [
     3,
@@ -4237,8 +4249,8 @@
    "issn": [
     "0141-0296"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S165454098",
    "sources": null,
    "note": null
   },
@@ -4271,7 +4283,7 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Pola penerbit (cek)",
-   "oa_optional_usd": null,
+   "oa_optional_usd": 3940,
    "first_decision": "4-8 minggu",
    "accept_months": [
     3,
@@ -4286,8 +4298,8 @@
    "issn": [
     "0142-1123"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S71623918",
    "sources": null,
    "note": null
   },
@@ -4321,7 +4333,7 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Pola penerbit (cek)",
-   "oa_optional_usd": null,
+   "oa_optional_usd": 4170,
    "first_decision": "4-8 minggu",
    "accept_months": [
     3,
@@ -4337,7 +4349,7 @@
     "0734-743X"
    ],
    "issn_status": "Resurchify (daftar Scopus)",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S9070569",
    "sources": null,
    "note": "Tubrukan dan kandas kapal (collision/grounding)."
   },
@@ -4370,7 +4382,7 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Pola penerbit (cek)",
-   "oa_optional_usd": null,
+   "oa_optional_usd": 4740,
    "first_decision": "4-8 minggu",
    "accept_months": [
     3,
@@ -4386,7 +4398,7 @@
     "0020-7403"
    ],
    "issn_status": "Resurchify (daftar Scopus)",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S72716621",
    "sources": null,
    "note": null
   },
@@ -4436,7 +4448,7 @@
     "1793-6764"
    ],
    "issn_status": "Resurchify (daftar Scopus)",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S2622345",
    "sources": null,
    "note": null
   },
@@ -4469,7 +4481,7 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Pola penerbit (cek)",
-   "oa_optional_usd": null,
+   "oa_optional_usd": 4310,
    "first_decision": "4-8 minggu",
    "accept_months": [
     3,
@@ -4484,8 +4496,8 @@
    "issn": [
     "0143-974X"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S154695693",
    "sources": null,
    "note": null
   },
@@ -4526,7 +4538,7 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Pola penerbit (cek)",
-   "oa_optional_usd": null,
+   "oa_optional_usd": 4190,
    "first_decision": "4-8 minggu",
    "accept_months": [
     3,
@@ -4541,8 +4553,8 @@
    "issn": [
     "0022-460X"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S99182027",
    "sources": null,
    "note": "Getaran lambung & propeller-induced vibration."
   },
@@ -4571,10 +4583,10 @@
    ],
    "maritime": false,
    "access": "OA",
-   "fee_text": "Kemungkinan tanpa APC - konfirmasi",
-   "fee_amount": null,
-   "fee_currency": null,
-   "fee_status": "Perlu cek",
+   "fee_text": "APC EUR 1.000 (menurut DOAJ)",
+   "fee_amount": 1000,
+   "fee_currency": "EUR",
+   "fee_status": "Terverifikasi otomatis (DOAJ, 2026-10-08)",
    "oa_optional_usd": null,
    "first_decision": "1-3 bulan",
    "accept_months": [
@@ -4592,7 +4604,7 @@
     "1679-7825"
    ],
    "issn_status": "Resurchify (daftar Scopus)",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S40181659",
    "sources": null,
    "note": null
   },
@@ -4632,7 +4644,7 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Pola penerbit (cek)",
-   "oa_optional_usd": null,
+   "oa_optional_usd": 4730,
    "first_decision": "4-8 minggu",
    "accept_months": [
     3,
@@ -4647,8 +4659,8 @@
    "issn": [
     "0888-3270"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S128368299",
    "sources": null,
    "note": "Structural health monitoring & condition monitoring berbasis sensor."
   },
@@ -4689,21 +4701,21 @@
    "oa_optional_usd": null,
    "first_decision": "4-8 minggu",
    "accept_months": [
-    5,
-    9
+    2.3,
+    5.4
    ],
    "acceptance": [
     20,
     35
    ],
-   "review_status": "Estimasi",
+   "review_status": "Terverifikasi otomatis (Crossref: median 100 hari, kuartil 70-165 hari, n=198, 2026-10-08)",
    "url": "https://www.tandfonline.com/journals/lmbd20",
    "issn": [
     "1539-7734",
     "1539-7742"
    ],
    "issn_status": "Resurchify (daftar Scopus)",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S1574008",
    "sources": null,
    "note": null
   },
@@ -4736,7 +4748,7 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Pola penerbit (cek)",
-   "oa_optional_usd": null,
+   "oa_optional_usd": 3370,
    "first_decision": "4-8 minggu",
    "accept_months": [
     3,
@@ -4753,7 +4765,7 @@
     "1878-4275"
    ],
    "issn_status": "Resurchify (daftar Scopus)",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S189810516",
    "sources": null,
    "note": null
   },
@@ -4793,7 +4805,7 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Pola penerbit (cek)",
-   "oa_optional_usd": null,
+   "oa_optional_usd": 4830,
    "first_decision": "4-8 minggu",
    "accept_months": [
     3,
@@ -4808,8 +4820,8 @@
    "issn": [
     "0951-8320"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S202403813",
    "sources": null,
    "note": "Keandalan struktur & sistem kapal, analisis risiko."
   },
@@ -4845,21 +4857,21 @@
    "oa_optional_usd": null,
    "first_decision": "4-8 minggu",
    "accept_months": [
-    5,
-    9
+    3.9,
+    6.3
    ],
    "acceptance": [
     20,
     35
    ],
-   "review_status": "Estimasi",
+   "review_status": "Terverifikasi otomatis (Crossref: median 149 hari, kuartil 118-193 hari, n=199, 2026-10-08)",
    "url": "https://www.tandfonline.com/journals/nsie20",
    "issn": [
     "1573-2479",
     "1744-8980"
    ],
    "issn_status": "Resurchify (daftar Scopus)",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S28058569",
    "sources": null,
    "note": null
   },
@@ -4892,7 +4904,7 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Pola penerbit (cek)",
-   "oa_optional_usd": null,
+   "oa_optional_usd": 3510,
    "first_decision": "4-8 minggu",
    "accept_months": [
     3,
@@ -4907,8 +4919,8 @@
    "issn": [
     "2352-0124"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S2898442875",
    "sources": null,
    "note": null
   },
@@ -4941,7 +4953,7 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Pola penerbit (cek)",
-   "oa_optional_usd": null,
+   "oa_optional_usd": 4440,
    "first_decision": "4-8 minggu",
    "accept_months": [
     3,
@@ -4956,8 +4968,8 @@
    "issn": [
     "0263-8231"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S205118121",
    "sources": null,
    "note": "Pelat berpenegar, buckling, kekuatan panel lambung."
   },
@@ -4997,23 +5009,23 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Pola penerbit (cek)",
-   "oa_optional_usd": null,
+   "oa_optional_usd": 3290,
    "first_decision": "4-10 minggu",
    "accept_months": [
-    4,
-    8
+    2.9,
+    6.4
    ],
    "acceptance": [
     20,
     35
    ],
-   "review_status": "Estimasi",
+   "review_status": "Terverifikasi otomatis (Crossref: median 138 hari, kuartil 89-194 hari, n=195, 2026-10-08)",
    "url": "https://link.springer.com/journal/40194",
    "issn": [
     "0043-2288"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S30799303",
    "sources": null,
    "note": "Pengelasan & produksi galangan."
   },
@@ -5058,10 +5070,10 @@
    ],
    "maritime": false,
    "access": "OA penuh",
-   "fee_text": "APC MDPI (nominal belum dicek)",
-   "fee_amount": null,
-   "fee_currency": null,
-   "fee_status": "Perlu cek",
+   "fee_text": "APC CHF 2.400 (menurut DOAJ); ada kebijakan keringanan",
+   "fee_amount": 2400,
+   "fee_currency": "CHF",
+   "fee_status": "Terverifikasi otomatis (DOAJ, 2026-10-08)",
    "oa_optional_usd": null,
    "first_decision": "2-3 minggu",
    "accept_months": [
@@ -5077,8 +5089,8 @@
    "issn": [
     "2076-3417"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S4210205812",
    "sources": null,
    "note": "Multidisiplin; sering memuat topik kapal."
   },
@@ -5110,23 +5122,23 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Pola penerbit (cek)",
-   "oa_optional_usd": null,
+   "oa_optional_usd": 2850,
    "first_decision": "1-2 bulan",
    "accept_months": [
-    5,
-    9
+    4.5,
+    9.7
    ],
    "acceptance": [
     20,
     35
    ],
-   "review_status": "Estimasi",
+   "review_status": "Terverifikasi otomatis (Crossref: median 187 hari, kuartil 136-294 hari, n=191, 2026-10-08)",
    "url": "https://onlinelibrary.wiley.com/journal/19346093",
    "issn": [
     "1561-8625"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S103568991",
    "sources": null,
    "note": null
   },
@@ -5160,7 +5172,7 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Pola penerbit (cek)",
-   "oa_optional_usd": null,
+   "oa_optional_usd": 3010,
    "first_decision": "4-8 minggu",
    "accept_months": [
     3,
@@ -5175,8 +5187,8 @@
    "issn": [
     "0967-0661"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S105928092",
    "sources": null,
    "note": "Kendali kapal/USV dengan validasi eksperimen."
   },
@@ -5206,10 +5218,10 @@
    ],
    "maritime": false,
    "access": "OA penuh",
-   "fee_text": "APC MDPI (nominal belum dicek)",
-   "fee_amount": null,
-   "fee_currency": null,
-   "fee_status": "Perlu cek",
+   "fee_text": "APC CHF 2.600 (menurut DOAJ); ada kebijakan keringanan",
+   "fee_amount": 2600,
+   "fee_currency": "CHF",
+   "fee_status": "Terverifikasi otomatis (DOAJ, 2026-10-08)",
    "oa_optional_usd": null,
    "first_decision": "2-3 minggu",
    "accept_months": [
@@ -5225,8 +5237,8 @@
    "issn": [
     "2504-446X"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S4210193350",
    "sources": null,
    "note": "Menerima USV/AUV (unmanned marine vehicles)."
   },
@@ -5257,10 +5269,10 @@
    ],
    "maritime": false,
    "access": "OA penuh",
-   "fee_text": "APC MDPI (nominal belum dicek)",
-   "fee_amount": null,
-   "fee_currency": null,
-   "fee_status": "Perlu cek",
+   "fee_text": "APC CHF 2.400 (indikatif. OpenAlex)",
+   "fee_amount": 2400,
+   "fee_currency": "CHF",
+   "fee_status": "Indikatif (OpenAlex, 2026-10-08)",
    "oa_optional_usd": null,
    "first_decision": "2-3 minggu",
    "accept_months": [
@@ -5276,8 +5288,8 @@
    "issn": [
     "2079-9292"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S4210202905",
    "sources": null,
    "note": null
   },
@@ -5345,8 +5357,8 @@
    "issn": [
     "2169-3536"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S2485537415",
    "sources": "IEEE APC list 2026-07-30",
    "note": "Multidisiplin; review cepat (umumnya 1 putaran)."
   },
@@ -5380,7 +5392,7 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Terverifikasi (daftar APC IEEE, 30 Jul 2026)",
-   "oa_optional_usd": 2800,
+   "oa_optional_usd": 2645,
    "first_decision": "2-3 bulan",
    "accept_months": [
     5,
@@ -5395,8 +5407,8 @@
    "issn": [
     "2327-4662"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S2480266640",
    "sources": "IEEE APC list 2026-07-30",
    "note": null
   },
@@ -5439,7 +5451,7 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Terverifikasi (daftar APC IEEE, 30 Jul 2026)",
-   "oa_optional_usd": 2800,
+   "oa_optional_usd": 2645,
    "first_decision": "2-3 bulan",
    "accept_months": [
     5,
@@ -5456,7 +5468,7 @@
     "1558-1691"
    ],
    "issn_status": "Resurchify (daftar Scopus)",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S132957497",
    "sources": "journals.ieeeauthorcenter.ieee.org - IEEE APC list 2026-07-30",
    "note": null
   },
@@ -5502,9 +5514,11 @@
    ],
    "review_status": "Estimasi",
    "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8784355",
-   "issn": [],
-   "issn_status": null,
-   "openalex_id": null,
+   "issn": [
+    "2687-7813"
+   ],
+   "issn_status": "Dicocokkan otomatis (OpenAlex, 2026-10-08) - mohon cek",
+   "openalex_id": "https://openalex.org/S4210239405",
    "sources": null,
    "note": null
   },
@@ -5549,9 +5563,11 @@
    ],
    "review_status": "Estimasi",
    "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8782707",
-   "issn": [],
-   "issn_status": null,
-   "openalex_id": null,
+   "issn": [
+    "2644-1284"
+   ],
+   "issn_status": "Dicocokkan otomatis (OpenAlex, 2026-10-08) - mohon cek",
+   "openalex_id": "https://openalex.org/S4210227635",
    "sources": null,
    "note": null
   },
@@ -5585,7 +5601,7 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Terverifikasi (daftar APC IEEE, 30 Jul 2026)",
-   "oa_optional_usd": 2800,
+   "oa_optional_usd": 2645,
    "first_decision": "2-3 bulan",
    "accept_months": [
     3,
@@ -5600,8 +5616,8 @@
    "issn": [
     "2377-3766"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S4210169774",
    "sources": null,
    "note": null
   },
@@ -5633,7 +5649,7 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Terverifikasi (daftar APC IEEE, 30 Jul 2026)",
-   "oa_optional_usd": 2800,
+   "oa_optional_usd": 2645,
    "first_decision": "2-3 bulan",
    "accept_months": [
     5,
@@ -5648,8 +5664,8 @@
    "issn": [
     "1530-437X"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S189694085",
    "sources": null,
    "note": null
   },
@@ -5683,7 +5699,7 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Terverifikasi (daftar APC IEEE, 30 Jul 2026)",
-   "oa_optional_usd": 2800,
+   "oa_optional_usd": 2645,
    "first_decision": "2-3 bulan",
    "accept_months": [
     5,
@@ -5698,8 +5714,8 @@
    "issn": [
     "1063-6536"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S133363738",
    "sources": null,
    "note": null
   },
@@ -5732,7 +5748,7 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Terverifikasi (daftar APC IEEE, 30 Jul 2026)",
-   "oa_optional_usd": 2800,
+   "oa_optional_usd": 2645,
    "first_decision": "2-3 bulan",
    "accept_months": [
     5,
@@ -5747,8 +5763,8 @@
    "issn": [
     "0278-0046"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S58031724",
    "sources": null,
    "note": null
   },
@@ -5783,7 +5799,7 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Terverifikasi (daftar APC IEEE, 30 Jul 2026)",
-   "oa_optional_usd": 2800,
+   "oa_optional_usd": 2645,
    "first_decision": "2-3 bulan",
    "accept_months": [
     5,
@@ -5798,8 +5814,8 @@
    "issn": [
     "1524-9050"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S144771191",
    "sources": null,
    "note": "Kapal otonom (MASS), penghindaran tubrukan, AIS analytics."
   },
@@ -5832,7 +5848,7 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Terverifikasi (daftar APC IEEE, 30 Jul 2026)",
-   "oa_optional_usd": 2800,
+   "oa_optional_usd": 2645,
    "first_decision": "2-3 bulan",
    "accept_months": [
     5,
@@ -5847,8 +5863,8 @@
    "issn": [
     "2332-7782"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S4306422867",
    "sources": null,
    "note": "Kapal listrik/hibrida, sistem daya kapal."
   },
@@ -5883,7 +5899,7 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Terverifikasi (daftar APC IEEE, 30 Jul 2026)",
-   "oa_optional_usd": 2800,
+   "oa_optional_usd": 2645,
    "first_decision": "2-3 bulan",
    "accept_months": [
     5,
@@ -5898,8 +5914,8 @@
    "issn": [
     "0018-9545"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S10936095",
    "sources": null,
    "note": null
   },
@@ -5933,7 +5949,7 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Pola penerbit (cek)",
-   "oa_optional_usd": null,
+   "oa_optional_usd": 4150,
    "first_decision": "4-8 minggu",
    "accept_months": [
     3,
@@ -5948,8 +5964,8 @@
    "issn": [
     "0019-0578"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S89543202",
    "sources": null,
    "note": null
   },
@@ -6000,18 +6016,20 @@
    "oa_optional_usd": null,
    "first_decision": "4-10 minggu",
    "accept_months": [
-    4,
-    8
+    2.4,
+    4.8
    ],
    "acceptance": [
     20,
     35
    ],
-   "review_status": "Estimasi",
+   "review_status": "Terverifikasi otomatis (Crossref: median 102 hari, kuartil 73-148 hari, n=57, 2026-10-08)",
    "url": "https://link.springer.com/journal/44295",
-   "issn": [],
-   "issn_status": null,
-   "openalex_id": null,
+   "issn": [
+    "2948-1953"
+   ],
+   "issn_status": "Dicocokkan otomatis (OpenAlex, 2026-10-08) - mohon cek",
+   "openalex_id": "https://openalex.org/S4387292960",
    "sources": null,
    "note": "Jurnal baru yang sangat relevan untuk kapal cerdas; pantau status indeksasinya."
   },
@@ -6039,10 +6057,10 @@
    ],
    "maritime": false,
    "access": "OA penuh",
-   "fee_text": "APC berlaku (nominal belum terverifikasi)",
-   "fee_amount": null,
-   "fee_currency": null,
-   "fee_status": "Perlu cek",
+   "fee_text": "APC USD 2.000 (menurut DOAJ); ada kebijakan keringanan",
+   "fee_amount": 2000,
+   "fee_currency": "USD",
+   "fee_status": "Terverifikasi otomatis (DOAJ, 2026-10-08)",
    "oa_optional_usd": null,
    "first_decision": "2-4 bulan",
    "accept_months": [
@@ -6058,8 +6076,8 @@
    "issn": [
     "1729-8814"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S169266912",
    "sources": null,
    "note": null
   },
@@ -6106,8 +6124,8 @@
    "issn": [
     "1598-6446"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S4398839",
    "sources": null,
    "note": null
   },
@@ -6139,23 +6157,23 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Pola penerbit (cek)",
-   "oa_optional_usd": null,
+   "oa_optional_usd": 4270,
    "first_decision": "1-2 bulan",
    "accept_months": [
-    5,
-    9
+    5.2,
+    11.5
    ],
    "acceptance": [
     20,
     35
    ],
-   "review_status": "Estimasi",
+   "review_status": "Terverifikasi otomatis (Crossref: median 236 hari, kuartil 160-349 hari, n=194, 2026-10-08)",
    "url": "https://onlinelibrary.wiley.com/journal/10991239",
    "issn": [
     "1049-8923"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S156578089",
    "sources": null,
    "note": null
   },
@@ -6188,7 +6206,7 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Pola penerbit (cek)",
-   "oa_optional_usd": null,
+   "oa_optional_usd": 2690,
    "first_decision": "4-8 minggu",
    "accept_months": [
     3,
@@ -6203,8 +6221,8 @@
    "issn": [
     "2542-6605"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S4210174276",
    "sources": null,
    "note": "IoT maritim, smart port, sensor kapal."
   },
@@ -6239,18 +6257,21 @@
    "oa_optional_usd": null,
    "first_decision": "4-10 minggu",
    "accept_months": [
-    4,
-    8
+    4.2,
+    9.0
    ],
    "acceptance": [
     20,
     35
    ],
-   "review_status": "Estimasi",
+   "review_status": "Terverifikasi otomatis (Crossref: median 198 hari, kuartil 128-274 hari, n=167, 2026-10-08)",
    "url": "https://link.springer.com/journal/40313",
-   "issn": [],
-   "issn_status": null,
-   "openalex_id": null,
+   "issn": [
+    "2195-3880",
+    "2195-3899"
+   ],
+   "issn_status": "Dicocokkan otomatis (OpenAlex, 2026-10-08) - mohon cek",
+   "openalex_id": "https://openalex.org/S2765010181",
    "sources": null,
    "note": null
   },
@@ -6284,23 +6305,23 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Pola penerbit (cek)",
-   "oa_optional_usd": null,
+   "oa_optional_usd": 3590,
    "first_decision": "1-2 bulan",
    "accept_months": [
-    5,
-    9
+    6.0,
+    12.4
    ],
    "acceptance": [
     20,
     35
    ],
-   "review_status": "Estimasi",
+   "review_status": "Terverifikasi otomatis (Crossref: median 270 hari, kuartil 182-377 hari, n=190, 2026-10-08)",
    "url": "https://onlinelibrary.wiley.com/journal/15564967",
    "issn": [
     "1556-4959"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S151299380",
    "sources": null,
    "note": "Robot laut dengan uji lapangan."
   },
@@ -6328,10 +6349,10 @@
    ],
    "maritime": false,
    "access": "OA penuh (cek)",
-   "fee_text": "APC Springer berlaku (nominal belum terverifikasi)",
-   "fee_amount": null,
-   "fee_currency": null,
-   "fee_status": "Perlu cek",
+   "fee_text": "APC USD 3.090 (indikatif. OpenAlex)",
+   "fee_amount": 3090,
+   "fee_currency": "USD",
+   "fee_status": "Indikatif (OpenAlex, 2026-10-08)",
    "oa_optional_usd": null,
    "first_decision": "4-10 minggu",
    "accept_months": [
@@ -6347,8 +6368,8 @@
    "issn": [
     "0921-0296"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S91329792",
    "sources": null,
    "note": null
   },
@@ -6382,7 +6403,7 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Pola penerbit (cek)",
-   "oa_optional_usd": null,
+   "oa_optional_usd": 3550,
    "first_decision": "1-2 bulan",
    "accept_months": [
     5,
@@ -6399,7 +6420,7 @@
     "1469-7785"
    ],
    "issn_status": "Resurchify (daftar Scopus)",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S14252860",
    "sources": null,
    "note": "Navigasi, collision avoidance, kapal otonom."
   },
@@ -6431,7 +6452,7 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Pola penerbit (cek)",
-   "oa_optional_usd": null,
+   "oa_optional_usd": 3100,
    "first_decision": "4-8 minggu",
    "accept_months": [
     3,
@@ -6446,8 +6467,8 @@
    "issn": [
     "0016-0032"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S183498172",
    "sources": null,
    "note": null
   },
@@ -6485,7 +6506,7 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Pola penerbit (cek)",
-   "oa_optional_usd": null,
+   "oa_optional_usd": 3760,
    "first_decision": "4-8 minggu",
    "accept_months": [
     3,
@@ -6500,8 +6521,8 @@
    "issn": [
     "0263-2241"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S147767848",
    "sources": null,
    "note": "Instrumentasi & sistem pengukuran di kapal."
   },
@@ -6541,24 +6562,24 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Pola penerbit (cek)",
-   "oa_optional_usd": null,
+   "oa_optional_usd": 4790,
    "first_decision": "4-10 minggu",
    "accept_months": [
-    4,
-    8
+    2.3,
+    5.3
    ],
    "acceptance": [
     20,
     35
    ],
-   "review_status": "Estimasi",
+   "review_status": "Terverifikasi otomatis (Crossref: median 107 hari, kuartil 71-162 hari, n=195, 2026-10-08)",
    "url": "https://link.springer.com/journal/11071",
    "issn": [
     "0924-090X",
     "1573-269X"
    ],
    "issn_status": "Resurchify (daftar Scopus)",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S138681734",
    "sources": null,
    "note": "Dinamika gerak kapal nonlinier, kendali trajektori."
   },
@@ -6592,7 +6613,7 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Pola penerbit (cek)",
-   "oa_optional_usd": null,
+   "oa_optional_usd": 3140,
    "first_decision": "4-8 minggu",
    "accept_months": [
     3,
@@ -6607,8 +6628,8 @@
    "issn": [
     "0921-8890"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S133768115",
    "sources": null,
    "note": "USV/AUV, perencanaan jalur."
   },
@@ -6639,10 +6660,10 @@
    ],
    "maritime": false,
    "access": "OA penuh",
-   "fee_text": "APC MDPI (nominal belum dicek; kisaran CHF 2.400-2.700)",
-   "fee_amount": null,
-   "fee_currency": null,
-   "fee_status": "Perlu cek",
+   "fee_text": "APC CHF 2.600 (menurut DOAJ); ada kebijakan keringanan",
+   "fee_amount": 2600,
+   "fee_currency": "CHF",
+   "fee_status": "Terverifikasi otomatis (DOAJ, 2026-10-08)",
    "oa_optional_usd": null,
    "first_decision": "2-3 minggu",
    "accept_months": [
@@ -6658,8 +6679,8 @@
    "issn": [
     "1424-8220"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S101949793",
    "sources": null,
    "note": null
   },
@@ -6691,7 +6712,7 @@
    "fee_amount": 0,
    "fee_currency": "USD",
    "fee_status": "Pola penerbit (cek)",
-   "oa_optional_usd": null,
+   "oa_optional_usd": 4150,
    "first_decision": "2-4 bulan",
    "accept_months": [
     6,
@@ -6706,8 +6727,8 @@
    "issn": [
     "0142-3312"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S24148485",
    "sources": null,
    "note": null
   },
@@ -6756,8 +6777,8 @@
    "issn": [
     "2301-3850"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S4210169569",
    "sources": null,
    "note": null
   },
@@ -6886,8 +6907,8 @@
    "issn": [
     "0125-8281"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S132817738",
    "sources": null,
    "note": null
   },
@@ -6928,10 +6949,10 @@
    ],
    "maritime": false,
    "access": "OA",
-   "fee_text": "Belum terverifikasi",
-   "fee_amount": null,
-   "fee_currency": null,
-   "fee_status": "Perlu cek",
+   "fee_text": "Gratis (tanpa APC, menurut DOAJ)",
+   "fee_amount": 0,
+   "fee_currency": "USD",
+   "fee_status": "Terverifikasi otomatis (DOAJ, 2026-10-08)",
    "oa_optional_usd": null,
    "first_decision": "1-3 bulan",
    "accept_months": [
@@ -6947,8 +6968,8 @@
    "issn": [
     "1451-2092"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S2764538835",
    "sources": null,
    "note": null
   },
@@ -7005,8 +7026,8 @@
    "issn": [
     "2229-8649"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S2764691580",
    "sources": null,
    "note": null
   },
@@ -7070,8 +7091,8 @@
    "issn": [
     "1025-2495"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S2764816760",
    "sources": null,
    "note": null
   },
@@ -7135,8 +7156,8 @@
    "issn": [
     "2229-838X"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S2764980919",
    "sources": null,
    "note": null
   },
@@ -7200,8 +7221,8 @@
    "issn": [
     "1823-4690"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S2764988159",
    "sources": "jestec.taylors.edu.my",
    "note": null
   },
@@ -7257,7 +7278,7 @@
     "1697-9133"
    ],
    "issn_status": "Resurchify (daftar Scopus)",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S2764628859",
    "sources": null,
    "note": null
   },
@@ -7291,10 +7312,10 @@
    ],
    "maritime": false,
    "access": "OA",
-   "fee_text": "Belum terverifikasi",
-   "fee_amount": null,
-   "fee_currency": null,
-   "fee_status": "Perlu cek",
+   "fee_text": "Gratis (tanpa APC, menurut DOAJ)",
+   "fee_amount": 0,
+   "fee_currency": "USD",
+   "fee_status": "Terverifikasi otomatis (DOAJ, 2026-10-08)",
    "oa_optional_usd": null,
    "first_decision": "1-2 bulan",
    "accept_months": [
@@ -7310,8 +7331,8 @@
    "issn": [
     "2289-4659"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S2765049725",
    "sources": null,
    "note": null
   },
@@ -7375,8 +7396,8 @@
    "issn": [
     "0127-9696"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S4210230876",
    "sources": null,
    "note": null
   },
@@ -7411,10 +7432,10 @@
    ],
    "maritime": false,
    "access": "OA",
-   "fee_text": "Belum terverifikasi",
-   "fee_amount": null,
-   "fee_currency": null,
-   "fee_status": "Perlu cek",
+   "fee_text": "Gratis (tanpa APC, menurut DOAJ)",
+   "fee_amount": 0,
+   "fee_currency": "USD",
+   "fee_status": "Terverifikasi otomatis (DOAJ, 2026-10-08)",
    "oa_optional_usd": null,
    "first_decision": "1-3 bulan",
    "accept_months": [
@@ -7431,7 +7452,7 @@
     "0469-6255"
    ],
    "issn_status": "Resurchify (daftar Scopus)",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S2737107756",
    "sources": null,
    "note": null
   },
@@ -7495,8 +7516,8 @@
    "issn": [
     "0128-7680"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S2765043956",
    "sources": null,
    "note": null
   },
@@ -7609,8 +7630,8 @@
    "issn": [
     "0039-2480"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S2764649329",
    "sources": null,
    "note": null
   },
@@ -7655,10 +7676,10 @@
    ],
    "maritime": false,
    "access": "OA",
-   "fee_text": "APC berlaku (nominal belum terverifikasi)",
-   "fee_amount": null,
-   "fee_currency": null,
-   "fee_status": "Perlu cek",
+   "fee_text": "APC EUR 400 (indikatif. OpenAlex)",
+   "fee_amount": 400,
+   "fee_currency": "EUR",
+   "fee_status": "Indikatif (OpenAlex, 2026-10-08)",
    "oa_optional_usd": null,
    "first_decision": "1-3 bulan",
    "accept_months": [
@@ -7674,8 +7695,8 @@
    "issn": [
     "1330-3651"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S1003953879",
    "sources": null,
    "note": null
   },
@@ -7706,10 +7727,10 @@
    ],
    "maritime": false,
    "access": "OA",
-   "fee_text": "Belum terverifikasi",
-   "fee_amount": null,
-   "fee_currency": null,
-   "fee_status": "Perlu cek",
+   "fee_text": "APC EUR 500 (menurut DOAJ)",
+   "fee_amount": 500,
+   "fee_currency": "EUR",
+   "fee_status": "Terverifikasi otomatis (DOAJ, 2026-10-08)",
    "oa_optional_usd": null,
    "first_decision": "1-3 bulan",
    "accept_months": [
@@ -7727,7 +7748,7 @@
     "2083-6481"
    ],
    "issn_status": "Resurchify (daftar Scopus)",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S2765035553",
    "sources": null,
    "note": null
   },
@@ -7791,8 +7812,8 @@
    "issn": [
     "1333-1124"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S159857369",
    "sources": null,
    "note": "Teknik mesin & perkapalan; penerbit sama dengan Brodogradnja."
   },
@@ -7849,7 +7870,7 @@
     "1848-3313"
    ],
    "issn_status": "Resurchify (daftar Scopus)",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S4210180508",
    "sources": null,
    "note": "PERINGATAN: domain toms.com.hr menampilkan konten spam judi saat dicek (7 Okt 2026). Akses via Hrcak."
   },
@@ -7902,7 +7923,7 @@
     "2615-6636"
    ],
    "issn_status": "Situs jurnal / DOAJ",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S4210210456",
    "sources": "journal.unimma.ac.id/index.php/AutomotiveExperiences/apcs",
    "note": "Menerima topik sistem propulsi & kendaraan, termasuk kendaraan air."
   },
@@ -7949,8 +7970,8 @@
    "issn": [
     "2302-9285"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S2765016208",
    "sources": "beei.org/index.php/EEI/about/submissions",
    "note": null
   },
@@ -7998,8 +8019,8 @@
    "issn": [
     "2089-4872"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S2764408626",
    "sources": null,
    "note": null
   },
@@ -8047,8 +8068,8 @@
    "issn": [
     "2089-4856"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S4210222206",
    "sources": null,
    "note": null
   },
@@ -8095,8 +8116,8 @@
    "issn": [
     "2502-4752"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S2764855249",
    "sources": "ijeecs.iaescore.com/index.php/IJEECS/about/submissions",
    "note": null
   },
@@ -8160,8 +8181,8 @@
    "issn": [
     "2528-1410"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S4210206057",
    "sources": null,
    "note": "Multidisiplin; selektif."
   },
@@ -8208,8 +8229,8 @@
    "issn": [
     "2088-8708"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S2764532672",
    "sources": "ijece.iaescore.com/index.php/IJECE/about/submissions",
    "note": null
   },
@@ -8257,8 +8278,8 @@
    "issn": [
     "2088-8694"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S2738581616",
    "sources": null,
    "note": "Propulsi listrik & penggerak motor kapal."
   },
@@ -8303,20 +8324,20 @@
    "oa_optional_usd": null,
    "first_decision": "2-6 minggu",
    "accept_months": [
-    3,
-    6
+    2.8,
+    5.8
    ],
    "acceptance": [
     15,
     30
    ],
-   "review_status": "Estimasi",
+   "review_status": "Terverifikasi otomatis (Crossref: median 120 hari, kuartil 86-175 hari, n=156, 2026-10-08)",
    "url": "https://ejournal.undip.ac.id/index.php/ijred",
    "issn": [
     "2252-4940"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S2739193003",
    "sources": "ejournal.undip.ac.id/index.php/ijred/about/submissions",
    "note": "Pendukung: energi terbarukan laut, kapal hemat energi/hibrida."
   },
@@ -8380,8 +8401,8 @@
    "issn": [
     "2086-9614"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S4210191294",
    "sources": "ijtech.eng.ui.ac.id/about/13",
    "note": null
   },
@@ -8445,8 +8466,8 @@
    "issn": [
     "2088-5334"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S2738868728",
    "sources": null,
    "note": null
   },
@@ -8510,8 +8531,8 @@
    "issn": [
     "2337-5779"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S2764607890",
    "sources": "jets.itb.ac.id/jets/apc",
    "note": null
   },
@@ -8560,8 +8581,8 @@
    "issn": [
     "2715-5056"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S4210207561",
    "sources": "journal.umy.ac.id/index.php/jrc/APC",
    "note": null
   },
@@ -8611,9 +8632,11 @@
    ],
    "review_status": "Estimasi",
    "url": "https://journal.umy.ac.id/index.php/mesi",
-   "issn": [],
-   "issn_status": null,
-   "openalex_id": null,
+   "issn": [
+    "2798-5245"
+   ],
+   "issn_status": "Dicocokkan otomatis (OpenAlex, 2026-10-08) - mohon cek",
+   "openalex_id": "https://openalex.org/S4210238268",
    "sources": null,
    "note": null
   },
@@ -8660,8 +8683,8 @@
    "issn": [
     "1693-6930"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S2972808588",
    "sources": "telkomnika.uad.ac.id/index.php/TELKOMNIKA/about/submissions",
    "note": null
   },
@@ -8725,8 +8748,8 @@
    "issn": [
     "0094-243X"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S2764696622",
    "sources": null,
    "note": "Prosiding, bukan jurnal; nilai kum lebih rendah."
   },
@@ -8790,8 +8813,8 @@
    "issn": [
     "2267-1242"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S4210186093",
    "sources": null,
    "note": null
   },
@@ -8851,8 +8874,8 @@
    "issn": [
     "1755-1307"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S4210195883",
    "sources": null,
    "note": "Banyak dipakai konferensi maritim Indonesia; pastikan masih terindeks pada tahun terbit."
   },
@@ -8916,8 +8939,8 @@
    "issn": [
     "1742-6588"
    ],
-   "issn_status": "Perlu verifikasi (dicek otomatis saat pembaruan)",
-   "openalex_id": null,
+   "issn_status": "Terverifikasi otomatis (OpenAlex, 2026-10-08)",
+   "openalex_id": "https://openalex.org/S4210187594",
    "sources": null,
    "note": null
   },
@@ -8962,9 +8985,12 @@
    ],
    "review_status": "Estimasi",
    "url": "https://journal.ipb.ac.id/index.php/pspalbacore",
-   "issn": [],
-   "issn_status": null,
-   "openalex_id": null,
+   "issn": [
+    "2549-1326",
+    "2655-559X"
+   ],
+   "issn_status": "Dicocokkan otomatis (OpenAlex, 2026-10-08) - mohon cek",
+   "openalex_id": "https://openalex.org/S4210203007",
    "sources": null,
    "note": null
   },
@@ -9029,7 +9055,7 @@
     "2088-2033"
    ],
    "issn_status": "Situs jurnal / DOAJ",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S2736859447",
    "sources": null,
    "note": null
   },
@@ -9099,7 +9125,7 @@
     "3025-518X"
    ],
    "issn_status": "Situs jurnal / DOAJ",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S4390296968",
    "sources": "journal.itk.ac.id/index.php/ismatech/about; .../publicationfee; .../peerreview; pencarian SINTA",
    "note": "Lingkup sangat pas: desain kapal, hidrodinamika, marine engineering, kelistrikan & kendali kapal. Terbit Juni & Desember; double-blind, min. 2 reviewer. Akreditasi baru (April 2026)."
   },
@@ -9157,7 +9183,7 @@
     "2548-1479"
    ],
    "issn_status": "Situs jurnal / DOAJ",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S4210172442",
    "sources": "iptek.its.ac.id/index.php/ijmeir/about/submissions; daftar akreditasi ITS Okt 2022",
    "note": null
   },
@@ -9278,7 +9304,7 @@
     "2580-0914"
    ],
    "issn_status": "Situs jurnal / DOAJ",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S4210213537",
    "sources": "iptek.its.ac.id/index.php/ijoce/about/submissions",
    "note": null
   },
@@ -9331,9 +9357,11 @@
    ],
    "review_status": "Estimasi",
    "url": "https://ejurnal.itats.ac.id/jemt",
-   "issn": [],
-   "issn_status": null,
-   "openalex_id": null,
+   "issn": [
+    "2723-8105"
+   ],
+   "issn_status": "Dicocokkan otomatis (OpenAlex, 2026-10-08) - mohon cek",
+   "openalex_id": "https://openalex.org/S4210225641",
    "sources": "ejurnal.itats.ac.id/jemt/pages/view/fee",
    "note": "Teknologi kelautan, rekayasa pantai & offshore."
   },
@@ -9385,9 +9413,11 @@
    ],
    "review_status": "Estimasi",
    "url": "https://journal.its.ac.id/index.php/jmest",
-   "issn": [],
-   "issn_status": null,
-   "openalex_id": null,
+   "issn": [
+    "2774-5449"
+   ],
+   "issn_status": "Dicocokkan otomatis (OpenAlex, 2026-10-08) - mohon cek",
+   "openalex_id": "https://openalex.org/S4387287451",
    "sources": null,
    "note": null
   },
@@ -9434,9 +9464,13 @@
    ],
    "review_status": "Estimasi",
    "url": "https://journal.ipb.ac.id/index.php/jurnalikt",
-   "issn": [],
-   "issn_status": null,
-   "openalex_id": null,
+   "issn": [
+    "2085-6695",
+    "2087-9423",
+    "2620-309X"
+   ],
+   "issn_status": "Dicocokkan otomatis (OpenAlex, 2026-10-08) - mohon cek",
+   "openalex_id": "https://openalex.org/S4210179071",
    "sources": null,
    "note": "Pendukung: oseanografi fisik, gelombang & arus."
   },
@@ -9600,9 +9634,12 @@
    ],
    "review_status": "Estimasi",
    "url": "https://journal.poltekpelaceh.ac.id/index.php/jumama",
-   "issn": [],
-   "issn_status": null,
-   "openalex_id": null,
+   "issn": [
+    "2775-0337",
+    "2808-618X"
+   ],
+   "issn_status": "Dicocokkan otomatis (OpenAlex, 2026-10-08) - mohon cek",
+   "openalex_id": "https://openalex.org/S4404677439",
    "sources": null,
    "note": "Fokus pelayaran; relevan untuk permesinan & sistem kapal."
   },
@@ -9705,9 +9742,12 @@
    ],
    "review_status": "Estimasi",
    "url": "https://ojs.balitbanghub.dephub.go.id/index.php/jurnallaut",
-   "issn": [],
-   "issn_status": null,
-   "openalex_id": null,
+   "issn": [
+    "1411-0504",
+    "2548-4087"
+   ],
+   "issn_status": "Dicocokkan otomatis (OpenAlex, 2026-10-08) - mohon cek",
+   "openalex_id": "https://openalex.org/S4210233895",
    "sources": null,
    "note": "Link perlu dicek (portal Balitbanghub dapat berpindah)."
   },
@@ -9756,9 +9796,11 @@
    ],
    "review_status": "Estimasi",
    "url": "https://journal.unhas.ac.id/index.php/jrt2k",
-   "issn": [],
-   "issn_status": null,
-   "openalex_id": null,
+   "issn": [
+    "2962-3359"
+   ],
+   "issn_status": "Dicocokkan otomatis (OpenAlex, 2026-10-08) - mohon cek",
+   "openalex_id": "https://openalex.org/S4404674047",
    "sources": null,
    "note": null
   },
@@ -9821,9 +9863,11 @@
    ],
    "review_status": "Estimasi",
    "url": "https://cot.unhas.ac.id/journals/index.php/jrtp",
-   "issn": [],
-   "issn_status": null,
-   "openalex_id": null,
+   "issn": [
+    "3031-3767"
+   ],
+   "issn_status": "Dicocokkan otomatis (OpenAlex, 2026-10-08) - mohon cek",
+   "openalex_id": "https://openalex.org/S7407079644",
    "sources": null,
    "note": null
   },
@@ -9881,7 +9925,7 @@
     "2722-1679"
    ],
    "issn_status": "Situs jurnal / DOAJ",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S4210207087",
    "sources": "sinta.kemdiktisaintek.go.id/journals?q=maritim; jurnal.akmicirebon.ac.id/index.php/akmi/publicationfee",
    "note": "KOREKSI: versi sebelumnya keliru menyebut STIP Jakarta. Lingkup: sistem permesinan, kelistrikan, desain kapal, kendali & otomasi."
   },
@@ -9926,10 +9970,10 @@
    ],
    "maritime": true,
    "access": "OA",
-   "fee_text": "Belum terverifikasi",
-   "fee_amount": null,
-   "fee_currency": null,
-   "fee_status": "Perlu cek",
+   "fee_text": "Gratis (tanpa APC, menurut DOAJ)",
+   "fee_amount": 0,
+   "fee_currency": "USD",
+   "fee_status": "Terverifikasi otomatis (DOAJ, 2026-10-08)",
    "oa_optional_usd": null,
    "first_decision": "1-3 minggu",
    "accept_months": [
@@ -9942,9 +9986,12 @@
    ],
    "review_status": "Estimasi",
    "url": "https://ejurnal.its.ac.id/index.php/teknik",
-   "issn": [],
-   "issn_status": null,
-   "openalex_id": null,
+   "issn": [
+    "2301-9271",
+    "2337-3539"
+   ],
+   "issn_status": "Dicocokkan otomatis (OpenAlex, 2026-10-08) - mohon cek",
+   "openalex_id": "https://openalex.org/S2738286576",
    "sources": null,
    "note": "Wadah umum artikel tugas akhir ITS, termasuk perkapalan."
   },
@@ -10123,9 +10170,12 @@
    ],
    "review_status": "Estimasi",
    "url": "https://journal.ppns.ac.id/index.php/teknologimaritim",
-   "issn": [],
-   "issn_status": null,
-   "openalex_id": null,
+   "issn": [
+    "2620-4916",
+    "2620-7540"
+   ],
+   "issn_status": "Dicocokkan otomatis (OpenAlex, 2026-10-08) - mohon cek",
+   "openalex_id": "https://openalex.org/S4210190701",
    "sources": null,
    "note": null
   },
@@ -10180,7 +10230,7 @@
     "2549-3841"
    ],
    "issn_status": "Situs jurnal / DOAJ",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S4210226075",
    "sources": "journal.ipb.ac.id/index.php/jtpk/ArticleProcessingCharge",
    "note": "Cocok untuk desain & stabilitas kapal perikanan."
   },
@@ -10238,21 +10288,21 @@
    "oa_optional_usd": null,
    "first_decision": "2-6 minggu",
    "accept_months": [
-    2,
-    4
+    1.7,
+    5.6
    ],
    "acceptance": [
     30,
     50
    ],
-   "review_status": "Estimasi",
+   "review_status": "Terverifikasi otomatis (Crossref: median 122 hari, kuartil 53-172 hari, n=16, 2026-10-08)",
    "url": "https://ejournal.undip.ac.id/index.php/kapal",
    "issn": [
     "1829-8370",
     "2301-9069"
    ],
    "issn_status": "Situs jurnal / DOAJ",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S2737423788",
    "sources": "ejournal.undip.ac.id/index.php/kapal/announcement; jope.unimelb.edu.au/journal/129797",
    "note": "Pilihan SINTA terbaik untuk perkapalan: S2, gratis, terbit Feb/Jun/Okt."
   },
@@ -10302,7 +10352,7 @@
     "2541-1659"
    ],
    "issn_status": "Situs jurnal / DOAJ",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S2764779562",
    "sources": "journal.ipb.ac.id/jpsp/charge",
    "note": "Kapal ikan & alat tangkap."
   },
@@ -10360,9 +10410,12 @@
    ],
    "review_status": "Estimasi",
    "url": "https://journal.unhas.ac.id/index.php/maritimepark",
-   "issn": [],
-   "issn_status": null,
-   "openalex_id": null,
+   "issn": [
+    "2828-6669",
+    "2828-7010"
+   ],
+   "issn_status": "Dicocokkan otomatis (OpenAlex, 2026-10-08) - mohon cek",
+   "openalex_id": "https://openalex.org/S4387279155",
    "sources": "journal.unhas.ac.id/index.php/maritimepark/author-fees; pencarian SINTA",
    "note": "Berbahasa Inggris; terbit Februari, Juni, Oktober."
   },
@@ -10416,7 +10469,7 @@
     "2963-5454"
    ],
    "issn_status": "Situs jurnal / DOAJ",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S4387286097",
    "sources": null,
    "note": "Terbit triwulanan (Mar/Jun/Sep/Des)."
   },
@@ -10468,9 +10521,12 @@
    ],
    "review_status": "Estimasi",
    "url": "https://openjurnalsystem.amn.ac.id/index.php/saintara",
-   "issn": [],
-   "issn_status": null,
-   "openalex_id": null,
+   "issn": [
+    "2528-6676",
+    "2746-6353"
+   ],
+   "issn_status": "Dicocokkan otomatis (OpenAlex, 2026-10-08) - mohon cek",
+   "openalex_id": "https://openalex.org/S4210182106",
    "sources": null,
    "note": "Fokus kepelautan (nautika & teknika); relevan untuk permesinan & operasi kapal."
   },
@@ -10520,9 +10576,12 @@
    ],
    "review_status": "Estimasi",
    "url": "https://ojs.balitbanghub.dephub.go.id/index.php/warlit",
-   "issn": [],
-   "issn_status": null,
-   "openalex_id": null,
+   "issn": [
+    "0852-1824",
+    "2580-1082"
+   ],
+   "issn_status": "Dicocokkan otomatis (OpenAlex, 2026-10-08) - mohon cek",
+   "openalex_id": "https://openalex.org/S4210169177",
    "sources": null,
    "note": "Link perlu dicek."
   },
@@ -10591,7 +10650,7 @@
     "2614-641X"
    ],
    "issn_status": "Situs jurnal / DOAJ",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S4210193051",
    "sources": "ejournal.brin.go.id/jurnalwave/editorialpolicies",
    "note": "Terbit 2x/tahun (Juni & Desember); batas naskah 31 Mei & 30 Nov."
   },
@@ -10725,7 +10784,7 @@
     "2337-8557"
    ],
    "issn_status": "Situs jurnal / DOAJ",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S4210200961",
    "sources": "journal.its.ac.id/index.php/joe/about/submissions",
    "note": null
   },
@@ -10786,7 +10845,7 @@
     "2580-7471"
    ],
    "issn_status": "Situs jurnal / DOAJ",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S4210209549",
    "sources": null,
    "note": null
   },
@@ -10835,7 +10894,7 @@
     "2721-3560"
    ],
    "issn_status": "Situs jurnal / DOAJ",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S4210219526",
    "sources": null,
    "note": null
   },
@@ -10885,9 +10944,12 @@
    ],
    "review_status": "Estimasi",
    "url": "https://e-jurnal.pnl.ac.id/polimesin",
-   "issn": [],
-   "issn_status": null,
-   "openalex_id": null,
+   "issn": [
+    "1693-5462",
+    "2549-1199"
+   ],
+   "issn_status": "Dicocokkan otomatis (OpenAlex, 2026-10-08) - mohon cek",
+   "openalex_id": "https://openalex.org/S4210238377",
    "sources": null,
    "note": null
   },
@@ -10944,9 +11006,12 @@
    ],
    "review_status": "Estimasi",
    "url": "https://rekayasamesin.ub.ac.id/",
-   "issn": [],
-   "issn_status": null,
-   "openalex_id": null,
+   "issn": [
+    "2338-1663",
+    "2477-6041"
+   ],
+   "issn_status": "Dicocokkan otomatis (OpenAlex, 2026-10-08) - mohon cek",
+   "openalex_id": "https://openalex.org/S4210179088",
    "sources": "rekayasamesin.ub.ac.id/index.php/rm/authorfees",
    "note": null
   },
@@ -11000,9 +11065,12 @@
    ],
    "review_status": "Estimasi",
    "url": "https://ejournal.brin.go.id/MIPI",
-   "issn": [],
-   "issn_status": null,
-   "openalex_id": null,
+   "issn": [
+    "1410-3680",
+    "2541-1233"
+   ],
+   "issn_status": "Dicocokkan otomatis (OpenAlex, 2026-10-08) - mohon cek",
+   "openalex_id": "https://openalex.org/S4210167616",
    "sources": null,
    "note": "Link perlu dicek."
   },
@@ -11038,10 +11106,10 @@
    ],
    "maritime": false,
    "access": "OA",
-   "fee_text": "Belum terverifikasi",
-   "fee_amount": null,
-   "fee_currency": null,
-   "fee_status": "Perlu cek",
+   "fee_text": "Gratis (tanpa APC, menurut DOAJ)",
+   "fee_amount": 0,
+   "fee_currency": "USD",
+   "fee_status": "Terverifikasi otomatis (DOAJ, 2026-10-08)",
    "oa_optional_usd": null,
    "first_decision": "2-6 minggu",
    "accept_months": [
@@ -11054,9 +11122,12 @@
    ],
    "review_status": "Estimasi",
    "url": "https://jurnal.uns.ac.id/mekanika",
-   "issn": [],
-   "issn_status": null,
-   "openalex_id": null,
+   "issn": [
+    "1412-7962",
+    "2579-3144"
+   ],
+   "issn_status": "Dicocokkan otomatis (OpenAlex, 2026-10-08) - mohon cek",
+   "openalex_id": "https://openalex.org/S4210222474",
    "sources": null,
    "note": null
   },
@@ -11106,9 +11177,12 @@
    ],
    "review_status": "Estimasi",
    "url": "https://ejournal.undip.ac.id/index.php/rotasi",
-   "issn": [],
-   "issn_status": null,
-   "openalex_id": null,
+   "issn": [
+    "1411-027X",
+    "2406-9620"
+   ],
+   "issn_status": "Dicocokkan otomatis (OpenAlex, 2026-10-08) - mohon cek",
+   "openalex_id": "https://openalex.org/S4210216039",
    "sources": null,
    "note": null
   },
@@ -11215,9 +11289,12 @@
    ],
    "review_status": "Estimasi",
    "url": "https://journal2.uad.ac.id/index.php/biste",
-   "issn": [],
-   "issn_status": null,
-   "openalex_id": null,
+   "issn": [
+    "2685-7936",
+    "2685-9572"
+   ],
+   "issn_status": "Dicocokkan otomatis (OpenAlex, 2026-10-08) - mohon cek",
+   "openalex_id": "https://openalex.org/S4210184426",
    "sources": null,
    "note": null
   },
@@ -11307,9 +11384,12 @@
    ],
    "review_status": "Estimasi",
    "url": "https://emitter.pens.ac.id/",
-   "issn": [],
-   "issn_status": null,
-   "openalex_id": null,
+   "issn": [
+    "2355-391X",
+    "2443-1168"
+   ],
+   "issn_status": "Dicocokkan otomatis (OpenAlex, 2026-10-08) - mohon cek",
+   "openalex_id": "https://openalex.org/S4210214221",
    "sources": null,
    "note": "Situs memuat halaman 'Citedness Scopus' - kemungkinan terindeks Scopus; konfirmasi."
   },
@@ -11353,9 +11433,12 @@
    ],
    "review_status": "Estimasi",
    "url": "https://jurnal.ugm.ac.id/ijeis",
-   "issn": [],
-   "issn_status": null,
-   "openalex_id": null,
+   "issn": [
+    "2088-3714",
+    "2460-7681"
+   ],
+   "issn_status": "Dicocokkan otomatis (OpenAlex, 2026-10-08) - mohon cek",
+   "openalex_id": "https://openalex.org/S4210191014",
    "sources": null,
    "note": null
   },
@@ -11383,10 +11466,10 @@
    ],
    "maritime": false,
    "access": "OA",
-   "fee_text": "Belum terverifikasi",
-   "fee_amount": null,
-   "fee_currency": null,
-   "fee_status": "Perlu cek",
+   "fee_text": "Gratis (tanpa APC, menurut DOAJ)",
+   "fee_amount": 0,
+   "fee_currency": "USD",
+   "fee_status": "Terverifikasi otomatis (DOAJ, 2026-10-08)",
    "oa_optional_usd": null,
    "first_decision": "2-4 minggu",
    "accept_months": [
@@ -11403,7 +11486,7 @@
     "2579-6216"
    ],
    "issn_status": "Situs jurnal / DOAJ",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S4210194627",
    "sources": null,
    "note": "Link perlu dicek (tidak tercantum di portal journal.its.ac.id saat dicek)."
   },
@@ -11569,10 +11652,10 @@
    ],
    "maritime": false,
    "access": "OA",
-   "fee_text": "Belum terverifikasi",
-   "fee_amount": null,
-   "fee_currency": null,
-   "fee_status": "Perlu cek",
+   "fee_text": "Gratis (tanpa APC, menurut DOAJ)",
+   "fee_amount": 0,
+   "fee_currency": "USD",
+   "fee_status": "Terverifikasi otomatis (DOAJ, 2026-10-08)",
    "oa_optional_usd": null,
    "first_decision": "2-4 minggu",
    "accept_months": [
@@ -11589,7 +11672,7 @@
     "1412-6389"
    ],
    "issn_status": "Situs jurnal / DOAJ",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S4210190126",
    "sources": null,
    "note": null
   },
@@ -11755,10 +11838,10 @@
    ],
    "maritime": false,
    "access": "OA",
-   "fee_text": "Belum terverifikasi",
-   "fee_amount": null,
-   "fee_currency": null,
-   "fee_status": "Perlu cek",
+   "fee_text": "APC USD 200 (menurut DOAJ); ada kebijakan keringanan",
+   "fee_amount": 200,
+   "fee_currency": "USD",
+   "fee_status": "Terverifikasi otomatis (DOAJ, 2026-10-08)",
    "oa_optional_usd": null,
    "first_decision": "2-6 minggu",
    "accept_months": [
@@ -11775,7 +11858,7 @@
     "2580-0760"
    ],
    "issn_status": "Situs jurnal / DOAJ",
-   "openalex_id": null,
+   "openalex_id": "https://openalex.org/S4210183703",
    "sources": null,
    "note": null
   },
@@ -12035,7 +12118,1508 @@
      "source": "SINTA"
     }
    ]
+  },
+  {
+   "seq": 3,
+   "version": "2026.10.08.2",
+   "date": "2026-10-08",
+   "summary": "Pembaruan otomatis: 186 perubahan pada 116 jurnal.",
+   "items": [
+    {
+     "type": "changed",
+     "journal": "Applied Ocean Research",
+     "field": "OA opsional (USD)",
+     "old": "-",
+     "new": "2950",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "China Ocean Engineering",
+     "field": "OA opsional (USD)",
+     "old": "-",
+     "new": "3190",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "Journal of Marine Science and Application",
+     "field": "OA opsional (USD)",
+     "old": "-",
+     "new": "4190",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "Journal of Marine Science and Technology (JASNAOE)",
+     "field": "OA opsional (USD)",
+     "old": "-",
+     "new": "4090",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "Journal of Ocean Engineering and Marine Energy",
+     "field": "OA opsional (USD)",
+     "old": "-",
+     "new": "3990",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "Journal of Ocean University of China",
+     "field": "OA opsional (USD)",
+     "old": "-",
+     "new": "2990",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "Journal of the Institution of Engineers (India): Series C",
+     "field": "OA opsional (USD)",
+     "old": "-",
+     "new": "3090",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "Marine Structures",
+     "field": "OA opsional (USD)",
+     "old": "-",
+     "new": "4320",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "Marine Systems & Ocean Technology",
+     "field": "OA opsional (USD)",
+     "old": "-",
+     "new": "3290",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "Ocean Engineering",
+     "field": "OA opsional (USD)",
+     "old": "4030",
+     "new": "4150",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "Proc. IMechE Part M: J. Engineering for the Maritime Environment",
+     "field": "OA opsional (USD)",
+     "old": "-",
+     "new": "4150",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "WMU Journal of Maritime Affairs",
+     "field": "OA opsional (USD)",
+     "old": "-",
+     "new": "3290",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "Computers & Fluids",
+     "field": "OA opsional (USD)",
+     "old": "-",
+     "new": "3700",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "European Journal of Mechanics - B/Fluids",
+     "field": "OA opsional (USD)",
+     "old": "-",
+     "new": "3380",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "Experiments in Fluids",
+     "field": "OA opsional (USD)",
+     "old": "-",
+     "new": "2590",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "International Journal for Numerical Methods in Fluids",
+     "field": "OA opsional (USD)",
+     "old": "-",
+     "new": "4220",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "Journal of Fluid Mechanics",
+     "field": "OA opsional (USD)",
+     "old": "-",
+     "new": "3550",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "Journal of Fluids and Structures",
+     "field": "OA opsional (USD)",
+     "old": "-",
+     "new": "3740",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "Journal of Hydrodynamics",
+     "field": "OA opsional (USD)",
+     "old": "-",
+     "new": "3290",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "Composite Structures",
+     "field": "OA opsional (USD)",
+     "old": "-",
+     "new": "4660",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "Engineering Failure Analysis",
+     "field": "OA opsional (USD)",
+     "old": "-",
+     "new": "3820",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "Engineering Structures",
+     "field": "OA opsional (USD)",
+     "old": "-",
+     "new": "4620",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "International Journal of Fatigue",
+     "field": "OA opsional (USD)",
+     "old": "-",
+     "new": "3940",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "International Journal of Impact Engineering",
+     "field": "OA opsional (USD)",
+     "old": "-",
+     "new": "4170",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "International Journal of Mechanical Sciences",
+     "field": "OA opsional (USD)",
+     "old": "-",
+     "new": "4740",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "Journal of Constructional Steel Research",
+     "field": "OA opsional (USD)",
+     "old": "-",
+     "new": "4310",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "Journal of Sound and Vibration",
+     "field": "OA opsional (USD)",
+     "old": "-",
+     "new": "4190",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "Mechanical Systems and Signal Processing",
+     "field": "OA opsional (USD)",
+     "old": "-",
+     "new": "4730",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "Probabilistic Engineering Mechanics",
+     "field": "OA opsional (USD)",
+     "old": "-",
+     "new": "3370",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "Reliability Engineering & System Safety",
+     "field": "OA opsional (USD)",
+     "old": "-",
+     "new": "4830",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "Structures",
+     "field": "OA opsional (USD)",
+     "old": "-",
+     "new": "3510",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "Thin-Walled Structures",
+     "field": "OA opsional (USD)",
+     "old": "-",
+     "new": "4440",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "Welding in the World",
+     "field": "OA opsional (USD)",
+     "old": "-",
+     "new": "3290",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "Asian Journal of Control",
+     "field": "OA opsional (USD)",
+     "old": "-",
+     "new": "2850",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "Control Engineering Practice",
+     "field": "OA opsional (USD)",
+     "old": "-",
+     "new": "3010",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "IEEE Internet of Things Journal",
+     "field": "OA opsional (USD)",
+     "old": "2800",
+     "new": "2645",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "IEEE Journal of Oceanic Engineering",
+     "field": "OA opsional (USD)",
+     "old": "2800",
+     "new": "2645",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "IEEE Robotics and Automation Letters",
+     "field": "OA opsional (USD)",
+     "old": "2800",
+     "new": "2645",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "IEEE Sensors Journal",
+     "field": "OA opsional (USD)",
+     "old": "2800",
+     "new": "2645",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "IEEE Transactions on Control Systems Technology",
+     "field": "OA opsional (USD)",
+     "old": "2800",
+     "new": "2645",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "IEEE Transactions on Industrial Electronics",
+     "field": "OA opsional (USD)",
+     "old": "2800",
+     "new": "2645",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "IEEE Transactions on Intelligent Transportation Systems",
+     "field": "OA opsional (USD)",
+     "old": "2800",
+     "new": "2645",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "IEEE Transactions on Transportation Electrification",
+     "field": "OA opsional (USD)",
+     "old": "2800",
+     "new": "2645",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "IEEE Transactions on Vehicular Technology",
+     "field": "OA opsional (USD)",
+     "old": "2800",
+     "new": "2645",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "ISA Transactions",
+     "field": "OA opsional (USD)",
+     "old": "-",
+     "new": "4150",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "International Journal of Robust and Nonlinear Control",
+     "field": "OA opsional (USD)",
+     "old": "-",
+     "new": "4270",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "Internet of Things (Elsevier)",
+     "field": "OA opsional (USD)",
+     "old": "-",
+     "new": "2690",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "Journal of Field Robotics",
+     "field": "OA opsional (USD)",
+     "old": "-",
+     "new": "3590",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "Journal of Navigation",
+     "field": "OA opsional (USD)",
+     "old": "-",
+     "new": "3550",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "Journal of the Franklin Institute",
+     "field": "OA opsional (USD)",
+     "old": "-",
+     "new": "3100",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "Measurement",
+     "field": "OA opsional (USD)",
+     "old": "-",
+     "new": "3760",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "Nonlinear Dynamics",
+     "field": "OA opsional (USD)",
+     "old": "-",
+     "new": "4790",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "Robotics and Autonomous Systems",
+     "field": "OA opsional (USD)",
+     "old": "-",
+     "new": "3140",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "Transactions of the Institute of Measurement and Control",
+     "field": "OA opsional (USD)",
+     "old": "-",
+     "new": "4150",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "Journal of Shanghai Jiaotong University (Science)",
+     "field": "ISSN",
+     "old": "-",
+     "new": "1007-1172, 1995-8188",
+     "source": "OpenAlex (pencocokan nama 1.00) - mohon cek"
+    },
+    {
+     "type": "changed",
+     "journal": "Maritime Technology and Research (MTR)",
+     "field": "ISSN",
+     "old": "-",
+     "new": "2651-205X",
+     "source": "OpenAlex (pencocokan nama 1.00) - mohon cek"
+    },
+    {
+     "type": "changed",
+     "journal": "Naval Engineers Journal",
+     "field": "ISSN",
+     "old": "-",
+     "new": "0028-1425, 1559-3584",
+     "source": "OpenAlex (pencocokan nama 1.00) - mohon cek"
+    },
+    {
+     "type": "changed",
+     "journal": "CFD Letters",
+     "field": "ISSN",
+     "old": "-",
+     "new": "2180-1363",
+     "source": "OpenAlex (pencocokan nama 1.00) - mohon cek"
+    },
+    {
+     "type": "changed",
+     "journal": "Journal of Advanced Research in Fluid Mechanics and Thermal Sciences",
+     "field": "ISSN",
+     "old": "-",
+     "new": "2289-7879",
+     "source": "OpenAlex (pencocokan nama 1.00) - mohon cek"
+    },
+    {
+     "type": "changed",
+     "journal": "IEEE Open Journal of Intelligent Transportation Systems",
+     "field": "ISSN",
+     "old": "-",
+     "new": "2687-7813",
+     "source": "OpenAlex (pencocokan nama 1.00) - mohon cek"
+    },
+    {
+     "type": "changed",
+     "journal": "IEEE Open Journal of the Industrial Electronics Society",
+     "field": "ISSN",
+     "old": "-",
+     "new": "2644-1284",
+     "source": "OpenAlex (pencocokan nama 1.00) - mohon cek"
+    },
+    {
+     "type": "changed",
+     "journal": "Intelligent Marine Technology and Systems",
+     "field": "ISSN",
+     "old": "-",
+     "new": "2948-1953",
+     "source": "OpenAlex (pencocokan nama 1.00) - mohon cek"
+    },
+    {
+     "type": "changed",
+     "journal": "Journal of Control, Automation and Electrical Systems",
+     "field": "ISSN",
+     "old": "-",
+     "new": "2195-3880, 2195-3899",
+     "source": "OpenAlex (pencocokan nama 1.00) - mohon cek"
+    },
+    {
+     "type": "changed",
+     "journal": "Mechanical Engineering for Society and Industry (MESI)",
+     "field": "ISSN",
+     "old": "-",
+     "new": "2798-5245",
+     "source": "OpenAlex (pencocokan nama 1.00) - mohon cek"
+    },
+    {
+     "type": "changed",
+     "journal": "ALBACORE: Jurnal Penelitian Perikanan Laut",
+     "field": "ISSN",
+     "old": "-",
+     "new": "2549-1326, 2655-559X",
+     "source": "OpenAlex (pencocokan nama 1.00) - mohon cek"
+    },
+    {
+     "type": "changed",
+     "journal": "Journal of Earth and Marine Technology (JEMT)",
+     "field": "ISSN",
+     "old": "-",
+     "new": "2723-8105",
+     "source": "OpenAlex (pencocokan nama 1.00) - mohon cek"
+    },
+    {
+     "type": "changed",
+     "journal": "Journal of Marine-Earth Science and Technology (JMEST)",
+     "field": "ISSN",
+     "old": "-",
+     "new": "2774-5449",
+     "source": "OpenAlex (pencocokan nama 1.00) - mohon cek"
+    },
+    {
+     "type": "changed",
+     "journal": "Jurnal Ilmu dan Teknologi Kelautan Tropis",
+     "field": "ISSN",
+     "old": "-",
+     "new": "2085-6695, 2087-9423, 2620-309X",
+     "source": "OpenAlex (pencocokan nama 1.00) - mohon cek"
+    },
+    {
+     "type": "changed",
+     "journal": "Jurnal Maritim Malahayati (JUMAMA)",
+     "field": "ISSN",
+     "old": "-",
+     "new": "2775-0337, 2808-618X",
+     "source": "OpenAlex (pencocokan nama 1.00) - mohon cek"
+    },
+    {
+     "type": "changed",
+     "journal": "Jurnal Penelitian Transportasi Laut",
+     "field": "ISSN",
+     "old": "-",
+     "new": "1411-0504, 2548-4087",
+     "source": "OpenAlex (pencocokan nama 1.00) - mohon cek"
+    },
+    {
+     "type": "changed",
+     "journal": "Jurnal Riset & Teknologi Terapan Kemaritiman (JRT2K)",
+     "field": "ISSN",
+     "old": "-",
+     "new": "2962-3359",
+     "source": "OpenAlex (pencocokan nama 1.00) - mohon cek"
+    },
+    {
+     "type": "changed",
+     "journal": "Jurnal Riset Teknologi Perkapalan (JRTP)",
+     "field": "ISSN",
+     "old": "-",
+     "new": "3031-3767",
+     "source": "OpenAlex (pencocokan nama 1.00) - mohon cek"
+    },
+    {
+     "type": "changed",
+     "journal": "Jurnal Teknik ITS",
+     "field": "ISSN",
+     "old": "-",
+     "new": "2301-9271, 2337-3539",
+     "source": "OpenAlex (pencocokan nama 1.00) - mohon cek"
+    },
+    {
+     "type": "changed",
+     "journal": "Jurnal Teknologi Maritim (PPNS)",
+     "field": "ISSN",
+     "old": "-",
+     "new": "2620-4916, 2620-7540",
+     "source": "OpenAlex (pencocokan nama 1.00) - mohon cek"
+    },
+    {
+     "type": "changed",
+     "journal": "Maritime Park: Journal of Maritime Technology and Society",
+     "field": "ISSN",
+     "old": "-",
+     "new": "2828-6669, 2828-7010",
+     "source": "OpenAlex (pencocokan nama 1.00) - mohon cek"
+    },
+    {
+     "type": "changed",
+     "journal": "Saintara: Jurnal Ilmiah Ilmu-Ilmu Maritim",
+     "field": "ISSN",
+     "old": "-",
+     "new": "2528-6676, 2746-6353",
+     "source": "OpenAlex (pencocokan nama 1.00) - mohon cek"
+    },
+    {
+     "type": "changed",
+     "journal": "Warta Penelitian Perhubungan",
+     "field": "ISSN",
+     "old": "-",
+     "new": "0852-1824, 2580-1082",
+     "source": "OpenAlex (pencocokan nama 1.00) - mohon cek"
+    },
+    {
+     "type": "changed",
+     "journal": "Jurnal Polimesin",
+     "field": "ISSN",
+     "old": "-",
+     "new": "1693-5462, 2549-1199",
+     "source": "OpenAlex (pencocokan nama 1.00) - mohon cek"
+    },
+    {
+     "type": "changed",
+     "journal": "Jurnal Rekayasa Mesin (Universitas Brawijaya)",
+     "field": "ISSN",
+     "old": "-",
+     "new": "2338-1663, 2477-6041",
+     "source": "OpenAlex (pencocokan nama 1.00) - mohon cek"
+    },
+    {
+     "type": "changed",
+     "journal": "Majalah Ilmiah Pengkajian Industri (BRIN)",
+     "field": "ISSN",
+     "old": "-",
+     "new": "1410-3680, 2541-1233",
+     "source": "OpenAlex (pencocokan nama 1.00) - mohon cek"
+    },
+    {
+     "type": "changed",
+     "journal": "Mekanika: Majalah Ilmiah Mekanika",
+     "field": "ISSN",
+     "old": "-",
+     "new": "1412-7962, 2579-3144",
+     "source": "OpenAlex (pencocokan nama 1.00) - mohon cek"
+    },
+    {
+     "type": "changed",
+     "journal": "Rotasi (Teknik Mesin Undip)",
+     "field": "ISSN",
+     "old": "-",
+     "new": "1411-027X, 2406-9620",
+     "source": "OpenAlex (pencocokan nama 1.00) - mohon cek"
+    },
+    {
+     "type": "changed",
+     "journal": "Buletin Ilmiah Sarjana Teknik Elektro (BISTE)",
+     "field": "ISSN",
+     "old": "-",
+     "new": "2685-7936, 2685-9572",
+     "source": "OpenAlex (pencocokan nama 1.00) - mohon cek"
+    },
+    {
+     "type": "changed",
+     "journal": "EMITTER International Journal of Engineering Technology",
+     "field": "ISSN",
+     "old": "-",
+     "new": "2355-391X, 2443-1168",
+     "source": "OpenAlex (pencocokan nama 1.00) - mohon cek"
+    },
+    {
+     "type": "changed",
+     "journal": "IJEIS (Indonesian Journal of Electronics and Instrumentation Systems)",
+     "field": "ISSN",
+     "old": "-",
+     "new": "2088-3714, 2460-7681",
+     "source": "OpenAlex (pencocokan nama 1.00) - mohon cek"
+    },
+    {
+     "type": "changed",
+     "journal": "International Journal of Naval Architecture and Ocean Engineering (IJNAOE)",
+     "field": "Nominal biaya",
+     "old": "1200",
+     "new": "1400",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "International Journal of Naval Architecture and Ocean Engineering (IJNAOE)",
+     "field": "Biaya",
+     "old": "APC hingga USD 1.200 (ada kebijakan keringanan/waiver)",
+     "new": "APC USD 1.400 (menurut DOAJ); ada kebijakan keringanan",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "International Marine Energy Journal",
+     "field": "Nominal biaya",
+     "old": "-",
+     "new": "0",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "International Marine Energy Journal",
+     "field": "Mata uang",
+     "old": "-",
+     "new": "USD",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "International Marine Energy Journal",
+     "field": "Biaya",
+     "old": "Kemungkinan tanpa APC - konfirmasi",
+     "new": "Gratis (tanpa APC, menurut DOAJ)",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "Journal of International Maritime Safety, Environmental Affairs, and Shipping",
+     "field": "Nominal biaya",
+     "old": "-",
+     "new": "1000",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "Journal of International Maritime Safety, Environmental Affairs, and Shipping",
+     "field": "Mata uang",
+     "old": "-",
+     "new": "USD",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "Journal of International Maritime Safety, Environmental Affairs, and Shipping",
+     "field": "Biaya",
+     "old": "APC berlaku (nominal belum terverifikasi)",
+     "new": "APC USD 1.000 (menurut DOAJ); ada kebijakan keringanan",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "Journal of Ocean Engineering and Science",
+     "field": "Nominal biaya",
+     "old": "-",
+     "new": "1800",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "Journal of Ocean Engineering and Science",
+     "field": "Mata uang",
+     "old": "-",
+     "new": "USD",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "Journal of Ocean Engineering and Science",
+     "field": "Biaya",
+     "old": "APC berlaku (nominal belum terverifikasi; cek situs)",
+     "new": "APC USD 1.800 (menurut DOAJ)",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "Maritime Transport Research",
+     "field": "Nominal biaya",
+     "old": "1500",
+     "new": "2370",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "Maritime Transport Research",
+     "field": "Biaya",
+     "old": "APC hingga USD 1.500 (ada waiver)",
+     "new": "APC USD 2.370 (menurut DOAJ); ada kebijakan keringanan",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "Engineering Applications of Computational Fluid Mechanics",
+     "field": "Nominal biaya",
+     "old": "-",
+     "new": "2630",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "Engineering Applications of Computational Fluid Mechanics",
+     "field": "Mata uang",
+     "old": "-",
+     "new": "USD",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "Engineering Applications of Computational Fluid Mechanics",
+     "field": "Biaya",
+     "old": "APC berlaku (nominal belum terverifikasi)",
+     "new": "APC USD 2.630 (menurut DOAJ); ada kebijakan keringanan",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "Fluids",
+     "field": "Nominal biaya",
+     "old": "-",
+     "new": "1800",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "Fluids",
+     "field": "Mata uang",
+     "old": "-",
+     "new": "CHF",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "Fluids",
+     "field": "Biaya",
+     "old": "APC MDPI (nominal belum dicek)",
+     "new": "APC CHF 1.800 (menurut DOAJ); ada kebijakan keringanan",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "Latin American Journal of Solids and Structures",
+     "field": "Nominal biaya",
+     "old": "-",
+     "new": "1000",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "Latin American Journal of Solids and Structures",
+     "field": "Mata uang",
+     "old": "-",
+     "new": "EUR",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "Latin American Journal of Solids and Structures",
+     "field": "Biaya",
+     "old": "Kemungkinan tanpa APC - konfirmasi",
+     "new": "APC EUR 1.000 (menurut DOAJ)",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "Applied Sciences",
+     "field": "Nominal biaya",
+     "old": "-",
+     "new": "2400",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "Applied Sciences",
+     "field": "Mata uang",
+     "old": "-",
+     "new": "CHF",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "Applied Sciences",
+     "field": "Biaya",
+     "old": "APC MDPI (nominal belum dicek)",
+     "new": "APC CHF 2.400 (menurut DOAJ); ada kebijakan keringanan",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "Drones",
+     "field": "Nominal biaya",
+     "old": "-",
+     "new": "2600",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "Drones",
+     "field": "Mata uang",
+     "old": "-",
+     "new": "CHF",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "Drones",
+     "field": "Biaya",
+     "old": "APC MDPI (nominal belum dicek)",
+     "new": "APC CHF 2.600 (menurut DOAJ); ada kebijakan keringanan",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "International Journal of Advanced Robotic Systems",
+     "field": "Nominal biaya",
+     "old": "-",
+     "new": "2000",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "International Journal of Advanced Robotic Systems",
+     "field": "Mata uang",
+     "old": "-",
+     "new": "USD",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "International Journal of Advanced Robotic Systems",
+     "field": "Biaya",
+     "old": "APC berlaku (nominal belum terverifikasi)",
+     "new": "APC USD 2.000 (menurut DOAJ); ada kebijakan keringanan",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "Sensors",
+     "field": "Nominal biaya",
+     "old": "-",
+     "new": "2600",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "Sensors",
+     "field": "Mata uang",
+     "old": "-",
+     "new": "CHF",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "Sensors",
+     "field": "Biaya",
+     "old": "APC MDPI (nominal belum dicek; kisaran CHF 2.400-2.700)",
+     "new": "APC CHF 2.600 (menurut DOAJ); ada kebijakan keringanan",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "FME Transactions",
+     "field": "Nominal biaya",
+     "old": "-",
+     "new": "0",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "FME Transactions",
+     "field": "Mata uang",
+     "old": "-",
+     "new": "USD",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "FME Transactions",
+     "field": "Biaya",
+     "old": "Belum terverifikasi",
+     "new": "Gratis (tanpa APC, menurut DOAJ)",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "Journal of Mechanical Engineering and Sciences",
+     "field": "Nominal biaya",
+     "old": "-",
+     "new": "0",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "Journal of Mechanical Engineering and Sciences",
+     "field": "Mata uang",
+     "old": "-",
+     "new": "USD",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "Journal of Mechanical Engineering and Sciences",
+     "field": "Biaya",
+     "old": "Belum terverifikasi",
+     "new": "Gratis (tanpa APC, menurut DOAJ)",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "Nase More (Our Sea)",
+     "field": "Nominal biaya",
+     "old": "-",
+     "new": "0",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "Nase More (Our Sea)",
+     "field": "Mata uang",
+     "old": "-",
+     "new": "USD",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "Nase More (Our Sea)",
+     "field": "Biaya",
+     "old": "Belum terverifikasi",
+     "new": "Gratis (tanpa APC, menurut DOAJ)",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "TransNav - Int. J. on Marine Navigation and Safety of Sea Transportation",
+     "field": "Nominal biaya",
+     "old": "-",
+     "new": "500",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "TransNav - Int. J. on Marine Navigation and Safety of Sea Transportation",
+     "field": "Mata uang",
+     "old": "-",
+     "new": "EUR",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "TransNav - Int. J. on Marine Navigation and Safety of Sea Transportation",
+     "field": "Biaya",
+     "old": "Belum terverifikasi",
+     "new": "APC EUR 500 (menurut DOAJ)",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "Jurnal Teknik ITS",
+     "field": "Nominal biaya",
+     "old": "-",
+     "new": "0",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "Jurnal Teknik ITS",
+     "field": "Mata uang",
+     "old": "-",
+     "new": "USD",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "Jurnal Teknik ITS",
+     "field": "Biaya",
+     "old": "Belum terverifikasi",
+     "new": "Gratis (tanpa APC, menurut DOAJ)",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "Mekanika: Majalah Ilmiah Mekanika",
+     "field": "Nominal biaya",
+     "old": "-",
+     "new": "0",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "Mekanika: Majalah Ilmiah Mekanika",
+     "field": "Mata uang",
+     "old": "-",
+     "new": "USD",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "Mekanika: Majalah Ilmiah Mekanika",
+     "field": "Biaya",
+     "old": "Belum terverifikasi",
+     "new": "Gratis (tanpa APC, menurut DOAJ)",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "JAREE (Journal on Advanced Research in Electrical Engineering)",
+     "field": "Nominal biaya",
+     "old": "-",
+     "new": "0",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "JAREE (Journal on Advanced Research in Electrical Engineering)",
+     "field": "Mata uang",
+     "old": "-",
+     "new": "USD",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "JAREE (Journal on Advanced Research in Electrical Engineering)",
+     "field": "Biaya",
+     "old": "Belum terverifikasi",
+     "new": "Gratis (tanpa APC, menurut DOAJ)",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "JUTI: Jurnal Ilmiah Teknologi Informasi",
+     "field": "Nominal biaya",
+     "old": "-",
+     "new": "0",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "JUTI: Jurnal Ilmiah Teknologi Informasi",
+     "field": "Mata uang",
+     "old": "-",
+     "new": "USD",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "JUTI: Jurnal Ilmiah Teknologi Informasi",
+     "field": "Biaya",
+     "old": "Belum terverifikasi",
+     "new": "Gratis (tanpa APC, menurut DOAJ)",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "Jurnal RESTI (Rekayasa Sistem dan Teknologi Informasi)",
+     "field": "Nominal biaya",
+     "old": "-",
+     "new": "200",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "Jurnal RESTI (Rekayasa Sistem dan Teknologi Informasi)",
+     "field": "Mata uang",
+     "old": "-",
+     "new": "USD",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "Jurnal RESTI (Rekayasa Sistem dan Teknologi Informasi)",
+     "field": "Biaya",
+     "old": "Belum terverifikasi",
+     "new": "APC USD 200 (menurut DOAJ); ada kebijakan keringanan",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "International Shipbuilding Progress",
+     "field": "Nominal biaya",
+     "old": "-",
+     "new": "4150",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "International Shipbuilding Progress",
+     "field": "Mata uang",
+     "old": "-",
+     "new": "USD",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "International Shipbuilding Progress",
+     "field": "Biaya",
+     "old": "Status APC belum terverifikasi - cek situs",
+     "new": "APC USD 4.150 (indikatif. OpenAlex)",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "Electronics",
+     "field": "Nominal biaya",
+     "old": "-",
+     "new": "2400",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "Electronics",
+     "field": "Mata uang",
+     "old": "-",
+     "new": "CHF",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "Electronics",
+     "field": "Biaya",
+     "old": "APC MDPI (nominal belum dicek)",
+     "new": "APC CHF 2.400 (indikatif. OpenAlex)",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "Journal of Intelligent & Robotic Systems",
+     "field": "Nominal biaya",
+     "old": "-",
+     "new": "3090",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "Journal of Intelligent & Robotic Systems",
+     "field": "Mata uang",
+     "old": "-",
+     "new": "USD",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "Journal of Intelligent & Robotic Systems",
+     "field": "Biaya",
+     "old": "APC Springer berlaku (nominal belum terverifikasi)",
+     "new": "APC USD 3.090 (indikatif. OpenAlex)",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "Tehnicki vjesnik - Technical Gazette",
+     "field": "Nominal biaya",
+     "old": "-",
+     "new": "400",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "Tehnicki vjesnik - Technical Gazette",
+     "field": "Mata uang",
+     "old": "-",
+     "new": "EUR",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "Tehnicki vjesnik - Technical Gazette",
+     "field": "Biaya",
+     "old": "APC berlaku (nominal belum terverifikasi)",
+     "new": "APC EUR 400 (indikatif. OpenAlex)",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "China Ocean Engineering",
+     "field": "Waktu submit-accept (bln)",
+     "old": "4, 8",
+     "new": "3.5, 6.6",
+     "source": "Crossref (median 146 hari, n=147)"
+    },
+    {
+     "type": "changed",
+     "journal": "Journal of Marine Engineering & Technology",
+     "field": "Waktu submit-accept (bln)",
+     "old": "5, 9",
+     "new": "4.0, 9.6",
+     "source": "Crossref (median 178 hari, n=101)"
+    },
+    {
+     "type": "changed",
+     "journal": "Journal of Marine Science and Application",
+     "field": "Waktu submit-accept (bln)",
+     "old": "4, 8",
+     "new": "2.0, 4.7",
+     "source": "Crossref (median 90 hari, n=199)"
+    },
+    {
+     "type": "changed",
+     "journal": "Journal of Marine Science and Technology (JASNAOE)",
+     "field": "Waktu submit-accept (bln)",
+     "old": "4, 8",
+     "new": "6.2, 11.7",
+     "source": "Crossref (median 272 hari, n=81)"
+    },
+    {
+     "type": "changed",
+     "journal": "Journal of Ocean Engineering and Marine Energy",
+     "field": "Waktu submit-accept (bln)",
+     "old": "4, 8",
+     "new": "3.6, 6.7",
+     "source": "Crossref (median 153 hari, n=151)"
+    },
+    {
+     "type": "changed",
+     "journal": "Journal of Ocean Engineering and Technology (KSOE)",
+     "field": "Waktu submit-accept (bln)",
+     "old": "3, 6",
+     "new": "1.4, 2.9",
+     "source": "Crossref (median 54 hari, n=94)"
+    },
+    {
+     "type": "changed",
+     "journal": "Journal of Ocean University of China",
+     "field": "Waktu submit-accept (bln)",
+     "old": "4, 8",
+     "new": "2.4, 5.3",
+     "source": "Crossref (median 110 hari, n=199)"
+    },
+    {
+     "type": "changed",
+     "journal": "Journal of Shanghai Jiaotong University (Science)",
+     "field": "Waktu submit-accept (bln)",
+     "old": "4, 8",
+     "new": "2.0, 3.4",
+     "source": "Crossref (median 82 hari, n=135)"
+    },
+    {
+     "type": "changed",
+     "journal": "Journal of the Institution of Engineers (India): Series C",
+     "field": "Waktu submit-accept (bln)",
+     "old": "4, 8",
+     "new": "5.1, 11.3",
+     "source": "Crossref (median 220 hari, n=197)"
+    },
+    {
+     "type": "changed",
+     "journal": "Marine Systems & Ocean Technology",
+     "field": "Waktu submit-accept (bln)",
+     "old": "4, 8",
+     "new": "3.2, 6.5",
+     "source": "Crossref (median 128 hari, n=68)"
+    },
+    {
+     "type": "changed",
+     "journal": "Ship Technology Research (Schiffstechnik)",
+     "field": "Waktu submit-accept (bln)",
+     "old": "5, 9",
+     "new": "1.5, 7.7",
+     "source": "Crossref (median 82 hari, n=23)"
+    },
+    {
+     "type": "changed",
+     "journal": "Ships and Offshore Structures",
+     "field": "Waktu submit-accept (bln)",
+     "old": "7, 9",
+     "new": "3.0, 6.5",
+     "source": "Crossref (median 129 hari, n=199)"
+    },
+    {
+     "type": "changed",
+     "journal": "WMU Journal of Maritime Affairs",
+     "field": "Waktu submit-accept (bln)",
+     "old": "4, 8",
+     "new": "4.5, 10.3",
+     "source": "Crossref (median 214 hari, n=50)"
+    },
+    {
+     "type": "changed",
+     "journal": "Engineering Applications of Computational Fluid Mechanics",
+     "field": "Waktu submit-accept (bln)",
+     "old": "5, 9",
+     "new": "2.7, 5.0",
+     "source": "Crossref (median 113 hari, n=193)"
+    },
+    {
+     "type": "changed",
+     "journal": "Experiments in Fluids",
+     "field": "Waktu submit-accept (bln)",
+     "old": "4, 8",
+     "new": "2.9, 5.3",
+     "source": "Crossref (median 124 hari, n=196)"
+    },
+    {
+     "type": "changed",
+     "journal": "International Journal for Numerical Methods in Fluids",
+     "field": "Waktu submit-accept (bln)",
+     "old": "5, 9",
+     "new": "4.3, 9.2",
+     "source": "Crossref (median 207 hari, n=109)"
+    },
+    {
+     "type": "changed",
+     "journal": "Journal of Hydrodynamics",
+     "field": "Waktu submit-accept (bln)",
+     "old": "4, 8",
+     "new": "0.7, 2.0",
+     "source": "Crossref (median 34 hari, n=118)"
+    },
+    {
+     "type": "changed",
+     "journal": "Mechanics Based Design of Structures and Machines",
+     "field": "Waktu submit-accept (bln)",
+     "old": "5, 9",
+     "new": "2.3, 5.4",
+     "source": "Crossref (median 100 hari, n=198)"
+    },
+    {
+     "type": "changed",
+     "journal": "Structure and Infrastructure Engineering",
+     "field": "Waktu submit-accept (bln)",
+     "old": "5, 9",
+     "new": "3.9, 6.3",
+     "source": "Crossref (median 149 hari, n=199)"
+    },
+    {
+     "type": "changed",
+     "journal": "Welding in the World",
+     "field": "Waktu submit-accept (bln)",
+     "old": "4, 8",
+     "new": "2.9, 6.4",
+     "source": "Crossref (median 138 hari, n=195)"
+    },
+    {
+     "type": "changed",
+     "journal": "Asian Journal of Control",
+     "field": "Waktu submit-accept (bln)",
+     "old": "5, 9",
+     "new": "4.5, 9.7",
+     "source": "Crossref (median 187 hari, n=191)"
+    },
+    {
+     "type": "changed",
+     "journal": "Intelligent Marine Technology and Systems",
+     "field": "Waktu submit-accept (bln)",
+     "old": "4, 8",
+     "new": "2.4, 4.8",
+     "source": "Crossref (median 102 hari, n=57)"
+    },
+    {
+     "type": "changed",
+     "journal": "International Journal of Robust and Nonlinear Control",
+     "field": "Waktu submit-accept (bln)",
+     "old": "5, 9",
+     "new": "5.2, 11.5",
+     "source": "Crossref (median 236 hari, n=194)"
+    },
+    {
+     "type": "changed",
+     "journal": "Journal of Control, Automation and Electrical Systems",
+     "field": "Waktu submit-accept (bln)",
+     "old": "4, 8",
+     "new": "4.2, 9.0",
+     "source": "Crossref (median 198 hari, n=167)"
+    },
+    {
+     "type": "changed",
+     "journal": "Journal of Field Robotics",
+     "field": "Waktu submit-accept (bln)",
+     "old": "5, 9",
+     "new": "6.0, 12.4",
+     "source": "Crossref (median 270 hari, n=190)"
+    },
+    {
+     "type": "changed",
+     "journal": "Nonlinear Dynamics",
+     "field": "Waktu submit-accept (bln)",
+     "old": "4, 8",
+     "new": "2.3, 5.3",
+     "source": "Crossref (median 107 hari, n=195)"
+    },
+    {
+     "type": "changed",
+     "journal": "International Journal of Renewable Energy Development (IJRED)",
+     "field": "Waktu submit-accept (bln)",
+     "old": "3, 6",
+     "new": "2.8, 5.8",
+     "source": "Crossref (median 120 hari, n=156)"
+    },
+    {
+     "type": "changed",
+     "journal": "Kapal: Jurnal Ilmu Pengetahuan dan Teknologi Kelautan",
+     "field": "Waktu submit-accept (bln)",
+     "old": "2, 4",
+     "new": "1.7, 5.6",
+     "source": "Crossref (median 122 hari, n=16)"
+    }
+   ],
+   "sources": [
+    "OpenAlex",
+    "DOAJ",
+    "Crossref"
+   ]
   }
  ],
- "hash": "8f0abbac3f300a3f"
+ "hash": "37a3ad035e382b0f"
 }
