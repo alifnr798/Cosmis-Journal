@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="Rekomendasi jurnal Scopus dan SINTA untuk teknik perkapalan: hidrodinamika, desain, struktur, kendali dan IoT. Bisa dipakai offline.">
+<meta name="theme-color" content="#0d2a33">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<style>[hidden]{display:none!important}:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}</style>
+</head>
+<body>
+<title>Kompas Jurnal Perkapalan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Tata letak: dua kolom - panel kriteria lengket di kiri, daftar rekomendasi di kanan; satu kolom di layar HP */
+:root {
+  --bg: #ecf1f1;
+  --surface: #fbfcfc;
+  --surface-2: #f2f6f6;
+  --ink: #0d2a33;
+  --ink-2: #44606a;
+  --muted: #6b8086;
+  --line: #d0dadb;
+  --accent: #c2410c;
+  --accent-ink: #ffffff;
+  --accent-soft: #fbe6dc;
+  --sea: #0e6676;
+  --sea-soft: #d9eaec;
+  --good: #1d7a3e;
+  --good-soft: #def0e4;
+  --warn: #8f5500;
+  --warn-soft: #f6ead2;
+  --shadow: 0 1px 2px rgba(13, 42, 51, .06), 0 6px 18px rgba(13, 42, 51, .06);
+  --font-display: "Barlow Semi Condensed", "Arial Narrow", system-ui, sans-serif;
+  --font-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --r: 10px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0a181d; --surface: #10242a; --surface-2: #142c33; --ink: #e3eded; --ink-2: #a9bec2; --muted: #80969b;
+    --line: #23404a; --accent: #f0763d; --accent-ink: #1a0d06; --accent-soft: #3a2117; --sea: #62c4d1; --sea-soft: #173a42;
+    --good: #5fcf86; --good-soft: #15352a; --warn: #f0b456; --warn-soft: #3a2c13;
+    --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 8px 22px rgba(0, 0, 0, .25);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0a181d; --surface: #10242a; --surface-2: #142c33; --ink: #e3eded; --ink-2: #a9bec2; --muted: #80969b;
+  --line: #23404a; --accent: #f0763d; --accent-ink: #1a0d06; --accent-soft: #3a2117; --sea: #62c4d1; --sea-soft: #173a42;
+  --good: #5fcf86; --good-soft: #15352a; --warn: #f0b456; --warn-soft: #3a2c13;
+  --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 8px 22px rgba(0, 0, 0, .25);
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.5 var(--font-body); }
+a { color: var(--sea); }
+button, input, select, textarea { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.mono { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+
+/* ---------- bar atas */
+.topbar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; background: var(--surface); border-bottom: 1px solid var(--line); }
+.topbar-inner { max-width: 1280px; margin: 0 auto; padding-block: 10px; padding-inline: 16px; display: flex; flex-wrap: wrap; align-items: center; gap: 10px 18px; }
+.brand { display: flex; align-items: center; gap: 10px; min-width: 0; }
+.brand svg { flex: none; }
+.brand h1 { margin: 0; font: 700 1.45rem/1 var(--font-display); letter-spacing: .01em; text-wrap: balance; }
+.brand small { display: block; font: 500 .72rem/1.2 var(--font-body); color: var(--muted); letter-spacing: .06em; text-transform: uppercase; margin-top: 3px; }
+.status { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 14px; margin-left: auto; font-size: .82rem; color: var(--ink-2); }
+.dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; vertical-align: 1px; background: var(--muted); }
+.dot.on { background: var(--good); }
+.dot.off { background: var(--warn); }
+.tb-actions { display: flex; flex-wrap: wrap; gap: 6px; }
+.btn { display: inline-flex; align-items: center; gap: 6px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); padding: 6px 12px; border-radius: 8px; cursor: pointer; font-size: .86rem; font-weight: 500; text-decoration: none; }
+.btn:hover { border-color: var(--sea); }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.btn.primary:hover { filter: brightness(1.06); }
+.btn.ghost { background: transparent; }
+.btn.small { padding: 4px 9px; font-size: .8rem; }
+.btn[disabled] { opacity: .55; cursor: default; }
+.badge-new { background: var(--accent); color: var(--accent-ink); border-radius: 999px; font-size: .7rem; padding: 0 6px; font-weight: 600; }
+
+.banner { max-width: 1280px; margin: 12px auto 0; padding-inline: 16px; }
+.banner-box { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; background: var(--accent-soft); border: 1px solid var(--accent); border-radius: var(--r); padding: 10px 14px; }
+.banner-box p { margin: 0; flex: 1 1 260px; min-width: 0; }
+
+/* ---------- tata letak utama */
+.layout { max-width: 1280px; margin: 0 auto; padding-block: 16px 40px; padding-inline: 16px; display: grid; grid-template-columns: minmax(300px, 380px) minmax(0, 1fr); gap: 20px; align-items: start; }
+@media (max-width: 860px) { .layout { grid-template-columns: minmax(0, 1fr); } }
+
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 16px; display: grid; gap: 18px; position: sticky; top: calc(env(safe-area-inset-top, 0px) + 74px); max-height: calc(100vh - 90px); overflow: auto; }
+@media (max-width: 860px) { .panel { position: static; max-height: none; } }
+.panel h2, .results h2 { margin: 0; font: 600 1.15rem/1.2 var(--font-display); letter-spacing: .02em; text-transform: uppercase; color: var(--ink-2); }
+.fs { border: 0; padding: 0; margin: 0; display: grid; gap: 8px; min-width: 0; }
+.fs legend, .lbl { padding: 0; font-size: .74rem; font-weight: 600; letter-spacing: .07em; text-transform: uppercase; color: var(--muted); margin-bottom: 2px; }
+textarea { width: 100%; min-height: 108px; resize: vertical; border: 1px solid var(--line); border-radius: 8px; background: var(--surface-2); padding: 10px 12px; line-height: 1.45; }
+.hint { font-size: .78rem; color: var(--muted); margin: 0; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { display: inline-flex; align-items: center; gap: 5px; border: 1px solid var(--line); background: var(--surface-2); border-radius: 999px; padding: 3px 10px; font-size: .8rem; cursor: pointer; user-select: none; }
+.chip[aria-pressed="true"] { background: var(--sea-soft); border-color: var(--sea); color: var(--ink); }
+.chip.off { text-decoration: line-through; opacity: .55; }
+.chip .x { color: var(--muted); }
+.fcode { font: 600 .74rem/1 var(--font-mono); background: var(--ink); color: var(--surface); border-radius: 4px; padding: 3px 5px; }
+.seg { display: flex; flex-wrap: wrap; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+.seg label { flex: 1 1 auto; text-align: center; cursor: pointer; font-size: .82rem; padding: 6px 8px; border-right: 1px solid var(--line); background: var(--surface-2); }
+.seg label:last-child { border-right: 0; }
+.seg input { position: absolute; opacity: 0; pointer-events: none; }
+.seg input:checked + span { color: var(--accent); font-weight: 600; }
+.seg label:has(input:checked) { background: var(--surface); box-shadow: inset 0 -2px 0 var(--accent); }
+.seg label:has(input:focus-visible) { outline: 2px solid var(--accent); outline-offset: -2px; }
+.checks { display: grid; grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); gap: 4px 10px; font-size: .86rem; }
+.checks label, .check { display: flex; align-items: center; gap: 6px; cursor: pointer; font-size: .86rem; }
+.subhead { font-size: .76rem; color: var(--ink-2); font-weight: 600; margin-top: 2px; }
+input[type=range] { width: 100%; accent-color: var(--accent); }
+.range-row { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; font-size: .85rem; }
+.panel-foot { display: flex; gap: 8px; flex-wrap: wrap; }
+.adv { border-top: 1px solid var(--line); padding-top: 12px; }
+.adv summary { cursor: pointer; display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; list-style: none; }
+.adv summary::-webkit-details-marker { display: none; }
+.adv summary::before { content: "▸"; color: var(--accent); font-size: .9rem; transition: transform .15s ease; }
+.adv[open] summary::before { transform: rotate(90deg); }
+.adv-title { font: 600 1rem/1.2 var(--font-display); letter-spacing: .04em; text-transform: uppercase; color: var(--ink-2); }
+.adv-sum { font-size: .8rem; color: var(--muted); min-width: 0; }
+.adv-body { display: grid; gap: 18px; margin-top: 14px; }
+@media (max-width: 860px) {
+  .topbar { position: static; }
+  .status { margin-left: 0; width: 100%; font-size: .78rem; }
+  .brand h1 { font-size: 1.3rem; }
+}
+
+/* ---------- hasil */
+.results { display: grid; gap: 12px; min-width: 0; }
+.res-head { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 8px 16px; }
+.res-head p { margin: 4px 0 0; color: var(--ink-2); font-size: .9rem; }
+.res-head strong { color: var(--ink); }
+.list { display: grid; gap: 10px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 14px 16px; display: grid; grid-template-columns: 44px minmax(0, 1fr) auto; gap: 4px 14px; }
+.card:hover { box-shadow: var(--shadow); }
+.rank { font: 700 1.5rem/1 var(--font-display); color: var(--muted); padding-top: 2px; font-variant-numeric: tabular-nums; }
+.card-main { min-width: 0; display: grid; gap: 7px; }
+.card h3 { margin: 0; font: 600 1.06rem/1.3 var(--font-body); text-wrap: balance; overflow-wrap: anywhere; }
+.meta { font-size: .83rem; color: var(--ink-2); display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: center; }
+.tier { font: 600 .74rem/1 var(--font-mono); border-radius: 4px; padding: 4px 6px; letter-spacing: .02em; border: 1px solid var(--line); background: var(--surface-2); color: var(--ink); white-space: nowrap; }
+.tier.q1 { background: var(--ink); color: var(--surface); border-color: var(--ink); }
+.tier.q2 { background: var(--sea); color: var(--surface); border-color: var(--sea); }
+.tier.sinta { background: var(--good-soft); border-color: var(--good); color: var(--ink); }
+.fields { display: inline-flex; gap: 3px; }
+.fields span { font: 600 .7rem/1 var(--font-mono); padding: 3px 4px; border-radius: 3px; border: 1px solid var(--line); color: var(--muted); }
+.fields span.on { background: var(--sea-soft); border-color: var(--sea); color: var(--ink); }
+.stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+@media (max-width: 560px) { .stats { grid-template-columns: minmax(0, 1fr); } }
+.stat { background: var(--surface-2); border-radius: 8px; padding: 7px 10px; min-width: 0; }
+.stat .k { font-size: .7rem; font-weight: 600; letter-spacing: .07em; text-transform: uppercase; color: var(--muted); }
+.stat .v { font-size: .9rem; font-weight: 500; overflow-wrap: anywhere; }
+.stat .s { font-size: .72rem; color: var(--muted); }
+.stat .s.ok { color: var(--good); }
+.why { display: flex; flex-wrap: wrap; gap: 5px; font-size: .78rem; }
+.why span { border-radius: 999px; padding: 2px 8px; background: var(--sea-soft); color: var(--ink); }
+.why span.pick { background: var(--accent-soft); }
+.score { text-align: right; display: grid; gap: 4px; justify-items: end; align-content: start; }
+.score b { font: 700 1.6rem/1 var(--font-display); font-variant-numeric: tabular-nums; }
+.score small { font-size: .68rem; color: var(--muted); letter-spacing: .06em; text-transform: uppercase; }
+.meter { width: 64px; height: 5px; border-radius: 3px; background: var(--line); overflow: hidden; }
+.meter i { display: block; height: 100%; background: var(--accent); }
+.card-actions { display: flex; flex-wrap: wrap; gap: 6px; }
+.details { grid-column: 2 / -1; border-top: 1px dashed var(--line); margin-top: 6px; padding-top: 10px; font-size: .85rem; }
+.details dl { display: grid; grid-template-columns: minmax(120px, 190px) minmax(0, 1fr); gap: 4px 14px; margin: 0; }
+.details dt { color: var(--muted); }
+.details dd { margin: 0; overflow-wrap: anywhere; }
+@media (max-width: 560px) {
+  .card { grid-template-columns: 30px minmax(0, 1fr); }
+  .score { grid-column: 2; justify-items: start; text-align: left; grid-row: 2; display: flex; align-items: center; gap: 8px; }
+  .details { grid-column: 1 / -1; }
+  .details dl { grid-template-columns: minmax(0, 1fr); }
+  .details dt { margin-top: 6px; }
+}
+.empty { background: var(--surface); border: 1px dashed var(--line); border-radius: var(--r); padding: 24px; color: var(--ink-2); }
+.more { justify-self: center; }
+.note-line { font-size: .82rem; color: var(--ink-2); }
+footer { max-width: 1280px; margin: 0 auto; padding-block: 0 40px; padding-inline: 16px; font-size: .78rem; color: var(--muted); }
+
+/* ---------- dialog */
+dialog { border: 1px solid var(--line); border-radius: 12px; background: var(--surface); color: var(--ink); padding: 0; width: min(680px, calc(100vw - 32px)); max-height: calc(100vh - 48px); box-shadow: var(--shadow); }
+dialog::backdrop { background: rgba(5, 20, 25, .45); }
+.dlg-head { display: flex; justify-content: space-between; align-items: center; gap: 10px; padding: 14px 18px; border-bottom: 1px solid var(--line); position: sticky; top: 0; background: var(--surface); }
+.dlg-head h2 { margin: 0; font: 600 1.25rem/1.2 var(--font-display); }
+.dlg-body { padding: 16px 18px 20px; display: grid; gap: 14px; }
+.dlg-body p { margin: 0; }
+.log { display: grid; gap: 14px; }
+.log-entry { border-left: 3px solid var(--line); padding-left: 12px; }
+.log-entry.fresh { border-left-color: var(--accent); }
+.log-entry h3 { margin: 0 0 4px; font-size: .95rem; }
+.log-entry ul { margin: 6px 0 0; padding-left: 18px; font-size: .86rem; }
+.log-entry li { margin: 3px 0; }
+.tag-add { color: var(--good); font-weight: 600; }
+.tag-chg { color: var(--sea); font-weight: 600; }
+.tag-del { color: var(--accent); font-weight: 600; }
+.form-grid { display: grid; gap: 10px; }
+.form-grid label { display: grid; gap: 4px; font-size: .84rem; font-weight: 500; }
+.form-grid input, .form-grid select, .form-grid textarea { border: 1px solid var(--line); border-radius: 8px; background: var(--surface-2); padding: 8px 10px; width: 100%; }
+pre.report { white-space: pre-wrap; overflow-wrap: anywhere; background: var(--surface-2); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; font: .8rem/1.5 var(--font-mono); margin: 0; max-height: 220px; overflow: auto; }
+.row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.kv { display: grid; grid-template-columns: minmax(130px, 200px) minmax(0, 1fr); gap: 4px 12px; font-size: .86rem; }
+.kv dt { color: var(--muted); }
+.kv dd { margin: 0; overflow-wrap: anywhere; }
+.toast { position: fixed; left: 50%; bottom: calc(env(safe-area-inset-bottom, 0px) + 18px); transform: translateX(-50%); background: var(--ink); color: var(--surface); padding: 10px 16px; border-radius: 8px; font-size: .88rem; z-index: 50; max-width: calc(100vw - 32px); box-shadow: var(--shadow); display: flex; gap: 10px; align-items: center; }
+.toast button { background: transparent; border: 1px solid currentColor; color: inherit; border-radius: 6px; padding: 2px 8px; cursor: pointer; }
+.confirm-box { background: var(--warn-soft); border: 1px solid var(--warn); border-radius: 8px; padding: 10px 12px; display: grid; gap: 8px; font-size: .86rem; }
+@media (prefers-reduced-motion: no-preference) {
+  .card { transition: box-shadow .15s ease; }
+}
+</style>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand">
+      <svg width="38" height="38" viewBox="0 0 40 40" aria-hidden="true">
+        <circle cx="20" cy="20" r="12.5" fill="none" stroke="var(--ink)" stroke-width="3"></circle>
+        <rect x="2" y="18.5" width="36" height="3" fill="var(--accent)"></rect>
+        <rect x="16" y="9" width="2" height="5" fill="var(--ink)"></rect>
+      </svg>
+      <div>
+        <h1>Kompas Jurnal Perkapalan</h1>
+        <small>Rekomendasi jurnal Scopus &amp; SINTA</small>
+      </div>
+    </div>
+    <div class="status" aria-live="polite">
+      <span><span id="net-dot" class="dot"></span><span id="net-label">Memeriksa koneksi</span></span>
+      <span id="db-label" class="mono">Memuat data</span>
+    </div>
+    <div class="tb-actions">
+      <button class="btn" id="btn-check" type="button">Cek pembaruan</button>
+      <button class="btn" id="btn-changes" type="button">Apa yang berubah <span id="new-badge" class="badge-new" hidden>baru</span></button>
+      <button class="btn" id="btn-data" type="button">Data</button>
+    </div>
+  </div>
+</header>
+
+<div class="banner" id="update-banner" hidden>
+  <div class="banner-box" role="status">
+    <p id="update-text">Database baru tersedia.</p>
+    <button class="btn primary" id="btn-apply-update" type="button">Perbarui sekarang</button>
+    <button class="btn ghost" id="btn-later" type="button">Nanti</button>
+  </div>
+</div>
+
+<main class="layout">
+  <form class="panel" id="filters" autocomplete="off">
+    <h2>Kriteria naskah</h2>
+
+    <div class="fs">
+      <label class="lbl" for="q">Judul, abstrak, atau kata kunci</label>
+      <textarea id="q" name="q" spellcheck="false"></textarea>
+      <p class="hint" id="q-hint">Bahasa Indonesia atau Inggris. Klik kata kunci terdeteksi untuk mengabaikannya.</p>
+      <div class="chips" id="detected" aria-label="Kata kunci terdeteksi"></div>
+    </div>
+
+    <details class="adv" id="adv" open>
+    <summary><span class="adv-title">Filter</span><span class="adv-sum" id="adv-sum"></span></summary>
+    <div class="adv-body">
+    <fieldset class="fs">
+      <legend>Bidang</legend>
+      <div class="chips" id="field-chips">
+        <button type="button" class="chip" data-field="H" aria-pressed="false"><span class="fcode">H</span>Hidrodinamika</button>
+        <button type="button" class="chip" data-field="D" aria-pressed="false"><span class="fcode">D</span>Desain &amp; produksi</button>
+        <button type="button" class="chip" data-field="S" aria-pressed="false"><span class="fcode">S</span>Struktur</button>
+        <button type="button" class="chip" data-field="K" aria-pressed="false"><span class="fcode">K</span>Kendali &amp; IoT</button>
+      </div>
+      <p class="hint">Kosong = semua bidang.</p>
+    </fieldset>
+
+    <fieldset class="fs">
+      <legend>Indeksasi</legend>
+      <div class="subhead">Scopus</div>
+      <div class="checks">
+        <label><input type="checkbox" name="tier" value="Q1" checked> Q1</label>
+        <label><input type="checkbox" name="tier" value="Q2" checked> Q2</label>
+        <label><input type="checkbox" name="tier" value="Q3" checked> Q3</label>
+        <label><input type="checkbox" name="tier" value="Q4" checked> Q4</label>
+        <label><input type="checkbox" name="tier" value="Q?" checked> Kuartil belum pasti</label>
+        <label><input type="checkbox" name="tier" value="PROC"> Prosiding</label>
+      </div>
+      <div class="subhead">SINTA</div>
+      <div class="checks">
+        <label><input type="checkbox" name="tier" value="S12" checked> SINTA 1-2</label>
+        <label><input type="checkbox" name="tier" value="S34" checked> SINTA 3-4</label>
+        <label><input type="checkbox" name="tier" value="S56" checked> SINTA 5-6</label>
+        <label><input type="checkbox" name="tier" value="S?" checked> Level belum pasti</label>
+      </div>
+    </fieldset>
+
+    <fieldset class="fs">
+      <legend>Biaya publikasi</legend>
+      <div class="seg" role="radiogroup">
+        <label><input type="radio" name="cost" value="all" checked><span>Semua</span></label>
+        <label><input type="radio" name="cost" value="free"><span>Gratis saja</span></label>
+        <label><input type="radio" name="cost" value="max"><span>Batas maksimum</span></label>
+      </div>
+      <div id="cost-range" hidden>
+        <div class="range-row"><span>Maksimum</span><strong class="mono" id="cost-out">USD 500</strong></div>
+        <input type="range" id="cost-max" name="costMax" min="0" max="3500" step="25" value="500">
+      </div>
+      <label class="check"><input type="checkbox" id="inc-unknown" name="incUnknown" checked> Sertakan jurnal yang biayanya belum pasti</label>
+    </fieldset>
+
+    <fieldset class="fs">
+      <legend>Waktu tunggu maksimum (submit sampai diterima)</legend>
+      <div class="seg" role="radiogroup">
+        <label><input type="radio" name="wait" value="0" checked><span>Bebas</span></label>
+        <label><input type="radio" name="wait" value="2"><span>2 bln</span></label>
+        <label><input type="radio" name="wait" value="4"><span>4 bln</span></label>
+        <label><input type="radio" name="wait" value="6"><span>6 bln</span></label>
+        <label><input type="radio" name="wait" value="9"><span>9 bln</span></label>
+      </div>
+    </fieldset>
+
+    <fieldset class="fs">
+      <legend>Prioritas urutan</legend>
+      <div class="seg" role="radiogroup">
+        <label><input type="radio" name="prio" value="balanced" checked><span>Seimbang</span></label>
+        <label><input type="radio" name="prio" value="rep"><span>Reputasi</span></label>
+        <label><input type="radio" name="prio" value="cheap"><span>Hemat</span></label>
+        <label><input type="radio" name="prio" value="fast"><span>Cepat</span></label>
+      </div>
+    </fieldset>
+
+    <fieldset class="fs">
+      <legend>Lainnya</legend>
+      <label class="check"><input type="checkbox" id="lang-id" name="langId"> Menerima naskah berbahasa Indonesia</label>
+      <label class="check"><input type="checkbox" id="verified" name="verified"> Hanya jurnal dengan biaya terverifikasi</label>
+      <div class="seg" role="radiogroup" aria-label="Mata uang tampilan">
+        <label><input type="radio" name="cur" value="IDR" checked><span>Tampilkan Rupiah</span></label>
+        <label><input type="radio" name="cur" value="USD"><span>Tampilkan USD</span></label>
+      </div>
+    </fieldset>
+    </div>
+    </details>
+
+    <div class="panel-foot">
+      <button class="btn" type="button" id="btn-reset">Atur ulang</button>
+      <button class="btn" type="button" id="btn-suggest">Laporkan jurnal yang belum ada</button>
+    </div>
+  </form>
+
+  <section class="results" aria-labelledby="res-title">
+    <div class="res-head">
+      <div>
+        <h2 id="res-title">Rekomendasi</h2>
+        <p id="res-summary">Memuat database jurnal.</p>
+      </div>
+      <button class="btn" type="button" id="btn-csv">Unduh hasil (CSV)</button>
+    </div>
+    <div class="list" id="list"></div>
+    <button class="btn more" type="button" id="btn-more" hidden>Tampilkan lebih banyak</button>
+    <p class="note-line" id="hidden-note" hidden></p>
+  </section>
+</main>
+
+<footer>
+  <p>Skor rekomendasi menggabungkan kecocokan kata kunci, reputasi (kuartil/SINTA), biaya, dan waktu tunggu. Waktu tunggu dan acceptance rate yang tidak berlabel terverifikasi adalah estimasi. Selalu cek ulang status indeksasi di Scopus dan SINTA sebelum submit.</p>
+</footer>
+
+<dialog id="dlg-changes" aria-labelledby="dlg-changes-title">
+  <div class="dlg-head"><h2 id="dlg-changes-title">Apa yang berubah</h2><button class="btn small" type="button" data-close>Tutup</button></div>
+  <div class="dlg-body"><div class="log" id="changes-log"></div></div>
+</dialog>
+
+<dialog id="dlg-data" aria-labelledby="dlg-data-title">
+  <div class="dlg-head"><h2 id="dlg-data-title">Data &amp; penyimpanan</h2><button class="btn small" type="button" data-close>Tutup</button></div>
+  <div class="dlg-body">
+    <dl class="kv" id="data-info"></dl>
+    <div class="row">
+      <button class="btn" type="button" id="btn-export">Ekspor database (.json)</button>
+      <label class="btn" for="import-file">Impor database</label>
+      <input type="file" id="import-file" accept="application/json,.json" hidden>
+    </div>
+    <div id="import-confirm" class="confirm-box" hidden></div>
+    <div class="row">
+      <button class="btn" type="button" id="btn-reset-db">Kembalikan ke database bawaan</button>
+    </div>
+    <div id="reset-confirm" class="confirm-box" hidden>
+      <p>Database tersimpan di perangkat ini akan dihapus dan aplikasi memakai database bawaan. Lanjutkan?</p>
+      <div class="row"><button class="btn primary" type="button" id="btn-reset-yes">Ya, kembalikan</button><button class="btn" type="button" id="btn-reset-no">Batal</button></div>
+    </div>
+    <p class="hint">Database disimpan di browser perangkat ini. Ekspor berguna untuk cadangan atau memindahkan data ke perangkat lain tanpa internet.</p>
+  </div>
+</dialog>
+
+<dialog id="dlg-report" aria-labelledby="dlg-report-title">
+  <div class="dlg-head"><h2 id="dlg-report-title">Laporkan perubahan</h2><button class="btn small" type="button" data-close>Tutup</button></div>
+  <div class="dlg-body">
+    <p class="hint">Contoh: jurnal naik ke SINTA 3, APC berubah, atau ada jurnal yang belum masuk database.</p>
+    <div class="form-grid">
+      <label>Jurnal
+        <input id="rp-journal" list="rp-journals" placeholder="Nama jurnal">
+        <datalist id="rp-journals"></datalist>
+      </label>
+      <label>Data yang berubah
+        <select id="rp-kind">
+          <option>Jurnal baru (belum ada di database)</option>
+          <option>Peringkat SINTA</option>
+          <option>Kuartil Scopus</option>
+          <option>Biaya publikasi / APC</option>
+          <option>Link situs jurnal</option>
+          <option>Waktu review / acceptance rate</option>
+          <option>Lainnya</option>
+        </select>
+      </label>
+      <label>Nilai baru <input id="rp-value" placeholder="mis. SINTA 3 (SK 156/C/C3/KPT/2026)"></label>
+      <label>Sumber (URL) <input id="rp-source" placeholder="https://..."></label>
+      <label>Catatan <textarea id="rp-note" rows="2"></textarea></label>
+    </div>
+    <pre class="report" id="rp-preview"></pre>
+    <div class="row">
+      <button class="btn primary" type="button" id="rp-copy">Salin laporan</button>
+      <a class="btn" id="rp-github" target="_blank" rel="noopener" hidden>Kirim lewat GitHub</a>
+    </div>
+    <p class="hint" id="rp-hint"></p>
+  </div>
+</dialog>
+
+<div class="toast" id="toast" hidden role="status"><span id="toast-text"></span><button type="button" id="toast-btn" hidden></button></div>
+
+<script src="config.js"></script>
+<script src="data/journals.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
