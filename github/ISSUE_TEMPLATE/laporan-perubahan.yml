@@ -1,0 +1,33 @@
+name: Laporan perubahan jurnal
+description: Laporkan jurnal baru atau data yang berubah (SINTA, kuartil, APC, link, waktu review).
+title: "[Laporan] "
+labels: []
+body:
+  - type: input
+    id: jurnal
+    attributes:
+      label: Nama jurnal
+      placeholder: Indonesian Journal of Maritime Technology (ISMATECH)
+    validations:
+      required: true
+  - type: input
+    id: jenis
+    attributes:
+      label: Data yang berubah
+      placeholder: Peringkat SINTA / Kuartil Scopus / Biaya / Link / Jurnal baru
+    validations:
+      required: true
+  - type: input
+    id: nilai
+    attributes:
+      label: Nilai baru
+      placeholder: SINTA 3 (SK 156/C/C3/KPT/2026)
+  - type: input
+    id: sumber
+    attributes:
+      label: Sumber (URL)
+      placeholder: https://sinta.kemdiktisaintek.go.id/journals/profile/...
+  - type: textarea
+    id: catatan
+    attributes:
+      label: Catatan

@@ -1,0 +1,63 @@
+name: Pembaruan otomatis database
+
+on:
+  schedule:
+    - cron: "17 1 * * 1"   # setiap Senin 08:17 WIB
+  workflow_dispatch:
+    inputs:
+      crossref:
+        description: "Hitung waktu review dari Crossref (lebih lama, ~10 menit)"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+concurrency:
+  group: update-db
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Tarik data terbaru (OpenAlex, DOAJ, Crossref, Scimago)
+        id: upd
+        env:
+          CONTACT_EMAIL: ${{ vars.CONTACT_EMAIL }}
+        run: |
+          ARGS=""
+          if [ -f data-sources/scimago.csv ]; then ARGS="$ARGS --scimago data-sources/scimago.csv"; fi
+          if [ -f data-sources/scimago-year.txt ]; then ARGS="$ARGS --scimago-year $(cat data-sources/scimago-year.txt)"; fi
+          if [ "${{ github.event.inputs.crossref }}" = "false" ]; then ARGS="$ARGS --no-crossref"; fi
+          python scripts/update_db.py --db docs/data/journals.json --report update_report.md $ARGS
+          cat update_report.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Ajukan perubahan sebagai Pull Request (menunggu persetujuan admin)
+        if: steps.upd.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: pembaruan-otomatis
+          delete-branch: true
+          title: "Pembaruan database jurnal v${{ steps.upd.outputs.version }}"
+          body-path: update_report.md
+          commit-message: "Pembaruan otomatis database jurnal v${{ steps.upd.outputs.version }}"
+          add-paths: |
+            docs/data/journals.json
+            docs/data/journals.js
+            docs/data/version.json
+
+      - name: Catat temuan yang perlu ditinjau (bila tidak ada perubahan data)
+        if: steps.upd.outputs.changed != 'true' && steps.upd.outputs.review == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh issue create --title "Tinjauan database jurnal $(date +%Y-%m-%d)" --body-file update_report.md || true
