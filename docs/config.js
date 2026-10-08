@@ -5,6 +5,6 @@
  */
 window.KJP_CONFIG = {
   updateBase: "data/",
-  repo: "alifnr798/Kompas-Jurnal",
+  repo: "alifnr798/Cosmis_Journal",
   issueTemplate: "laporan-perubahan.yml"
 };
