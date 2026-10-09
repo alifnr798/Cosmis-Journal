@@ -98,6 +98,7 @@
   function tierLabel(j) {
     switch (j.tier) {
       case "Q1": case "Q2": case "Q3": case "Q4": return "Scopus " + j.tier;
+case "X": return "Belum terindeks";
       case "Q?": return "Scopus";
       case "PROC": return "Prosiding Scopus";
       case "S?": return "SINTA ?";
@@ -148,7 +149,7 @@
     cheap: { rel: 0.4, rep: 0.2, cost: 0.3, speed: 0.1 },
     fast: { rel: 0.4, rep: 0.2, cost: 0.1, speed: 0.3 },
   };
-  const REP = { Q1: 1, Q2: 0.8, Q3: 0.55, Q4: 0.35, "Q?": 0.5, PROC: 0.25, "S?": 0.25 };
+  const REP = { Q1: 1, Q2: 0.8, Q3: 0.55, Q4: 0.35, "Q?": 0.5, PROC: 0.25, "S?": 0.25,"X": 0.15 };
   function repScore(j) {
     if (REP[j.tier] != null && !j.tier.startsWith("S")) return REP[j.tier];
     const lv = { S1: 0.55, S2: 0.5, S3: 0.38, S4: 0.3, S5: 0.22, S6: 0.15 }[j.sinta];
@@ -231,7 +232,7 @@
     const names = { H: "Hidrodinamika", D: "Desain", S: "Struktur", K: "Kendali & IoT" };
     const bits = [];
     bits.push(F.fields.length ? F.fields.map((f) => names[f]).join(", ") : "semua bidang");
-    bits.push(F.tiers.length === 10 ? "semua indeksasi" : F.tiers.length + " tingkat indeksasi");
+    bits.push(F.tiers.length === 11 ? "semua indeksasi" : F.tiers.length + " tingkat indeksasi");
     bits.push(F.cost === "free" ? "gratis saja" : F.cost === "max" ? "biaya maks USD " + nf0.format(F.costMax) : "semua biaya");
     if (F.wait) bits.push("tunggu maks " + F.wait + " bln");
     bits.push({ balanced: "seimbang", rep: "utamakan reputasi", cheap: "utamakan hemat", fast: "utamakan cepat" }[F.prio]);
