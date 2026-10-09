@@ -16,7 +16,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from dbtools import bump, content_hash, diff_journals, finalize_files, load_db  # noqa: E402
 
-TIERS = {"Q1", "Q2", "Q3", "Q4", "Q?", "PROC", "S12", "S34", "S56", "S?"}
+TIERS = {"Q1", "Q2", "Q3", "Q4", "Q?", "PROC", "S12", "S34", "S56", "S?", "X"}
 REQUIRED = ["id", "name", "group", "tier", "publisher", "fields", "tags", "access", "fee_text", "accept_months",
             "acceptance", "url"]
 
