@@ -1,4 +1,4 @@
-# Kompas Jurnal Perkapalan
+# Cosmis Journal
 
 Aplikasi web untuk mencari jurnal Scopus dan SINTA yang cocok dengan naskah teknik perkapalan
 (hidrodinamika, desain & produksi, struktur, kendali & IoT). Tetap bisa dipakai tanpa internet.
