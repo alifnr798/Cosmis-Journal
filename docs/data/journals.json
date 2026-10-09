@@ -22,7 +22,8 @@
   "P": "Prosiding terindeks Scopus",
   "G": "SINTA - Perkapalan, Kelautan & Maritim",
   "H": "SINTA - Teknik Mesin & Teknik Umum",
-  "I": "SINTA - Elektro, Kendali & IoT"
+  "I": "SINTA - Elektro, Kendali & IoT",
+  "X": "Belum terverifikasi indeksasi (internasional)"
  },
  "taxonomy": {
   "hidrodinamika": {
@@ -873,6 +874,337 @@
   ]
  },
  "journals": [
+  {
+   "id": "gemi-ve-deniz-teknolojisi",
+   "name": "Gemi ve Deniz Teknolojisi (GMO Journal of Ship and Marine Technology)",
+   "group": "X",
+   "tier": "X",
+   "quartile": null,
+   "quartile_src": null,
+   "sinta": null,
+   "sinta_status": null,
+   "index": "Belum terindeks (cek manual)",
+   "publisher": "Chamber of Turkish Naval Architects and Marine Engineers (GMO)",
+   "country": "Turki",
+   "lang": "Turki/Inggris",
+   "lang_id": false,
+   "fields": [
+    "D"
+   ],
+   "tags": [
+    "desain_kapal",
+    "produksi"
+   ],
+   "maritime": true,
+   "access": "Open Access",
+   "fee_text": "Belum diketahui - cek situs resmi sebelum submit",
+   "fee_amount": null,
+   "fee_currency": null,
+   "fee_status": "Belum diverifikasi",
+   "oa_optional_usd": null,
+   "first_decision": null,
+   "accept_months": [
+    1,
+    12
+   ],
+   "acceptance": [
+    0,
+    100
+   ],
+   "review_status": "Belum diverifikasi",
+   "url": "https://dergipark.org.tr/en/pub/gdt",
+   "issn": [
+    "1300-1973"
+   ],
+   "issn_status": "OpenAlex/riset manual (indikatif, belum diverifikasi silang)",
+   "openalex_id": null,
+   "sources": null,
+   "note": "Jurnal resmi asosiasi arsitek kapal Turki, aktif terbit (DergiPark). Status indeksasi Scopus BELUM diverifikasi — cek dulu sebelum submit."
+  },
+  {
+   "id": "ship-science-and-technology-cotecmar",
+   "name": "Ship Science and Technology",
+   "group": "X",
+   "tier": "X",
+   "quartile": null,
+   "quartile_src": null,
+   "sinta": null,
+   "sinta_status": null,
+   "index": "Belum terindeks (cek manual)",
+   "publisher": "COTECMAR",
+   "country": "Kolombia",
+   "lang": "Inggris/Spanyol",
+   "lang_id": false,
+   "fields": [
+    "D",
+    "S"
+   ],
+   "tags": [
+    "desain_kapal",
+    "struktur"
+   ],
+   "maritime": true,
+   "access": "Open Access",
+   "fee_text": "Belum diketahui - cek situs resmi sebelum submit",
+   "fee_amount": null,
+   "fee_currency": null,
+   "fee_status": "Belum diverifikasi",
+   "oa_optional_usd": null,
+   "first_decision": null,
+   "accept_months": [
+    1,
+    12
+   ],
+   "acceptance": [
+    0,
+    100
+   ],
+   "review_status": "Belum diverifikasi",
+   "url": "https://shipjournal.co",
+   "issn": [],
+   "issn_status": "OpenAlex/riset manual (indikatif, belum diverifikasi silang)",
+   "openalex_id": null,
+   "sources": null,
+   "note": "Diterbitkan COTECMAR (Kolombia). Link asli OpenAlex tidak valid, diganti dengan situs resmi shipjournal.co. Status indeksasi Scopus BELUM diverifikasi."
+  },
+  {
+   "id": "journal-of-ship-mechanics-cn",
+   "name": "Journal of Ship Mechanics (Chuanbo Lixue)",
+   "group": "X",
+   "tier": "X",
+   "quartile": null,
+   "quartile_src": null,
+   "sinta": null,
+   "sinta_status": null,
+   "index": "Belum terindeks (cek manual)",
+   "publisher": "China Ship Scientific Research Center",
+   "country": "Tiongkok",
+   "lang": "Mandarin (abstrak Inggris)",
+   "lang_id": false,
+   "fields": [
+    "H",
+    "S"
+   ],
+   "tags": [
+    "hidrodinamika",
+    "struktur"
+   ],
+   "maritime": true,
+   "access": "Berlangganan",
+   "fee_text": "Belum diketahui - cek situs resmi sebelum submit",
+   "fee_amount": null,
+   "fee_currency": null,
+   "fee_status": "Belum diverifikasi",
+   "oa_optional_usd": null,
+   "first_decision": null,
+   "accept_months": [
+    1,
+    12
+   ],
+   "acceptance": [
+    0,
+    100
+   ],
+   "review_status": "Belum diverifikasi",
+   "url": "https://oriprobe.com/Journals/cblx.html",
+   "issn": [
+    "1007-7294"
+   ],
+   "issn_status": "OpenAlex/riset manual (indikatif, belum diverifikasi silang)",
+   "openalex_id": null,
+   "sources": null,
+   "note": "Jurnal inti Tiongkok di bidang mekanika kapal. Naskah utama berbahasa Mandarin. Status indeksasi Scopus BELUM diverifikasi. Link bukan situs resmi penerbit, melainkan indeks pihak ketiga."
+  },
+  {
+   "id": "shipbuilding-of-china",
+   "name": "Shipbuilding of China",
+   "group": "X",
+   "tier": "X",
+   "quartile": null,
+   "quartile_src": null,
+   "sinta": null,
+   "sinta_status": null,
+   "index": "Belum terindeks (cek manual)",
+   "publisher": "China Shipbuilding Society / CSSC",
+   "country": "Tiongkok",
+   "lang": "Mandarin (abstrak Inggris)",
+   "lang_id": false,
+   "fields": [
+    "D"
+   ],
+   "tags": [
+    "desain_kapal",
+    "produksi"
+   ],
+   "maritime": true,
+   "access": "Berlangganan",
+   "fee_text": "Belum diketahui - cek situs resmi sebelum submit",
+   "fee_amount": null,
+   "fee_currency": null,
+   "fee_status": "Belum diverifikasi",
+   "oa_optional_usd": null,
+   "first_decision": null,
+   "accept_months": [
+    1,
+    12
+   ],
+   "acceptance": [
+    0,
+    100
+   ],
+   "review_status": "Belum diverifikasi",
+   "url": "https://www.scijournal.org/ship-building-of-china",
+   "issn": [
+    "1000-4882"
+   ],
+   "issn_status": "OpenAlex/riset manual (indikatif, belum diverifikasi silang)",
+   "openalex_id": null,
+   "sources": null,
+   "note": "Jurnal akademik Tiongkok, naskah utama berbahasa Mandarin. Status indeksasi Scopus BELUM diverifikasi. Link bukan situs resmi penerbit, melainkan indeks pihak ketiga."
+  },
+  {
+   "id": "shipbuilding-and-marine-infrastructure",
+   "name": "Shipbuilding and Marine Infrastructure",
+   "group": "X",
+   "tier": "X",
+   "quartile": null,
+   "quartile_src": null,
+   "sinta": null,
+   "sinta_status": null,
+   "index": "Belum terindeks (cek manual)",
+   "publisher": "Admiral Makarov National University of Shipbuilding (NUOS)",
+   "country": "Ukraina",
+   "lang": "Ukraina/Inggris",
+   "lang_id": false,
+   "fields": [
+    "D",
+    "S"
+   ],
+   "tags": [
+    "desain_kapal",
+    "struktur"
+   ],
+   "maritime": true,
+   "access": "Open Access",
+   "fee_text": "Belum diketahui - cek situs resmi sebelum submit",
+   "fee_amount": null,
+   "fee_currency": null,
+   "fee_status": "Belum diverifikasi",
+   "oa_optional_usd": null,
+   "first_decision": null,
+   "accept_months": [
+    1,
+    12
+   ],
+   "acceptance": [
+    0,
+    100
+   ],
+   "review_status": "Belum diverifikasi",
+   "url": "https://portal.issn.org/resource/ISSN/2409-3858",
+   "issn": [
+    "2409-3858"
+   ],
+   "issn_status": "OpenAlex/riset manual (indikatif, belum diverifikasi silang)",
+   "openalex_id": null,
+   "sources": null,
+   "note": "Diterbitkan NUOS, Ukraina. Belum ditemukan alamat situs resmi jurnal yang stabil — link mengarah ke halaman ISSN sebagai referensi. Status indeksasi Scopus BELUM diverifikasi."
+  },
+  {
+   "id": "annals-dunarea-de-jos-fascicle-xi-shipbuilding",
+   "name": "Annals of \"Dunărea de Jos\" University of Galați, Fascicle XI: Shipbuilding",
+   "group": "X",
+   "tier": "X",
+   "quartile": null,
+   "quartile_src": null,
+   "sinta": null,
+   "sinta_status": null,
+   "index": "Belum terindeks (cek manual)",
+   "publisher": "Universitatea \"Dunărea de Jos\" din Galați",
+   "country": "Rumania",
+   "lang": "Inggris",
+   "lang_id": false,
+   "fields": [
+    "D"
+   ],
+   "tags": [
+    "desain_kapal",
+    "produksi"
+   ],
+   "maritime": true,
+   "access": "Open Access",
+   "fee_text": "Belum diketahui - cek situs resmi sebelum submit",
+   "fee_amount": null,
+   "fee_currency": null,
+   "fee_status": "Belum diverifikasi",
+   "oa_optional_usd": null,
+   "first_decision": null,
+   "accept_months": [
+    1,
+    12
+   ],
+   "acceptance": [
+    0,
+    100
+   ],
+   "review_status": "Belum diverifikasi",
+   "url": "https://gup.ugal.ro/ugaljournals/index.php/fanship",
+   "issn": [
+    "1221-4620",
+    "2668-3156"
+   ],
+   "issn_status": "OpenAlex/riset manual (indikatif, belum diverifikasi silang)",
+   "openalex_id": null,
+   "sources": null,
+   "note": "Terdaftar di DOAJ. Status indeksasi Scopus BELUM diverifikasi — cek dulu sebelum submit."
+  },
+  {
+   "id": "automation-of-ship-technical-facilities",
+   "name": "Automation of Ship Technical Facilities",
+   "group": "X",
+   "tier": "X",
+   "quartile": null,
+   "quartile_src": null,
+   "sinta": null,
+   "sinta_status": null,
+   "index": "Belum terindeks (cek manual)",
+   "publisher": "Tidak diketahui (sumber: OpenAlex)",
+   "country": "Ukraina",
+   "lang": "Ukraina/Inggris",
+   "lang_id": false,
+   "fields": [
+    "K"
+   ],
+   "tags": [
+    "kendali",
+    "otonom"
+   ],
+   "maritime": true,
+   "access": "Open Access",
+   "fee_text": "Belum diketahui - cek situs resmi sebelum submit",
+   "fee_amount": null,
+   "fee_currency": null,
+   "fee_status": "Belum diverifikasi",
+   "oa_optional_usd": null,
+   "first_decision": null,
+   "accept_months": [
+    1,
+    12
+   ],
+   "acceptance": [
+    0,
+    100
+   ],
+   "review_status": "Belum diverifikasi",
+   "url": "http://www.irbis-nbuv.gov.ua/cgi-bin/irbis_nbuv/cgiirbis_64.exe?Z21ID=&I21DBN=UJRN&P21DBN=UJRN&S21STN=1&S21REF=10&S21FMT=JUU_all&C21COM=S&S21CNR=20&S21P01=0&S21P02=0&S21P03=IJ=&S21COLORTERMS=1&S21STR=%D0%9669582",
+   "issn": [
+    "1819-3293"
+   ],
+   "issn_status": "OpenAlex/riset manual (indikatif, belum diverifikasi silang)",
+   "openalex_id": null,
+   "sources": null,
+   "note": "Ditemukan lewat OpenAlex, info penerbit terbatas. Status indeksasi Scopus BELUM diverifikasi — cek dulu sebelum submit."
+  },
   {
    "id": "applied-ocean-research",
    "name": "Applied Ocean Research",
