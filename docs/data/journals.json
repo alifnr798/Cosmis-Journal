@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "seq": 3,
- "version": "2026.10.08.2",
- "generated": "2026-10-08T21:10:36+07:00",
+ "seq": 4,
+ "version": "2026.10.09",
+ "generated": "2026-10-09T09:02:48+07:00",
  "fx_per_usd": {
   "USD": 1,
   "EUR": 0.8696,
@@ -13951,7 +13951,57 @@
     "DOAJ",
     "Crossref"
    ]
+  },
+  {
+   "seq": 4,
+   "version": "2026.10.09",
+   "date": "2026-10-09",
+   "summary": "Pembaruan manual oleh admin.",
+   "items": [
+    {
+     "type": "added",
+     "journal": "Gemi ve Deniz Teknolojisi (GMO Journal of Ship and Marine Technology)",
+     "detail": "X - Belum diketahui - cek situs resmi sebelum submit",
+     "source": "edit manual"
+    },
+    {
+     "type": "added",
+     "journal": "Ship Science and Technology",
+     "detail": "X - Belum diketahui - cek situs resmi sebelum submit",
+     "source": "edit manual"
+    },
+    {
+     "type": "added",
+     "journal": "Journal of Ship Mechanics (Chuanbo Lixue)",
+     "detail": "X - Belum diketahui - cek situs resmi sebelum submit",
+     "source": "edit manual"
+    },
+    {
+     "type": "added",
+     "journal": "Shipbuilding of China",
+     "detail": "X - Belum diketahui - cek situs resmi sebelum submit",
+     "source": "edit manual"
+    },
+    {
+     "type": "added",
+     "journal": "Shipbuilding and Marine Infrastructure",
+     "detail": "X - Belum diketahui - cek situs resmi sebelum submit",
+     "source": "edit manual"
+    },
+    {
+     "type": "added",
+     "journal": "Annals of \"Dunărea de Jos\" University of Galați, Fascicle XI: Shipbuilding",
+     "detail": "X - Belum diketahui - cek situs resmi sebelum submit",
+     "source": "edit manual"
+    },
+    {
+     "type": "added",
+     "journal": "Automation of Ship Technical Facilities",
+     "detail": "X - Belum diketahui - cek situs resmi sebelum submit",
+     "source": "edit manual"
+    }
+   ]
   }
  ],
- "hash": "37a3ad035e382b0f"
+ "hash": "69228f27faa1687e"
 }

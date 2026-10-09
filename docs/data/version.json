@@ -1,10 +1,10 @@
 {
  "schema": 1,
- "seq": 3,
- "version": "2026.10.08.2",
- "generated": "2026-10-08T21:10:36+07:00",
- "count": 200,
- "hash": "37a3ad035e382b0f",
- "summary": "Pembaruan otomatis: 186 perubahan pada 116 jurnal.",
- "changes": 186
+ "seq": 4,
+ "version": "2026.10.09",
+ "generated": "2026-10-09T09:02:48+07:00",
+ "count": 207,
+ "hash": "69228f27faa1687e",
+ "summary": "Pembaruan manual oleh admin.",
+ "changes": 7
 }
