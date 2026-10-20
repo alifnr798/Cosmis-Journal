@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "seq": 5,
- "version": "2026.10.12",
- "generated": "2026-10-12T14:25:02+07:00",
+ "seq": 6,
+ "version": "2026.10.19",
+ "generated": "2026-10-19T13:14:37+07:00",
  "fx_per_usd": {
   "USD": 1,
   "EUR": 0.8696,
@@ -12081,10 +12081,10 @@
    ],
    "maritime": false,
    "access": "OA",
-   "fee_text": "Belum terverifikasi",
-   "fee_amount": null,
-   "fee_currency": null,
-   "fee_status": "Perlu cek",
+   "fee_text": "APC IDR 1.000.000 (indikatif. OpenAlex)",
+   "fee_amount": 1000000,
+   "fee_currency": "IDR",
+   "fee_status": "Indikatif (OpenAlex, 2026-10-19)",
    "oa_optional_usd": null,
    "first_decision": "2-6 minggu",
    "accept_months": [
@@ -14173,7 +14173,44 @@
     "DOAJ",
     "Crossref"
    ]
+  },
+  {
+   "seq": 6,
+   "version": "2026.10.19",
+   "date": "2026-10-19",
+   "summary": "Pembaruan otomatis: 3 perubahan pada 1 jurnal.",
+   "items": [
+    {
+     "type": "changed",
+     "journal": "Jurnal Infotel",
+     "field": "Nominal biaya",
+     "old": "-",
+     "new": "1000000",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "Jurnal Infotel",
+     "field": "Mata uang",
+     "old": "-",
+     "new": "IDR",
+     "source": "OpenAlex (indikatif)"
+    },
+    {
+     "type": "changed",
+     "journal": "Jurnal Infotel",
+     "field": "Biaya",
+     "old": "Belum terverifikasi",
+     "new": "APC IDR 1.000.000 (indikatif. OpenAlex)",
+     "source": "OpenAlex (indikatif)"
+    }
+   ],
+   "sources": [
+    "OpenAlex",
+    "DOAJ",
+    "Crossref"
+   ]
   }
  ],
- "hash": "c641bc50569aed44"
+ "hash": "1658cc076a756ff0"
 }
