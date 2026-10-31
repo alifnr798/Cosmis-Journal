@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "seq": 6,
- "version": "2026.10.19",
- "generated": "2026-10-19T13:14:37+07:00",
+ "seq": 7,
+ "version": "2026.10.26",
+ "generated": "2026-10-26T13:15:06+07:00",
  "fx_per_usd": {
   "USD": 1,
   "EUR": 0.8696,
@@ -5458,13 +5458,13 @@
    "first_decision": "1-2 bulan",
    "accept_months": [
     4.5,
-    9.7
+    10.3
    ],
    "acceptance": [
     20,
     35
    ],
-   "review_status": "Terverifikasi otomatis (Crossref: median 187 hari, kuartil 136-294 hari, n=191, 2026-10-08)",
+   "review_status": "Terverifikasi otomatis (Crossref: median 196 hari, kuartil 137-313 hari, n=191, 2026-10-26)",
    "url": "https://onlinelibrary.wiley.com/journal/19346093",
    "issn": [
     "1561-8625"
@@ -8948,10 +8948,10 @@
    ],
    "maritime": false,
    "access": "OA",
-   "fee_text": "Belum terverifikasi",
-   "fee_amount": null,
-   "fee_currency": null,
-   "fee_status": "Perlu cek",
+   "fee_text": "APC IDR 6.000 (menurut DOAJ); ada kebijakan keringanan",
+   "fee_amount": 6000,
+   "fee_currency": "IDR",
+   "fee_status": "Terverifikasi otomatis (DOAJ, 2026-10-26)",
    "oa_optional_usd": null,
    "first_decision": "2-6 minggu",
    "accept_months": [
@@ -14210,7 +14210,52 @@
     "DOAJ",
     "Crossref"
    ]
+  },
+  {
+   "seq": 7,
+   "version": "2026.10.26",
+   "date": "2026-10-26",
+   "summary": "Pembaruan otomatis: 4 perubahan pada 2 jurnal.",
+   "items": [
+    {
+     "type": "changed",
+     "journal": "Mechanical Engineering for Society and Industry (MESI)",
+     "field": "Nominal biaya",
+     "old": "-",
+     "new": "6000",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "Mechanical Engineering for Society and Industry (MESI)",
+     "field": "Mata uang",
+     "old": "-",
+     "new": "IDR",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "Mechanical Engineering for Society and Industry (MESI)",
+     "field": "Biaya",
+     "old": "Belum terverifikasi",
+     "new": "APC IDR 6.000 (menurut DOAJ); ada kebijakan keringanan",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "Asian Journal of Control",
+     "field": "Waktu submit-accept (bln)",
+     "old": "4.5, 9.7",
+     "new": "4.5, 10.3",
+     "source": "Crossref (median 196 hari, n=191)"
+    }
+   ],
+   "sources": [
+    "OpenAlex",
+    "DOAJ",
+    "Crossref"
+   ]
   }
  ],
- "hash": "1658cc076a756ff0"
+ "hash": "fb4255ab75ff47a0"
 }
