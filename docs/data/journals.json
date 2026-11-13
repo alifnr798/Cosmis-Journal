@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "seq": 7,
- "version": "2026.10.26",
- "generated": "2026-10-26T13:15:06+07:00",
+ "seq": 8,
+ "version": "2026.11.09",
+ "generated": "2026-11-09T15:05:06+07:00",
  "fx_per_usd": {
   "USD": 1,
   "EUR": 0.8696,
@@ -4915,10 +4915,10 @@
    ],
    "maritime": false,
    "access": "OA",
-   "fee_text": "APC EUR 1.000 (menurut DOAJ)",
-   "fee_amount": 1000,
+   "fee_text": "APC EUR 1.200 (menurut DOAJ)",
+   "fee_amount": 1200,
    "fee_currency": "EUR",
-   "fee_status": "Terverifikasi otomatis (DOAJ, 2026-10-08)",
+   "fee_status": "Terverifikasi otomatis (DOAJ, 2026-11-09)",
    "oa_optional_usd": null,
    "first_decision": "1-3 bulan",
    "accept_months": [
@@ -14255,7 +14255,36 @@
     "DOAJ",
     "Crossref"
    ]
+  },
+  {
+   "seq": 8,
+   "version": "2026.11.09",
+   "date": "2026-11-09",
+   "summary": "Pembaruan otomatis: 2 perubahan pada 1 jurnal.",
+   "items": [
+    {
+     "type": "changed",
+     "journal": "Latin American Journal of Solids and Structures",
+     "field": "Nominal biaya",
+     "old": "1000",
+     "new": "1200",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "Latin American Journal of Solids and Structures",
+     "field": "Biaya",
+     "old": "APC EUR 1.000 (menurut DOAJ)",
+     "new": "APC EUR 1.200 (menurut DOAJ)",
+     "source": "DOAJ"
+    }
+   ],
+   "sources": [
+    "OpenAlex",
+    "DOAJ",
+    "Crossref"
+   ]
   }
  ],
- "hash": "fb4255ab75ff47a0"
+ "hash": "9ac24061a8a88be5"
 }
