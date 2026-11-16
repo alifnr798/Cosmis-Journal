@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "seq": 8,
- "version": "2026.11.09",
- "generated": "2026-11-09T15:05:06+07:00",
+ "seq": 9,
+ "version": "2026.11.16",
+ "generated": "2026-11-16T15:10:46+07:00",
  "fx_per_usd": {
   "USD": 1,
   "EUR": 0.8696,
@@ -3460,13 +3460,13 @@
    "first_decision": "4-8 minggu",
    "accept_months": [
     1.5,
-    7.7
+    9.2
    ],
    "acceptance": [
     20,
     35
    ],
-   "review_status": "Terverifikasi otomatis (Crossref: median 82 hari, kuartil 46-235 hari, n=23, 2026-10-08)",
+   "review_status": "Terverifikasi otomatis (Crossref: median 90 hari, kuartil 46-279 hari, n=24, 2026-11-16)",
    "url": "https://www.tandfonline.com/journals/ystr20",
    "issn": [
     "0937-7255"
@@ -6640,14 +6640,14 @@
    "oa_optional_usd": 3590,
    "first_decision": "1-2 bulan",
    "accept_months": [
-    6.0,
-    12.4
+    6.2,
+    12.9
    ],
    "acceptance": [
     20,
     35
    ],
-   "review_status": "Terverifikasi otomatis (Crossref: median 270 hari, kuartil 182-377 hari, n=190, 2026-10-08)",
+   "review_status": "Terverifikasi otomatis (Crossref: median 276 hari, kuartil 188-394 hari, n=190, 2026-11-16)",
    "url": "https://onlinelibrary.wiley.com/journal/15564967",
    "issn": [
     "1556-4959"
@@ -14284,7 +14284,36 @@
     "DOAJ",
     "Crossref"
    ]
+  },
+  {
+   "seq": 9,
+   "version": "2026.11.16",
+   "date": "2026-11-16",
+   "summary": "Pembaruan otomatis: 2 perubahan pada 2 jurnal.",
+   "items": [
+    {
+     "type": "changed",
+     "journal": "Ship Technology Research (Schiffstechnik)",
+     "field": "Waktu submit-accept (bln)",
+     "old": "1.5, 7.7",
+     "new": "1.5, 9.2",
+     "source": "Crossref (median 90 hari, n=24)"
+    },
+    {
+     "type": "changed",
+     "journal": "Journal of Field Robotics",
+     "field": "Waktu submit-accept (bln)",
+     "old": "6.0, 12.4",
+     "new": "6.2, 12.9",
+     "source": "Crossref (median 276 hari, n=190)"
+    }
+   ],
+   "sources": [
+    "OpenAlex",
+    "DOAJ",
+    "Crossref"
+   ]
   }
  ],
- "hash": "9ac24061a8a88be5"
+ "hash": "0031c85a3d2cd3b7"
 }
