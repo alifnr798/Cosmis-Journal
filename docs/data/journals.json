@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "seq": 14,
- "version": "2026.11.19",
- "generated": "2026-11-19T05:52:27+07:00",
+ "seq": 15,
+ "version": "2026.11.19.2",
+ "generated": "2026-11-19T06:12:46+07:00",
  "fx_per_usd": {
   "USD": 1,
   "EUR": 0.8696,
@@ -1691,7 +1691,7 @@
     50
    ],
    "review_status": "Estimasi",
-   "url": "https://marineenergyjournal.org/",
+   "url": "https://marineenergyjournal.org/imej/index",
    "issn": [
     "2631-5548"
    ],
@@ -15243,7 +15243,25 @@
     "Laporan pengguna (screenshot)",
     "mas.bg.ac.rs/istrazivanje/fme/start"
    ]
+  },
+  {
+   "seq": 15,
+   "version": "2026.11.19.2",
+   "date": "2026-11-19",
+   "summary": "Perbarui link International Marine Energy Journal ke halaman jurnal spesifik",
+   "items": [
+    {
+     "type": "changed",
+     "journal": "International Marine Energy Journal",
+     "field": "Link",
+     "old": "https://marineenergyjournal.org/",
+     "new": "https://marineenergyjournal.org/imej/index"
+    }
+   ],
+   "sources": [
+    "Laporan pengguna"
+   ]
   }
  ],
- "hash": "55b9c209a30df3e2"
+ "hash": "a610f0b59ddc407f"
 }
