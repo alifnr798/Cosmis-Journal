@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "seq": 11,
- "version": "2026.11.18.audit2",
- "generated": "2026-11-18T14:22:24+07:00",
+ "seq": 12,
+ "version": "2026.11.18.4",
+ "generated": "2026-11-18T14:22:43+07:00",
  "fx_per_usd": {
   "USD": 1,
   "EUR": 0.8696,
@@ -14916,7 +14916,271 @@
      "source": "Mirror SJR menunjukkan kuartil terbaik Q2 (Ocean Eng spesifik Q3); sebelumnya Q3"
     }
    ]
+  },
+  {
+   "seq": 12,
+   "version": "2026.11.18.4",
+   "date": "2026-11-18",
+   "summary": "Pembaruan manual oleh admin.",
+   "items": [
+    {
+     "type": "changed",
+     "journal": "Journal of Naval Architecture and Marine Engineering (JNAME)",
+     "field": "Catatan",
+     "old": "Q2, gratis - salah satu pilihan bernilai terbaik untuk peneliti Indonesia.",
+     "new": "Q2, gratis - salah satu pilihan bernilai terbaik untuk peneliti Indonesia. | PERINGATAN audit Nov 2026: tidak ditemukan data SJR/kuartil di sumber manapun - status indeksasi Scopus jurnal ini perlu dicek manual.",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Journal of Shanghai Jiaotong University (Science)",
+     "field": "Catatan",
+     "old": "-",
+     "new": "Audit Nov 2026: tidak ditemukan data kuartil SJR (situs mirror diblokir bot-protection) - cek manual.",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Electronics",
+     "field": "Catatan",
+     "old": "-",
+     "new": "Audit Nov 2026: sumber kuartil saling bertentangan (Q1 vs Q2 tergantung kategori/metrik) - kuartil Q2 yang tercatat masuk akal tapi belum terkonfirmasi bersih.",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Unmanned Systems",
+     "field": "Catatan",
+     "old": "-",
+     "new": "Audit Nov 2026: aggregator pencarian kuartil mengembalikan data jurnal lain (ISSN tidak cocok) - kuartil belum terverifikasi ulang.",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Engineering Journal (Chulalongkorn)",
+     "field": "Catatan",
+     "old": "-",
+     "new": "Audit Nov 2026: tidak ditemukan data kuartil SJR yang bisa diverifikasi - cek manual.",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "International Journal of Engineering (IJE) Transactions A/B/C",
+     "field": "Catatan",
+     "old": "-",
+     "new": "Audit Nov 2026: tidak bisa dipastikan ID Scopus yang tepat di antara banyak jurnal nama serupa dari Iran - cek manual.",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Journal of Maritime Research",
+     "field": "Kuartil Scopus",
+     "old": "Q4",
+     "new": "Q2",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Journal of Maritime Research",
+     "field": "Sumber kuartil",
+     "old": "SJR 2023 (Resurchify, kategori Ocean Engineering)",
+     "new": "Mirror SJR menunjukkan kuartil terbaik Q2 (kategori Ocean Engineering spesifik Q3); sebelumnya tercatat Q4 (estimasi 2023 sudah usang)",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Journal of Maritime Research",
+     "field": "Tingkat",
+     "old": "Q4",
+     "new": "Q2",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Journal of Mechanical Engineering and Sciences",
+     "field": "Catatan",
+     "old": "-",
+     "new": "Audit Nov 2026: pencarian kuartil berulang kali tertukar dengan jurnal UiTM lain yang namanya mirip - cek manual.",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Nase More (Our Sea)",
+     "field": "Kuartil Scopus",
+     "old": "Q4",
+     "new": "Q2",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Nase More (Our Sea)",
+     "field": "Sumber kuartil",
+     "old": "SJR 2023 (Resurchify, kategori Ocean Engineering)",
+     "new": "Mirror SJR menunjukkan Q2 di kategori Ocean Engineering; sebelumnya Q4 (DOAJ auto, tidak mencakup kuartil SJR aktual)",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Nase More (Our Sea)",
+     "field": "Tingkat",
+     "old": "Q4",
+     "new": "Q2",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Pomorstvo - Scientific Journal of Maritime Research",
+     "field": "Kuartil Scopus",
+     "old": "Q3",
+     "new": "Q2",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Pomorstvo - Scientific Journal of Maritime Research",
+     "field": "Sumber kuartil",
+     "old": "SJR 2023 (Resurchify)",
+     "new": "Mirror SJR menunjukkan kuartil terbaik Q2 (Ocean Eng spesifik ~Q3); sebelumnya Q3",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Pomorstvo - Scientific Journal of Maritime Research",
+     "field": "Tingkat",
+     "old": "Q3",
+     "new": "Q2",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Transactions on Maritime Science (ToMS)",
+     "field": "Kuartil Scopus",
+     "old": "Q3",
+     "new": "Q2",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Transactions on Maritime Science (ToMS)",
+     "field": "Sumber kuartil",
+     "old": "SJR 2023 (Resurchify, kategori Ocean Engineering)",
+     "new": "Mirror SJR menunjukkan kuartil terbaik Q2 (Ocean Eng spesifik Q3); sebelumnya Q3",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Transactions on Maritime Science (ToMS)",
+     "field": "Tingkat",
+     "old": "Q3",
+     "new": "Q2",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "International Journal of Technology (IJTech)",
+     "field": "Catatan",
+     "old": "-",
+     "new": "Audit Nov 2026: hanya ditemukan kuartil berbasis OpenAlex (Q2), bukan SJR asli - cek manual.",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Journal of Robotics and Control (JRC)",
+     "field": "Kuartil Scopus",
+     "old": "Q2",
+     "new": "Q3",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Journal of Robotics and Control (JRC)",
+     "field": "Sumber kuartil",
+     "old": "Perkiraan",
+     "new": "Mirror SJR (ISSN dikonfirmasi) menunjukkan Q3 di AI & Control Systems Eng; sebelumnya Q2 - rekomendasi cek ulang di scimagojr.com",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Journal of Robotics and Control (JRC)",
+     "field": "Tingkat",
+     "old": "Q2",
+     "new": "Q3",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "TELKOMNIKA (Telecommunication Computing Electronics and Control)",
+     "field": "Kuartil Scopus",
+     "old": "Q2",
+     "new": "Q3",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "TELKOMNIKA (Telecommunication Computing Electronics and Control)",
+     "field": "Sumber kuartil",
+     "old": "Perkiraan",
+     "new": "Mirror SJR (ISSN dikonfirmasi) menunjukkan Q3; sebelumnya Q2 - rekomendasi cek ulang di scimagojr.com",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "TELKOMNIKA (Telecommunication Computing Electronics and Control)",
+     "field": "Tingkat",
+     "old": "Q2",
+     "new": "Q3",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Jurnal Riset Teknologi Perkapalan (JRTP)",
+     "field": "Biaya",
+     "old": "Belum terverifikasi",
+     "new": "Kemungkinan ADA biaya publikasi - situs mencantumkan menu \"Article Processing Charge\", tapi nominal belum berhasil diakses. Jangan asumsikan gratis.",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Jurnal Elektronika dan Telekomunikasi (JET)",
+     "field": "Status data biaya",
+     "old": "Terverifikasi otomatis (DOAJ, 2026-10-12)",
+     "new": "Terverifikasi (situs jurnal)",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Jurnal Elektronika dan Telekomunikasi (JET)",
+     "field": "Link",
+     "old": "https://www.jurnalet.com/",
+     "new": "https://jurnalet.brin.go.id/jet",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Jurnal Infotel",
+     "field": "Nominal biaya",
+     "old": "1000000",
+     "new": "1500000",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Jurnal Infotel",
+     "field": "Status data biaya",
+     "old": "Indikatif (OpenAlex, 2026-10-19)",
+     "new": "Terverifikasi (situs jurnal)",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Jurnal Infotel",
+     "field": "Biaya",
+     "old": "APC IDR 1.000.000 (indikatif. OpenAlex)",
+     "new": "Rp1.500.000 (domestik) / USD 100 (internasional); 10 halaman standar + Rp50.000/halaman tambahan (sebelumnya tercatat Rp1jt dari estimasi OpenAlex - understated)",
+     "source": "edit manual"
+    }
+   ]
   }
  ],
- "hash": "af39c814de3699a7"
+ "hash": "3520c69956790edc"
 }
