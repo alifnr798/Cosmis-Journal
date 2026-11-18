@@ -1,10 +1,10 @@
 {
  "schema": 1,
- "seq": 12,
- "version": "2026.11.18.4",
- "generated": "2026-11-18T14:22:43+07:00",
+ "seq": 13,
+ "version": "2026.11.18.5",
+ "generated": "2026-11-18T14:44:37+07:00",
  "count": 207,
- "hash": "3520c69956790edc",
- "summary": "Pembaruan manual oleh admin.",
- "changes": 32
+ "hash": "e0c519ebab58741d",
+ "summary": "Tinjau PR otomatis #8: 2 koreksi waktu review (Crossref), tambah kurs CNY & biaya CJSR (DOAJ), koreksi kuartil JAFM (jawab issue #7)",
+ "changes": 4
 }
