@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "seq": 13,
- "version": "2026.11.18.5",
- "generated": "2026-11-18T14:44:37+07:00",
+ "seq": 14,
+ "version": "2026.11.19",
+ "generated": "2026-11-19T05:52:27+07:00",
  "fx_per_usd": {
   "USD": 1,
   "EUR": 0.8696,
@@ -7297,7 +7297,7 @@
     50
    ],
    "review_status": "Estimasi",
-   "url": "https://www.mas.bg.ac.rs/istrazivanje/biblioteka/publikacije/transactions_fme",
+   "url": "https://www.mas.bg.ac.rs/istrazivanje/fme/start",
    "issn": [
     "1451-2092"
    ],
@@ -15224,7 +15224,26 @@
     "resurchify/researchbite (mirror SJR)",
     "Issue #7"
    ]
+  },
+  {
+   "seq": 14,
+   "version": "2026.11.19",
+   "date": "2026-11-19",
+   "summary": "Perbaiki link FME Transactions yang error (laman biblioteka lama sudah tidak ada)",
+   "items": [
+    {
+     "type": "changed",
+     "journal": "FME Transactions",
+     "field": "Link",
+     "old": "https://www.mas.bg.ac.rs/istrazivanje/biblioteka/publikacije/transactions_fme",
+     "new": "https://www.mas.bg.ac.rs/istrazivanje/fme/start"
+    }
+   ],
+   "sources": [
+    "Laporan pengguna (screenshot)",
+    "mas.bg.ac.rs/istrazivanje/fme/start"
+   ]
   }
  ],
- "hash": "e0c519ebab58741d"
+ "hash": "55b9c209a30df3e2"
 }
