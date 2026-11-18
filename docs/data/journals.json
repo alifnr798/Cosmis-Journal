@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "seq": 9,
- "version": "2026.11.18.audit1",
- "generated": "2026-11-18T13:50:57+07:00",
+ "seq": 10,
+ "version": "2026.11.18.2",
+ "generated": "2026-11-18T13:51:25+07:00",
  "fx_per_usd": {
   "USD": 1,
   "EUR": 0.8696,
@@ -14412,7 +14412,431 @@
      "source": "Mirror SJR menunjukkan Q1 di Ocean Eng & Mechanical Eng (2024); sebelumnya Q2 - rekomendasi cek ulang langsung di scimagojr.com"
     }
    ]
+  },
+  {
+   "seq": 10,
+   "version": "2026.11.18.2",
+   "date": "2026-11-18",
+   "summary": "Pembaruan manual oleh admin.",
+   "items": [
+    {
+     "type": "changed",
+     "journal": "Brodogradnja",
+     "field": "Kuartil Scopus",
+     "old": "Q2",
+     "new": "Q1",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Brodogradnja",
+     "field": "Sumber kuartil",
+     "old": "SJR 2023 (Resurchify, kategori Ocean Engineering); Q1 Mechanical Eng.",
+     "new": "Mirror SJR menunjukkan Q1 di Ocean Eng & Mechanical Eng (2024); sebelumnya Q2 - rekomendasi cek ulang langsung di scimagojr.com",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Brodogradnja",
+     "field": "Tingkat",
+     "old": "Q2",
+     "new": "Q1",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Chinese Journal of Ship Research",
+     "field": "Kuartil Scopus",
+     "old": "Q3",
+     "new": "Q4",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Chinese Journal of Ship Research",
+     "field": "Sumber kuartil",
+     "old": "SJR 2023 (Resurchify, kategori Ocean Engineering)",
+     "new": "Dua sumber independen (mirror SJR) menunjukkan Q4 di Ocean Eng & Mechanical Eng; sebelumnya Q3 - rekomendasi cek ulang langsung di scimagojr.com",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Chinese Journal of Ship Research",
+     "field": "Tingkat",
+     "old": "Q3",
+     "new": "Q4",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Marine Systems & Ocean Technology",
+     "field": "Catatan",
+     "old": "-",
+     "new": "Audit Nov 2026: satu sumber mirror SJR menunjukkan Q2, berbeda dari Q3 yang tercatat - belum cukup kuat untuk diubah, perlu cek manual di scimagojr.com.",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Journal of Advanced Research in Fluid Mechanics and Thermal Sciences",
+     "field": "Catatan",
+     "old": "Cek status Scopus terbaru sebelum submit.",
+     "new": "Cek status Scopus terbaru sebelum submit. | PERINGATAN (audit Nov 2026): tidak ditemukan data kuartil/SJR di sumber manapun yang dicek; jurnal ini (penerbit Akademia Baru, Malaysia) punya reputasi \"borderline\" di beberapa daftar - verifikasi status indeksasi Scopus-nya secara manual sebelum submit.",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "WSEAS Transactions on Fluid Mechanics",
+     "field": "Kuartil Scopus",
+     "old": "Q4",
+     "new": "Q3",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "WSEAS Transactions on Fluid Mechanics",
+     "field": "Sumber kuartil",
+     "old": "SJR 2023 (Resurchify, kategori Ocean Engineering)",
+     "new": "FAQ resmi jurnal menyatakan SJR=Q3; sebelumnya Q4 (estimasi 2023) - rekomendasi cek ulang langsung di scimagojr.com",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "WSEAS Transactions on Fluid Mechanics",
+     "field": "Tingkat",
+     "old": "Q4",
+     "new": "Q3",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Mechanics Based Design of Structures and Machines",
+     "field": "Catatan",
+     "old": "-",
+     "new": "Audit Nov 2026: sumber SJR-mirror menunjukkan Q2 (kategori Mathematics), sedangkan tercatat Q1 - kategori SJR terbaik jurnal ini perlu dicek manual di scimagojr.com.",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Nonlinear Dynamics",
+     "field": "Catatan",
+     "old": "Dinamika gerak kapal nonlinier, kendali trajektori.",
+     "new": "Dinamika gerak kapal nonlinier, kendali trajektori. | Audit Nov 2026: kategori yang tercatat (\"Ocean Engineering\") kemungkinan salah - jurnal ini sebenarnya masuk kategori Mechanical Engineering/Applied Mathematics di Scimago, bukan Ocean Engineering.",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "FME Transactions",
+     "field": "Kuartil Scopus",
+     "old": "Q3",
+     "new": "Q2",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "FME Transactions",
+     "field": "Sumber kuartil",
+     "old": "Perkiraan",
+     "new": "Dua mirror SJR independen (ISSN dikonfirmasi) menunjukkan Q2 di kedua kategori; sebelumnya Q3 - rekomendasi cek ulang langsung di scimagojr.com",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "FME Transactions",
+     "field": "Tingkat",
+     "old": "Q3",
+     "new": "Q2",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Bulletin of Electrical Engineering and Informatics (BEEI)",
+     "field": "Kuartil Scopus",
+     "old": "Q2",
+     "new": "Q3",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Bulletin of Electrical Engineering and Informatics (BEEI)",
+     "field": "Sumber kuartil",
+     "old": "Perkiraan",
+     "new": "Dikonfirmasi Q3 di semua kategori (2 sumber independen + pengumuman resmi jurnal sendiri); sebelumnya tercatat Q2 - kemungkinan tertukar dengan CiteScore Q1",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Bulletin of Electrical Engineering and Informatics (BEEI)",
+     "field": "Tingkat",
+     "old": "Q2",
+     "new": "Q3",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "ALBACORE: Jurnal Penelitian Perikanan Laut",
+     "field": "Nominal biaya",
+     "old": "-",
+     "new": "500000",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "ALBACORE: Jurnal Penelitian Perikanan Laut",
+     "field": "Mata uang",
+     "old": "-",
+     "new": "IDR",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "ALBACORE: Jurnal Penelitian Perikanan Laut",
+     "field": "Status data biaya",
+     "old": "Perlu cek",
+     "new": "Terverifikasi (situs jurnal)",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "ALBACORE: Jurnal Penelitian Perikanan Laut",
+     "field": "Biaya",
+     "old": "Belum terverifikasi",
+     "new": "Rp500.000 (biaya publikasi, situs resmi)",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "International Journal of Offshore and Coastal Engineering (IJOCE)",
+     "field": "Biaya",
+     "old": "Rp1.000.000 (penulis Indonesia) / USD 70 (internasional); waiver dapat diajukan",
+     "new": "Rp1.000.000 (tarif tunggal, situs resmi); tarif \"USD 70 internasional\" yang tercatat sebelumnya TIDAK ditemukan di halaman APC resmi saat ini - waiver dapat diajukan (kasus per kasus)",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Jurnal Ilmu dan Teknologi Kelautan Tropis",
+     "field": "Nominal biaya",
+     "old": "-",
+     "new": "2000000",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Jurnal Ilmu dan Teknologi Kelautan Tropis",
+     "field": "Mata uang",
+     "old": "-",
+     "new": "IDR",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Jurnal Ilmu dan Teknologi Kelautan Tropis",
+     "field": "Status data biaya",
+     "old": "Perlu cek",
+     "new": "Terverifikasi (situs jurnal)",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Jurnal Ilmu dan Teknologi Kelautan Tropis",
+     "field": "Biaya",
+     "old": "Belum terverifikasi",
+     "new": "Rp2.000.000 (penulis domestik) / USD 200 (penulis internasional), berlaku sejak 2025",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Jurnal Maritim Malahayati (JUMAMA)",
+     "field": "Nominal biaya",
+     "old": "-",
+     "new": "200000",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Jurnal Maritim Malahayati (JUMAMA)",
+     "field": "Mata uang",
+     "old": "-",
+     "new": "IDR",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Jurnal Maritim Malahayati (JUMAMA)",
+     "field": "Status data biaya",
+     "old": "Perlu cek",
+     "new": "Terverifikasi (situs jurnal)",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Jurnal Maritim Malahayati (JUMAMA)",
+     "field": "Biaya",
+     "old": "Belum terverifikasi",
+     "new": "Submit gratis; biaya publikasi Rp200.000 setelah diterima",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Majalah Ilmiah Pengkajian Industri (BRIN)",
+     "field": "Nominal biaya",
+     "old": "-",
+     "new": "1000000",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Majalah Ilmiah Pengkajian Industri (BRIN)",
+     "field": "Mata uang",
+     "old": "-",
+     "new": "IDR",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Majalah Ilmiah Pengkajian Industri (BRIN)",
+     "field": "Status data biaya",
+     "old": "Perlu cek",
+     "new": "Terverifikasi (situs jurnal)",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Majalah Ilmiah Pengkajian Industri (BRIN)",
+     "field": "Biaya",
+     "old": "Kemungkinan rendah/gratis (pola BRIN) - cek",
+     "new": "APC Rp1.000.000 (~USD 70, termasuk pajak), dibayar setelah diterima; submit & review gratis",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Buletin Ilmiah Sarjana Teknik Elektro (BISTE)",
+     "field": "Biaya",
+     "old": "Belum terverifikasi",
+     "new": "Model \"Open Access & Author Pays\" dikonfirmasi di situs resmi - ADA biaya, tapi nominal pastinya tidak tercantum di halaman yang bisa diakses. Jangan asumsikan gratis.",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "ELKHA: Jurnal Teknik Elektro",
+     "field": "Nominal biaya",
+     "old": "-",
+     "new": "350000",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "ELKHA: Jurnal Teknik Elektro",
+     "field": "Mata uang",
+     "old": "-",
+     "new": "IDR",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "ELKHA: Jurnal Teknik Elektro",
+     "field": "Status data biaya",
+     "old": "Perlu cek",
+     "new": "Terverifikasi (situs jurnal)",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "ELKHA: Jurnal Teknik Elektro",
+     "field": "Biaya",
+     "old": "Belum terverifikasi",
+     "new": "Rp350.000 (APC, dibayar setelah diterima)",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "IJEIS (Indonesian Journal of Electronics and Instrumentation Systems)",
+     "field": "Nominal biaya",
+     "old": "200000",
+     "new": "1000000",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "IJEIS (Indonesian Journal of Electronics and Instrumentation Systems)",
+     "field": "Status data biaya",
+     "old": "Indikatif (OpenAlex, 2026-10-12)",
+     "new": "Terverifikasi (situs jurnal)",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "IJEIS (Indonesian Journal of Electronics and Instrumentation Systems)",
+     "field": "Biaya",
+     "old": "APC IDR 200.000 (indikatif. OpenAlex)",
+     "new": "Rp1.000.000 setelah naskah diterima (bukan Rp200.000 seperti estimasi OpenAlex sebelumnya)",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "JAREE (Journal on Advanced Research in Electrical Engineering)",
+     "field": "Nominal biaya",
+     "old": "0",
+     "new": "-",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "JAREE (Journal on Advanced Research in Electrical Engineering)",
+     "field": "Mata uang",
+     "old": "USD",
+     "new": "-",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "JAREE (Journal on Advanced Research in Electrical Engineering)",
+     "field": "Status data biaya",
+     "old": "Terverifikasi otomatis (DOAJ, 2026-10-08)",
+     "new": "Perlu cek",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "JAREE (Journal on Advanced Research in Electrical Engineering)",
+     "field": "Biaya",
+     "old": "Gratis (tanpa APC, menurut DOAJ)",
+     "new": "TIDAK gratis - situs resmi menyatakan model \"Open Access & Author Pays\", APC dikenakan ke setiap naskah yang diterima (nominal belum dipublikasikan di situs; hubungi redaksi). Ini bertentangan dengan data DOAJ yang menyatakan gratis.",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Kinetik: Game Technology, Information System, Computer Network, Computing, Electronics, and Control",
+     "field": "Nominal biaya",
+     "old": "-",
+     "new": "1000000",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Kinetik: Game Technology, Information System, Computer Network, Computing, Electronics, and Control",
+     "field": "Mata uang",
+     "old": "-",
+     "new": "IDR",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Kinetik: Game Technology, Information System, Computer Network, Computing, Electronics, and Control",
+     "field": "Status data biaya",
+     "old": "Perlu cek",
+     "new": "Terverifikasi (situs jurnal)",
+     "source": "edit manual"
+    },
+    {
+     "type": "changed",
+     "journal": "Kinetik: Game Technology, Information System, Computer Network, Computing, Electronics, and Control",
+     "field": "Biaya",
+     "old": "Registrasi & submit gratis; biaya publikasi tidak tercantum",
+     "new": "Rp1.000.000 (USD 80) untuk 8 halaman pertama + Rp100.000/halaman tambahan",
+     "source": "edit manual"
+    }
+   ]
   }
  ],
- "hash": "7919c21505a9288d"
+ "hash": "0888d8cfd8e34f1d"
 }
