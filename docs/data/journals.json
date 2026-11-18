@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "seq": 8,
- "version": "2026.11.09",
- "generated": "2026-11-09T15:05:06+07:00",
+ "seq": 9,
+ "version": "2026.11.18.audit1",
+ "generated": "2026-11-18T13:50:57+07:00",
  "fx_per_usd": {
   "USD": 1,
   "EUR": 0.8696,
@@ -1268,9 +1268,9 @@
    "id": "brodogradnja",
    "name": "Brodogradnja",
    "group": "A",
-   "tier": "Q2",
-   "quartile": "Q2",
-   "quartile_src": "SJR 2023 (Resurchify, kategori Ocean Engineering); Q1 Mechanical Eng.",
+   "tier": "Q1",
+   "quartile": "Q1",
+   "quartile_src": "Mirror SJR menunjukkan Q1 di Ocean Eng & Mechanical Eng (2024); sebelumnya Q2 - rekomendasi cek ulang langsung di scimagojr.com",
    "sinta": null,
    "sinta_status": null,
    "index": "Scopus, WoS (SCIE), DOAJ",
@@ -1391,9 +1391,9 @@
    "id": "chinese-journal-of-ship-research",
    "name": "Chinese Journal of Ship Research",
    "group": "A",
-   "tier": "Q3",
-   "quartile": "Q3",
-   "quartile_src": "SJR 2023 (Resurchify, kategori Ocean Engineering)",
+   "tier": "Q4",
+   "quartile": "Q4",
+   "quartile_src": "Dua sumber independen (mirror SJR) menunjukkan Q4 di Ocean Eng & Mechanical Eng; sebelumnya Q3 - rekomendasi cek ulang langsung di scimagojr.com",
    "sinta": null,
    "sinta_status": null,
    "index": "Scopus",
@@ -2923,7 +2923,7 @@
    "issn_status": "Resurchify (daftar Scopus)",
    "openalex_id": "https://openalex.org/S4210229309",
    "sources": null,
-   "note": null
+   "note": "Audit Nov 2026: satu sumber mirror SJR menunjukkan Q2, berbeda dari Q3 yang tercatat - belum cukup kuat untuk diubah, perlu cek manual di scimagojr.com."
   },
   {
    "id": "marine-technology-society-journal",
@@ -4064,7 +4064,7 @@
    "issn_status": "Dicocokkan otomatis (OpenAlex, 2026-10-08) - mohon cek",
    "openalex_id": "https://openalex.org/S4306515288",
    "sources": null,
-   "note": "Cek status Scopus terbaru sebelum submit."
+   "note": "Cek status Scopus terbaru sebelum submit. | PERINGATAN (audit Nov 2026): tidak ditemukan data kuartil/SJR di sumber manapun yang dicek; jurnal ini (penerbit Akademia Baru, Malaysia) punya reputasi \"borderline\" di beberapa daftar - verifikasi status indeksasi Scopus-nya secara manual sebelum submit."
   },
   {
    "id": "journal-of-applied-fluid-mechanics",
@@ -4388,9 +4388,9 @@
    "id": "wseas-transactions-on-fluid-mechanics",
    "name": "WSEAS Transactions on Fluid Mechanics",
    "group": "B",
-   "tier": "Q4",
-   "quartile": "Q4",
-   "quartile_src": "SJR 2023 (Resurchify, kategori Ocean Engineering)",
+   "tier": "Q3",
+   "quartile": "Q3",
+   "quartile_src": "FAQ resmi jurnal menyatakan SJR=Q3; sebelumnya Q4 (estimasi 2023) - rekomendasi cek ulang langsung di scimagojr.com",
    "sinta": null,
    "sinta_status": null,
    "index": "Scopus",
@@ -5049,7 +5049,7 @@
    "issn_status": "Resurchify (daftar Scopus)",
    "openalex_id": "https://openalex.org/S1574008",
    "sources": null,
-   "note": null
+   "note": "Audit Nov 2026: sumber SJR-mirror menunjukkan Q2 (kategori Mathematics), sedangkan tercatat Q1 - kategori SJR terbaik jurnal ini perlu dicek manual di scimagojr.com."
   },
   {
    "id": "probabilistic-engineering-mechanics",
@@ -6913,7 +6913,7 @@
    "issn_status": "Resurchify (daftar Scopus)",
    "openalex_id": "https://openalex.org/S138681734",
    "sources": null,
-   "note": "Dinamika gerak kapal nonlinier, kendali trajektori."
+   "note": "Dinamika gerak kapal nonlinier, kendali trajektori. | Audit Nov 2026: kategori yang tercatat (\"Ocean Engineering\") kemungkinan salah - jurnal ini sebenarnya masuk kategori Mechanical Engineering/Applied Mathematics di Scimago, bukan Ocean Engineering."
   },
   {
    "id": "robotics-and-autonomous-systems",
@@ -7248,9 +7248,9 @@
    "id": "fme-transactions",
    "name": "FME Transactions",
    "group": "E",
-   "tier": "Q3",
-   "quartile": "Q3",
-   "quartile_src": "Perkiraan",
+   "tier": "Q2",
+   "quartile": "Q2",
+   "quartile_src": "Dua mirror SJR independen (ISSN dikonfirmasi) menunjukkan Q2 di kedua kategori; sebelumnya Q3 - rekomendasi cek ulang langsung di scimagojr.com",
    "sinta": null,
    "sinta_status": null,
    "index": "Scopus, WoS (ESCI)",
@@ -8263,9 +8263,9 @@
    "id": "bulletin-of-electrical-engineering-and-informatics-beei",
    "name": "Bulletin of Electrical Engineering and Informatics (BEEI)",
    "group": "F",
-   "tier": "Q2",
-   "quartile": "Q2",
-   "quartile_src": "Perkiraan",
+   "tier": "Q3",
+   "quartile": "Q3",
+   "quartile_src": "Dikonfirmasi Q3 di semua kategori (2 sumber independen + pengumuman resmi jurnal sendiri); sebelumnya tercatat Q2 - kemungkinan tertukar dengan CiteScore Q1",
    "sinta": null,
    "sinta_status": null,
    "index": "Scopus",
@@ -9301,10 +9301,10 @@
    ],
    "maritime": true,
    "access": "OA",
-   "fee_text": "Belum terverifikasi",
-   "fee_amount": null,
-   "fee_currency": null,
-   "fee_status": "Perlu cek",
+   "fee_text": "Rp500.000 (biaya publikasi, situs resmi)",
+   "fee_amount": 500000,
+   "fee_currency": "IDR",
+   "fee_status": "Terverifikasi (situs jurnal)",
    "oa_optional_usd": null,
    "first_decision": "2-4 minggu",
    "accept_months": [
@@ -9616,7 +9616,7 @@
    ],
    "maritime": true,
    "access": "OA",
-   "fee_text": "Rp1.000.000 (penulis Indonesia) / USD 70 (internasional); waiver dapat diajukan",
+   "fee_text": "Rp1.000.000 (tarif tunggal, situs resmi); tarif \"USD 70 internasional\" yang tercatat sebelumnya TIDAK ditemukan di halaman APC resmi saat ini - waiver dapat diajukan (kasus per kasus)",
    "fee_amount": 1000000,
    "fee_currency": "IDR",
    "fee_status": "Terverifikasi (situs jurnal)",
@@ -9780,10 +9780,10 @@
    ],
    "maritime": true,
    "access": "OA",
-   "fee_text": "Belum terverifikasi",
-   "fee_amount": null,
-   "fee_currency": null,
-   "fee_status": "Perlu cek",
+   "fee_text": "Rp2.000.000 (penulis domestik) / USD 200 (penulis internasional), berlaku sejak 2025",
+   "fee_amount": 2000000,
+   "fee_currency": "IDR",
+   "fee_status": "Terverifikasi (situs jurnal)",
    "oa_optional_usd": null,
    "first_decision": "2-6 minggu",
    "accept_months": [
@@ -9950,10 +9950,10 @@
    ],
    "maritime": true,
    "access": "OA",
-   "fee_text": "Belum terverifikasi",
-   "fee_amount": null,
-   "fee_currency": null,
-   "fee_status": "Perlu cek",
+   "fee_text": "Submit gratis; biaya publikasi Rp200.000 setelah diterima",
+   "fee_amount": 200000,
+   "fee_currency": "IDR",
+   "fee_status": "Terverifikasi (situs jurnal)",
    "oa_optional_usd": null,
    "first_decision": "2-4 minggu",
    "accept_months": [
@@ -11381,10 +11381,10 @@
    ],
    "maritime": false,
    "access": "OA",
-   "fee_text": "Kemungkinan rendah/gratis (pola BRIN) - cek",
-   "fee_amount": null,
-   "fee_currency": null,
-   "fee_status": "Perlu cek",
+   "fee_text": "APC Rp1.000.000 (~USD 70, termasuk pajak), dibayar setelah diterima; submit & review gratis",
+   "fee_amount": 1000000,
+   "fee_currency": "IDR",
+   "fee_status": "Terverifikasi (situs jurnal)",
    "oa_optional_usd": null,
    "first_decision": "2-4 minggu",
    "accept_months": [
@@ -11605,7 +11605,7 @@
    ],
    "maritime": false,
    "access": "OA",
-   "fee_text": "Belum terverifikasi",
+   "fee_text": "Model \"Open Access & Author Pays\" dikonfirmasi di situs resmi - ADA biaya, tapi nominal pastinya tidak tercantum di halaman yang bisa diakses. Jangan asumsikan gratis.",
    "fee_amount": null,
    "fee_currency": null,
    "fee_status": "Perlu cek",
@@ -11654,10 +11654,10 @@
    ],
    "maritime": false,
    "access": "OA",
-   "fee_text": "Belum terverifikasi",
-   "fee_amount": null,
-   "fee_currency": null,
-   "fee_status": "Perlu cek",
+   "fee_text": "Rp350.000 (APC, dibayar setelah diterima)",
+   "fee_amount": 350000,
+   "fee_currency": "IDR",
+   "fee_status": "Terverifikasi (situs jurnal)",
    "oa_optional_usd": null,
    "first_decision": "2-4 minggu",
    "accept_months": [
@@ -11749,10 +11749,10 @@
    ],
    "maritime": false,
    "access": "OA",
-   "fee_text": "APC IDR 200.000 (indikatif. OpenAlex)",
-   "fee_amount": 200000,
+   "fee_text": "Rp1.000.000 setelah naskah diterima (bukan Rp200.000 seperti estimasi OpenAlex sebelumnya)",
+   "fee_amount": 1000000,
    "fee_currency": "IDR",
-   "fee_status": "Indikatif (OpenAlex, 2026-10-12)",
+   "fee_status": "Terverifikasi (situs jurnal)",
    "oa_optional_usd": null,
    "first_decision": "2-6 minggu",
    "accept_months": [
@@ -11798,10 +11798,10 @@
    ],
    "maritime": false,
    "access": "OA",
-   "fee_text": "Gratis (tanpa APC, menurut DOAJ)",
-   "fee_amount": 0,
-   "fee_currency": "USD",
-   "fee_status": "Terverifikasi otomatis (DOAJ, 2026-10-08)",
+   "fee_text": "TIDAK gratis - situs resmi menyatakan model \"Open Access & Author Pays\", APC dikenakan ke setiap naskah yang diterima (nominal belum dipublikasikan di situs; hubungi redaksi). Ini bertentangan dengan data DOAJ yang menyatakan gratis.",
+   "fee_amount": null,
+   "fee_currency": null,
+   "fee_status": "Perlu cek",
    "oa_optional_usd": null,
    "first_decision": "2-4 minggu",
    "accept_months": [
@@ -12368,10 +12368,10 @@
    ],
    "maritime": false,
    "access": "OA",
-   "fee_text": "Registrasi & submit gratis; biaya publikasi tidak tercantum",
-   "fee_amount": null,
-   "fee_currency": null,
-   "fee_status": "Perlu cek",
+   "fee_text": "Rp1.000.000 (USD 80) untuk 8 halaman pertama + Rp100.000/halaman tambahan",
+   "fee_amount": 1000000,
+   "fee_currency": "IDR",
+   "fee_status": "Terverifikasi (situs jurnal)",
    "oa_optional_usd": null,
    "first_decision": "2-6 minggu",
    "accept_months": [
@@ -14284,7 +14284,135 @@
     "DOAJ",
     "Crossref"
    ]
+  },
+  {
+   "seq": 9,
+   "version": "2026.11.18.audit1",
+   "date": "2026-11-18",
+   "summary": "Audit crosscheck manual: 10 koreksi biaya/APC jurnal Indonesia (situs resmi) + 5 koreksi kuartil Scopus (perlu verifikasi lanjutan di scimagojr.com) + 4 catatan peringatan data meragukan.",
+   "items": [
+    {
+     "type": "changed",
+     "journal": "Majalah Ilmiah Pengkajian Industri (BRIN)",
+     "field": "Biaya publikasi (APC)",
+     "old": "Kemungkinan rendah/gratis (pola BRIN) - cek",
+     "new": "APC Rp1.000.000 (~USD 70, termasuk pajak), dibayar setelah diterima; submit & review gratis",
+     "source": "Cek langsung situs resmi, 2026-11-18"
+    },
+    {
+     "type": "changed",
+     "journal": "ALBACORE: Jurnal Penelitian Perikanan Laut",
+     "field": "Biaya publikasi (APC)",
+     "old": "Belum terverifikasi",
+     "new": "Rp500.000 (biaya publikasi, situs resmi)",
+     "source": "Cek langsung situs resmi, 2026-11-18"
+    },
+    {
+     "type": "changed",
+     "journal": "Jurnal Ilmu dan Teknologi Kelautan Tropis",
+     "field": "Biaya publikasi (APC)",
+     "old": "Belum terverifikasi",
+     "new": "Rp2.000.000 (penulis domestik) / USD 200 (penulis internasional), berlaku sejak 2025",
+     "source": "Cek langsung situs resmi, 2026-11-18"
+    },
+    {
+     "type": "changed",
+     "journal": "Jurnal Maritim Malahayati (JUMAMA)",
+     "field": "Biaya publikasi (APC)",
+     "old": "Belum terverifikasi",
+     "new": "Submit gratis; biaya publikasi Rp200.000 setelah diterima",
+     "source": "Cek langsung situs resmi, 2026-11-18"
+    },
+    {
+     "type": "changed",
+     "journal": "Kinetik: Game Technology, Information System, Computer Network, Computing, Electronics, and Control",
+     "field": "Biaya publikasi (APC)",
+     "old": "Registrasi & submit gratis; biaya publikasi tidak tercantum",
+     "new": "Rp1.000.000 (USD 80) untuk 8 halaman pertama + Rp100.000/halaman tambahan",
+     "source": "Cek langsung situs resmi, 2026-11-18"
+    },
+    {
+     "type": "changed",
+     "journal": "IJEIS (Indonesian Journal of Electronics and Instrumentation Systems)",
+     "field": "Biaya publikasi (APC)",
+     "old": "APC IDR 200.000 (indikatif. OpenAlex)",
+     "new": "Rp1.000.000 setelah naskah diterima (bukan Rp200.000 seperti estimasi OpenAlex sebelumnya)",
+     "source": "Cek langsung situs resmi, 2026-11-18"
+    },
+    {
+     "type": "changed",
+     "journal": "ELKHA: Jurnal Teknik Elektro",
+     "field": "Biaya publikasi (APC)",
+     "old": "Belum terverifikasi",
+     "new": "Rp350.000 (APC, dibayar setelah diterima)",
+     "source": "Cek langsung situs resmi, 2026-11-18"
+    },
+    {
+     "type": "changed",
+     "journal": "JAREE (Journal on Advanced Research in Electrical Engineering)",
+     "field": "Biaya publikasi (APC)",
+     "old": "Gratis (tanpa APC, menurut DOAJ)",
+     "new": "TIDAK gratis - situs resmi menyatakan model \"Open Access & Author Pays\", APC dikenakan ke setiap naskah yang diterima (n",
+     "source": "Situs resmi jaree.its.ac.id (kontradiksi dengan data DOAJ), cek 2026-11-18"
+    },
+    {
+     "type": "changed",
+     "journal": "Buletin Ilmiah Sarjana Teknik Elektro (BISTE)",
+     "field": "Biaya publikasi (APC)",
+     "old": "Belum terverifikasi",
+     "new": "Model \"Open Access & Author Pays\" dikonfirmasi di situs resmi - ADA biaya, tapi nominal pastinya tidak tercantum di hala",
+     "source": "Situs resmi journal2.uad.ac.id, cek 2026-11-18"
+    },
+    {
+     "type": "changed",
+     "journal": "International Journal of Offshore and Coastal Engineering (IJOCE)",
+     "field": "Biaya publikasi (APC)",
+     "old": "Rp1.000.000 (penulis Indonesia) / USD 70 (internasional); waiver dapat diajukan",
+     "new": "Rp1.000.000 (tarif tunggal, situs resmi); tarif \"USD 70 internasional\" yang tercatat sebelumnya TIDAK ditemukan di halam",
+     "source": "Situs resmi, cek 2026-11-18"
+    },
+    {
+     "type": "changed",
+     "journal": "Bulletin of Electrical Engineering and Informatics (BEEI)",
+     "field": "Kuartil Scopus/SJR",
+     "old": "Q2",
+     "new": "Q3",
+     "source": "Dikonfirmasi Q3 di semua kategori (2 sumber independen + pengumuman resmi jurnal sendiri); sebelumnya tercatat Q2 - kemungkinan tertukar dengan CiteScore Q1"
+    },
+    {
+     "type": "changed",
+     "journal": "Chinese Journal of Ship Research",
+     "field": "Kuartil Scopus/SJR",
+     "old": "Q3",
+     "new": "Q4",
+     "source": "Dua sumber independen (mirror SJR) menunjukkan Q4 di Ocean Eng & Mechanical Eng; sebelumnya Q3 - rekomendasi cek ulang langsung di scimagojr.com"
+    },
+    {
+     "type": "changed",
+     "journal": "WSEAS Transactions on Fluid Mechanics",
+     "field": "Kuartil Scopus/SJR",
+     "old": "Q4",
+     "new": "Q3",
+     "source": "FAQ resmi jurnal menyatakan SJR=Q3; sebelumnya Q4 (estimasi 2023) - rekomendasi cek ulang langsung di scimagojr.com"
+    },
+    {
+     "type": "changed",
+     "journal": "FME Transactions",
+     "field": "Kuartil Scopus/SJR",
+     "old": "Q3",
+     "new": "Q2",
+     "source": "Dua mirror SJR independen (ISSN dikonfirmasi) menunjukkan Q2 di kedua kategori; sebelumnya Q3 - rekomendasi cek ulang langsung di scimagojr.com"
+    },
+    {
+     "type": "changed",
+     "journal": "Brodogradnja",
+     "field": "Kuartil Scopus/SJR",
+     "old": "Q2",
+     "new": "Q1",
+     "source": "Mirror SJR menunjukkan Q1 di Ocean Eng & Mechanical Eng (2024); sebelumnya Q2 - rekomendasi cek ulang langsung di scimagojr.com"
+    }
+   ]
   }
  ],
- "hash": "9ac24061a8a88be5"
+ "hash": "7919c21505a9288d"
 }

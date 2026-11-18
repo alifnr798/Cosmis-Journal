@@ -1,10 +1,10 @@
 {
  "schema": 1,
- "seq": 8,
- "version": "2026.11.09",
- "generated": "2026-11-09T15:05:06+07:00",
+ "seq": 9,
+ "version": "2026.11.18.audit1",
+ "generated": "2026-11-18T13:50:57+07:00",
  "count": 207,
- "hash": "9ac24061a8a88be5",
- "summary": "Pembaruan otomatis: 2 perubahan pada 1 jurnal.",
- "changes": 2
+ "hash": "7919c21505a9288d",
+ "summary": "Audit crosscheck manual: 10 koreksi biaya/APC jurnal Indonesia (situs resmi) + 5 koreksi kuartil Scopus (perlu verifikasi lanjutan di scimagojr.com) + 4 catatan peringatan data meragukan.",
+ "changes": 15
 }
