@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "seq": 15,
- "version": "2026.11.19.2",
- "generated": "2026-11-19T06:12:46+07:00",
+ "seq": 16,
+ "version": "2026.11.23",
+ "generated": "2026-11-23T16:03:50+07:00",
  "fx_per_usd": {
   "USD": 1,
   "EUR": 0.8696,
@@ -3787,10 +3787,10 @@
    ],
    "maritime": false,
    "access": "OA penuh",
-   "fee_text": "APC USD 2.630 (menurut DOAJ); ada kebijakan keringanan",
-   "fee_amount": 2630,
+   "fee_text": "APC USD 2.840 (menurut DOAJ); ada kebijakan keringanan",
+   "fee_amount": 2840,
    "fee_currency": "USD",
-   "fee_status": "Terverifikasi otomatis (DOAJ, 2026-10-08)",
+   "fee_status": "Terverifikasi otomatis (DOAJ, 2026-11-23)",
    "oa_optional_usd": null,
    "first_decision": "4-8 minggu",
    "accept_months": [
@@ -11799,10 +11799,10 @@
    ],
    "maritime": false,
    "access": "OA",
-   "fee_text": "TIDAK gratis - situs resmi menyatakan model \"Open Access & Author Pays\", APC dikenakan ke setiap naskah yang diterima (nominal belum dipublikasikan di situs; hubungi redaksi). Ini bertentangan dengan data DOAJ yang menyatakan gratis.",
-   "fee_amount": null,
-   "fee_currency": null,
-   "fee_status": "Perlu cek",
+   "fee_text": "Gratis (tanpa APC, menurut DOAJ)",
+   "fee_amount": 0,
+   "fee_currency": "USD",
+   "fee_status": "Terverifikasi otomatis (DOAJ, 2026-11-23)",
    "oa_optional_usd": null,
    "first_decision": "2-4 minggu",
    "accept_months": [
@@ -12339,9 +12339,11 @@
    ],
    "review_status": "Estimasi",
    "url": "https://journal.unnes.ac.id/nju/index.php/jte",
-   "issn": [],
-   "issn_status": null,
-   "openalex_id": null,
+   "issn": [
+    "2252-5017"
+   ],
+   "issn_status": "Dicocokkan otomatis (OpenAlex, 2026-11-23) - mohon cek",
+   "openalex_id": "https://openalex.org/S4387291634",
    "sources": null,
    "note": null
   },
@@ -15261,7 +15263,68 @@
    "sources": [
     "Laporan pengguna"
    ]
+  },
+  {
+   "seq": 16,
+   "version": "2026.11.23",
+   "date": "2026-11-23",
+   "summary": "Pembaruan otomatis: 6 perubahan pada 3 jurnal.",
+   "items": [
+    {
+     "type": "changed",
+     "journal": "Jurnal Teknik Elektro (Universitas Negeri Semarang)",
+     "field": "ISSN",
+     "old": "-",
+     "new": "2252-5017",
+     "source": "OpenAlex (pencocokan nama 1.00) - mohon cek"
+    },
+    {
+     "type": "changed",
+     "journal": "Engineering Applications of Computational Fluid Mechanics",
+     "field": "Nominal biaya",
+     "old": "2630",
+     "new": "2840",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "Engineering Applications of Computational Fluid Mechanics",
+     "field": "Biaya",
+     "old": "APC USD 2.630 (menurut DOAJ); ada kebijakan keringanan",
+     "new": "APC USD 2.840 (menurut DOAJ); ada kebijakan keringanan",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "JAREE (Journal on Advanced Research in Electrical Engineering)",
+     "field": "Nominal biaya",
+     "old": "-",
+     "new": "0",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "JAREE (Journal on Advanced Research in Electrical Engineering)",
+     "field": "Mata uang",
+     "old": "-",
+     "new": "USD",
+     "source": "DOAJ"
+    },
+    {
+     "type": "changed",
+     "journal": "JAREE (Journal on Advanced Research in Electrical Engineering)",
+     "field": "Biaya",
+     "old": "TIDAK gratis - situs resmi menyatakan model \"Open Access & Author Pays\", APC dikenakan ke setiap naskah yang diterima (nominal belum dipublikasikan di situs; hubungi redaksi). Ini bertentangan dengan data DOAJ yang menyatakan gratis.",
+     "new": "Gratis (tanpa APC, menurut DOAJ)",
+     "source": "DOAJ"
+    }
+   ],
+   "sources": [
+    "OpenAlex",
+    "DOAJ",
+    "Crossref"
+   ]
   }
  ],
- "hash": "a610f0b59ddc407f"
+ "hash": "3e879727d1b3e927"
 }
